@@ -1,0 +1,95 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [39]
+Iter 2: 
+Min Hitting Set: [39]
+Min Correction Subset: [35]
+Iter 3: 
+Min Hitting Set: [35, 39]
+Min Correction Subset: [32]
+Iter 4: 
+Min Hitting Set: [32, 35, 39]
+Min Correction Subset: [36]
+Iter 5: 
+Min Hitting Set: [32, 35, 36, 39]
+Min Correction Subset: [15, 16]
+Iter 6: 
+Min Hitting Set: [15, 32, 35, 36, 39]
+Min Correction Subset: [10, 19]
+Iter 7: 
+Min Hitting Set: [10, 15, 32, 35, 36, 39]
+Min Correction Subset: [19, 20]
+Iter 8: 
+Min Hitting Set: [15, 19, 32, 35, 36, 39]
+Min Correction Subset: [6, 9]
+Iter 9: 
+Min Hitting Set: [6, 15, 19, 32, 35, 36, 39]
+Min Correction Subset: [9, 10]
+Iter 10: 
+Min Hitting Set: [9, 15, 19, 32, 35, 36, 39]
+Min Correction Subset: [3, 4]
+Iter 11: 
+Min Hitting Set: [3, 9, 15, 19, 32, 35, 36, 39]
+Min Correction Subset: [5, 6]
+Iter 12: 
+Min Hitting Set: [3, 6, 9, 15, 19, 32, 35, 36, 39]
+Min Correction Subset: [5, 37]
+Iter 13: 
+Min Hitting Set: [3, 5, 9, 15, 19, 32, 35, 36, 39]
+Min Correction Subset: [16, 34]
+Iter 14: 
+Min Hitting Set: [3, 5, 9, 16, 19, 32, 35, 36, 39]
+Min Correction Subset: [10, 15]
+Iter 15: 
+Min Hitting Set: [3, 5, 9, 10, 16, 19, 32, 35, 36, 39]
+Min Correction Subset: [6, 15]
+Iter 16: 
+Min Hitting Set: [3, 5, 6, 10, 16, 19, 32, 35, 36, 39]
+Min Correction Subset: [15, 37]
+Iter 17: 
+Min Hitting Set: [3, 5, 9, 15, 16, 19, 32, 35, 36, 39]
+Min Correction Subset: [10, 38]
+Iter 18: 
+Min Hitting Set: [3, 6, 10, 16, 19, 32, 35, 36, 37, 39]
+Min Correction Subset: [13, 14]
+Optimal IIS
+Instance: scheduling-32-100-820000
+----------------------------
+Query: 9
+Query element:0
+Query element:23
+Query scope: 0
+Query scope: 24
+Query scope: 44
+Query scope: 61
+Query scope: 84
+Query scope: 20
+Query scope: 21
+Query scope: 22
+Query scope: 23
+Query scope: 42
+Query scope: 43
+Query scope: 75
+Query scope: 76
+Query scope: 77
+Query scope: 78
+Query scope: 79
+Query scope: 80
+Query scope: 81
+Query scope: 82
+Query scope: 83
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 2351.182
+IIS Constraint: 3; goods; {good:3}
+IIS Constraint: 6; goods; {good:6}
+IIS Constraint: 10; goods; {good:10}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 16; goods; {good:16}
+IIS Constraint: 19; goods; {good:19}
+IIS Constraint: 32; goods; {good:32}
+IIS Constraint: 35; goods; {good:35}
+IIS Constraint: 36; goods; {good:36}
+IIS Constraint: 37; query; {good:0,query:9}
+IIS Constraint: 39; max; {f:30.93043,objective:max}

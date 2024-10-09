@@ -1,0 +1,38 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [721]
+Iter 2: 
+Min Hitting Set: [721]
+Min Correction Subset: [77]
+Iter 3: 
+Min Hitting Set: [77, 721]
+Min Correction Subset: [99]
+Iter 4: 
+Min Hitting Set: [77, 99, 721]
+Min Correction Subset: [54]
+Iter 5: 
+Min Hitting Set: [54, 77, 99, 721]
+Min Correction Subset: [121]
+Iter 6: 
+Min Hitting Set: [54, 77, 99, 121, 721]
+Min Correction Subset: [118]
+Iter 7: 
+Min Hitting Set: [54, 77, 99, 118, 121, 721]
+Min Correction Subset: [96, 97]
+IIS generation
+Instance: j3045_5
+----------------------------
+Query: 9
+Query element:25,57
+Query element:25,56
+Query scope: 2584
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36023.227
+IIS Constraint: 54; precedence; {activity:17,predecessor:9}
+IIS Constraint: 77; precedence; {activity:25,predecessor:21}
+IIS Constraint: 99; precedence; {activity:32,predecessor:31}
+IIS Constraint: 118; renewable; {resource:1,t:18}
+IIS Constraint: 121; renewable; {resource:1,t:21}
+IIS Constraint: 721; max; {f:86.0,objective:max}

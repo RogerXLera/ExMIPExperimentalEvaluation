@@ -1,0 +1,71 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [35]
+Iter 2: 
+Min Hitting Set: [35]
+Min Correction Subset: [21]
+Iter 3: 
+Min Hitting Set: [21, 35]
+Min Correction Subset: [1]
+Iter 4: 
+Min Hitting Set: [1, 21, 35]
+Min Correction Subset: [34]
+Iter 5: 
+Min Hitting Set: [1, 21, 34, 35]
+Min Correction Subset: [11, 19]
+Iter 6: 
+Min Hitting Set: [1, 11, 21, 34, 35]
+Min Correction Subset: [13, 22]
+Iter 7: 
+Min Hitting Set: [1, 11, 13, 21, 34, 35]
+Min Correction Subset: [2, 5]
+Iter 8: 
+Min Hitting Set: [1, 2, 11, 13, 21, 34, 35]
+Min Correction Subset: [12, 19]
+Iter 9: 
+Min Hitting Set: [1, 2, 13, 19, 21, 34, 35]
+Min Correction Subset: [4, 11]
+Iter 10: 
+Min Hitting Set: [1, 2, 11, 13, 19, 21, 34, 35]
+Min Correction Subset: [10, 12, 16]
+Iter 11: 
+Min Hitting Set: [1, 2, 11, 12, 13, 21, 34, 35]
+Min Correction Subset: [16, 17, 19]
+Iter 12: 
+Min Hitting Set: [1, 2, 11, 12, 13, 16, 21, 34, 35]
+Min Correction Subset: [7, 18, 19, 24]
+Iter 13: 
+Min Hitting Set: [1, 2, 4, 12, 13, 19, 21, 34, 35]
+Min Correction Subset: [11, 16]
+Iter 14: 
+Min Hitting Set: [1, 2, 11, 13, 16, 19, 21, 34, 35]
+Min Correction Subset: [4, 7, 18, 24]
+Iter 15: 
+Min Hitting Set: [1, 2, 4, 13, 16, 19, 21, 34, 35]
+Min Correction Subset: [11, 22]
+Iter 16: 
+Min Hitting Set: [1, 2, 4, 16, 19, 21, 22, 34, 35]
+Min Correction Subset: [12, 13]
+Iter 17: 
+Min Hitting Set: [1, 2, 4, 13, 16, 19, 21, 22, 34, 35]
+Min Correction Subset: [7, 10, 11]
+Optimal IIS
+Instance: arbitrary-24-50-890000
+----------------------------
+Query: 2
+Query element:14
+Query scope: 14
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 299.094
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 2; goods; {good:2}
+IIS Constraint: 7; goods; {good:7}
+IIS Constraint: 11; goods; {good:11}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 16; goods; {good:16}
+IIS Constraint: 19; goods; {good:19}
+IIS Constraint: 21; goods; {good:21}
+IIS Constraint: 34; query; {bid:14,query:2}
+IIS Constraint: 35; max; {f:1382.0959,objective:max}

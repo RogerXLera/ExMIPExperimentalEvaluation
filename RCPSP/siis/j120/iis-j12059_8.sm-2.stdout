@@ -1,0 +1,92 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [3096]
+Iter 2: 
+Min Hitting Set: [3096]
+Min Correction Subset: [3095]
+Iter 3: 
+Min Hitting Set: [3095, 3096]
+Min Correction Subset: [343, 376]
+Iter 4: 
+Min Hitting Set: [343, 3095, 3096]
+Min Correction Subset: [271, 376]
+Iter 5: 
+Min Hitting Set: [376, 3095, 3096]
+Min Correction Subset: [271, 369]
+Iter 6: 
+Min Hitting Set: [271, 376, 3095, 3096]
+Min Correction Subset: [343, 369]
+Iter 7: 
+Min Hitting Set: [369, 376, 3095, 3096]
+Min Correction Subset: [271, 356]
+Iter 8: 
+Min Hitting Set: [271, 343, 3095, 3096]
+Min Correction Subset: [376, 377, 378]
+Iter 9: 
+Min Hitting Set: [271, 369, 376, 3095, 3096]
+Min Correction Subset: [291, 343, 365]
+Iter 10: 
+Min Hitting Set: [271, 343, 376, 3095, 3096]
+Min Correction Subset: [369, 377, 378]
+Iter 11: 
+Min Hitting Set: [271, 343, 377, 3095, 3096]
+Min Correction Subset: [372, 376, 378]
+Iter 12: 
+Min Hitting Set: [271, 343, 378, 3095, 3096]
+Min Correction Subset: [375, 376, 377]
+Iter 13: 
+Min Hitting Set: [271, 343, 376, 377, 3095, 3096]
+Min Correction Subset: [369, 372, 378]
+Iter 14: 
+Min Hitting Set: [271, 343, 369, 376, 3095, 3096]
+Min Correction Subset: [365, 366, 377, 378]
+Iter 15: 
+Min Hitting Set: [271, 343, 377, 378, 3095, 3096]
+Min Correction Subset: [348, 372, 376]
+Iter 16: 
+Min Hitting Set: [271, 343, 376, 378, 3095, 3096]
+Min Correction Subset: [369, 375, 377]
+Iter 17: 
+Min Hitting Set: [271, 365, 369, 376, 3095, 3096]
+Min Correction Subset: [340, 341, 343, 366]
+Iter 18: 
+Min Hitting Set: [271, 343, 372, 377, 3095, 3096]
+Min Correction Subset: [363, 376, 378]
+Iter 19: 
+Min Hitting Set: [271, 343, 376, 377, 378, 3095, 3096]
+Min Correction Subset: [369, 372, 375]
+Iter 20: 
+Min Hitting Set: [271, 343, 372, 377, 378, 3095, 3096]
+Min Correction Subset: [363, 375, 376]
+Iter 21: 
+Min Hitting Set: [271, 343, 375, 376, 378, 3095, 3096]
+Min Correction Subset: [348, 369, 377]
+Iter 22: 
+Min Hitting Set: [271, 365, 366, 369, 376, 3095, 3096]
+Min Correction Subset: [291, 340, 341, 343]
+Iter 23: 
+Min Hitting Set: [271, 343, 369, 376, 377, 3095, 3096]
+Min Correction Subset: [365, 366, 372, 378]
+Iter 24: 
+Min Hitting Set: [271, 343, 372, 376, 377, 3095, 3096]
+Min Correction Subset: [363, 369, 378]
+Iter 25: 
+Min Hitting Set: [271, 343, 369, 376, 378, 3095, 3096]
+Min Correction Subset: [364, 365, 366, 374, 375, 377]
+IIS generation
+Instance: j12059_8
+----------------------------
+Query: 2
+Query element:84,525
+Query scope: 50578
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36083.477
+IIS Constraint: 271; precedence; {activity:86,predecessor:84}
+IIS Constraint: 343; precedence; {activity:111,predecessor:86}
+IIS Constraint: 369; precedence; {activity:119,predecessor:118}
+IIS Constraint: 376; precedence; {activity:122,predecessor:119}
+IIS Constraint: 378; precedence; {activity:122,predecessor:121}
+IIS Constraint: 3095; query; {activity:84,t:525,query:2}
+IIS Constraint: 3096; max; {f:125.0,objective:max}

@@ -1,0 +1,61 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2218]
+Iter 2: 
+Min Hitting Set: [2218]
+Min Correction Subset: [147]
+Iter 3: 
+Min Hitting Set: [147, 2218]
+Min Correction Subset: [2220]
+Iter 4: 
+Min Hitting Set: [147, 2218, 2220]
+Min Correction Subset: [202]
+Iter 5: 
+Min Hitting Set: [147, 202, 2218, 2220]
+Min Correction Subset: [170]
+Iter 6: 
+Min Hitting Set: [147, 170, 202, 2218, 2220]
+Min Correction Subset: [227]
+Iter 7: 
+Min Hitting Set: [147, 170, 202, 227, 2218, 2220]
+Min Correction Subset: [175]
+Iter 8: 
+Min Hitting Set: [147, 170, 175, 202, 227, 2218, 2220]
+Min Correction Subset: [220]
+Iter 9: 
+Min Hitting Set: [147, 170, 175, 202, 220, 227, 2218, 2220]
+Min Correction Subset: [217]
+Iter 10: 
+Min Hitting Set: [147, 170, 175, 202, 217, 220, 227, 2218, 2220]
+Min Correction Subset: [193]
+Iter 11: 
+Min Hitting Set: [147, 170, 175, 193, 202, 217, 220, 227, 2218, 2220]
+Min Correction Subset: [164]
+Iter 12: 
+Min Hitting Set: [147, 164, 170, 175, 193, 202, 217, 220, 227, 2218, 2220]
+Min Correction Subset: [38, 129]
+Optimal IIS
+IIS generation
+Instance: j903_8
+----------------------------
+Query: 10
+Query element:39,35
+Query element:43,36
+Query scope: 16642
+Query scope: 18383
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1416.898
+IIS Constraint: 38; completion; {activity:39}
+IIS Constraint: 147; precedence; {activity:55,predecessor:39}
+IIS Constraint: 164; precedence; {activity:66,predecessor:55}
+IIS Constraint: 170; precedence; {activity:69,predecessor:66}
+IIS Constraint: 175; precedence; {activity:72,predecessor:69}
+IIS Constraint: 193; precedence; {activity:80,predecessor:72}
+IIS Constraint: 202; precedence; {activity:83,predecessor:80}
+IIS Constraint: 217; precedence; {activity:88,predecessor:83}
+IIS Constraint: 220; precedence; {activity:89,predecessor:88}
+IIS Constraint: 227; precedence; {activity:92,predecessor:89}
+IIS Constraint: 2218; query; {activity:39,t:35,query:10}
+IIS Constraint: 2220; max; {f:86.0,objective:max}

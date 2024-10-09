@@ -1,0 +1,80 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [37]
+Iter 2: 
+Min Hitting Set: [37]
+Min Correction Subset: [39]
+Iter 3: 
+Min Hitting Set: [37, 39]
+Min Correction Subset: [7, 8, 9, 35]
+Iter 4: 
+Min Hitting Set: [7, 37, 39]
+Min Correction Subset: [12, 13, 18, 32, 34]
+Iter 5: 
+Min Hitting Set: [7, 12, 37, 39]
+Min Correction Subset: [4, 5, 6, 32, 36]
+Iter 6: 
+Min Hitting Set: [7, 32, 37, 39]
+Min Correction Subset: [14, 15, 16, 20, 34, 36]
+Iter 7: 
+Min Hitting Set: [7, 32, 34, 37, 39]
+Min Correction Subset: [17, 18, 19, 20, 21, 22, 36]
+Iter 8: 
+Min Hitting Set: [7, 32, 36, 37, 39]
+Min Correction Subset: [14, 15, 16, 18, 19, 20, 34]
+Iter 9: 
+Min Hitting Set: [7, 18, 36, 37, 39]
+Min Correction Subset: [11, 12, 13, 32, 34]
+Iter 10: 
+Min Hitting Set: [7, 34, 36, 37, 39]
+Min Correction Subset: [14, 15, 16, 17, 18, 19, 35]
+Optimal IIS
+Instance: scheduling-32-100-330000
+----------------------------
+Query: 9
+Query element:33
+Query element:25
+Query scope: 28
+Query scope: 29
+Query scope: 30
+Query scope: 31
+Query scope: 32
+Query scope: 33
+Query scope: 34
+Query scope: 35
+Query scope: 36
+Query scope: 37
+Query scope: 38
+Query scope: 39
+Query scope: 40
+Query scope: 41
+Query scope: 42
+Query scope: 43
+Query scope: 44
+Query scope: 45
+Query scope: 46
+Query scope: 47
+Query scope: 48
+Query scope: 25
+Query scope: 84
+Query scope: 85
+Query scope: 86
+Query scope: 87
+Query scope: 88
+Query scope: 89
+Query scope: 90
+Query scope: 111
+Query scope: 112
+Query scope: 113
+Query scope: 114
+Query scope: 115
+Query scope: 116
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 5962.654
+IIS Constraint: 34; goods; {good:34}
+IIS Constraint: 35; goods; {good:35}
+IIS Constraint: 36; goods; {good:36}
+IIS Constraint: 37; query; {good:33,query:9}
+IIS Constraint: 39; max; {f:40.602545000000006,objective:max}

@@ -1,0 +1,33 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2027]
+Iter 2: 
+Min Hitting Set: [2027]
+Min Correction Subset: [2026]
+Iter 3: 
+Min Hitting Set: [2026, 2027]
+Min Correction Subset: [255, 256]
+Iter 4: 
+Min Hitting Set: [255, 2026, 2027]
+Min Correction Subset: [242, 256]
+Iter 5: 
+Min Hitting Set: [256, 2026, 2027]
+Min Correction Subset: [250, 255]
+Iter 6: 
+Min Hitting Set: [255, 256, 2026, 2027]
+Min Correction Subset: [248, 250]
+Optimal IIS
+IIS generation
+Instance: j9028_10
+----------------------------
+Query: 2
+Query element:65,298
+Query scope: 25312
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 332.061
+IIS Constraint: 250; precedence; {activity:90,predecessor:65}
+IIS Constraint: 256; precedence; {activity:92,predecessor:90}
+IIS Constraint: 2026; query; {activity:65,t:298,query:2}
+IIS Constraint: 2027; max; {f:68.0,objective:max}

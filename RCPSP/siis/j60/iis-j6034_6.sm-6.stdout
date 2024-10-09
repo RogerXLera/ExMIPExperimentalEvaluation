@@ -1,0 +1,116 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [1622]
+Iter 2: 
+Min Hitting Set: [1622]
+Min Correction Subset: [192]
+Iter 3: 
+Min Hitting Set: [192, 1622]
+Min Correction Subset: [189]
+Iter 4: 
+Min Hitting Set: [189, 192, 1622]
+Min Correction Subset: [177]
+Iter 5: 
+Min Hitting Set: [177, 189, 192, 1622]
+Min Correction Subset: [186]
+Iter 6: 
+Min Hitting Set: [177, 186, 189, 192, 1622]
+Min Correction Subset: [191]
+Iter 7: 
+Min Hitting Set: [177, 186, 189, 191, 192, 1622]
+Min Correction Subset: [147]
+Iter 8: 
+Min Hitting Set: [147, 177, 186, 189, 191, 192, 1622]
+Min Correction Subset: [605]
+Iter 9: 
+Min Hitting Set: [147, 177, 186, 189, 191, 192, 605, 1622]
+Min Correction Subset: [116]
+Iter 10: 
+Min Hitting Set: [116, 147, 177, 186, 189, 191, 192, 605, 1622]
+Min Correction Subset: [1621]
+Iter 11: 
+Min Hitting Set: [116, 147, 177, 186, 189, 191, 192, 605, 1621, 1622]
+Min Correction Subset: [611]
+Iter 12: 
+Min Hitting Set: [116, 147, 177, 186, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [188]
+Iter 13: 
+Min Hitting Set: [116, 147, 177, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [170]
+Iter 14: 
+Min Hitting Set: [116, 147, 170, 177, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [171, 179]
+Iter 15: 
+Min Hitting Set: [116, 147, 170, 171, 177, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [159, 174]
+Iter 16: 
+Min Hitting Set: [116, 147, 159, 170, 171, 177, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [120, 168]
+Iter 17: 
+Min Hitting Set: [116, 120, 147, 159, 170, 171, 177, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [153, 180]
+Iter 18: 
+Min Hitting Set: [116, 120, 147, 153, 159, 170, 171, 177, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [168, 954]
+Iter 19: 
+Min Hitting Set: [116, 147, 153, 159, 168, 170, 171, 177, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [179, 180]
+Iter 20: 
+Min Hitting Set: [116, 147, 159, 168, 170, 177, 179, 180, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [153, 171]
+Iter 21: 
+Min Hitting Set: [116, 147, 153, 159, 168, 170, 177, 179, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [139, 955]
+Iter 22: 
+Min Hitting Set: [116, 139, 147, 153, 159, 168, 170, 177, 179, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [131, 135, 174]
+Iter 23: 
+Min Hitting Set: [116, 139, 147, 153, 168, 170, 174, 177, 179, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [159, 180]
+Iter 24: 
+Min Hitting Set: [116, 139, 147, 168, 170, 171, 174, 177, 180, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [153, 609, 610]
+Iter 25: 
+Min Hitting Set: [116, 139, 147, 153, 168, 170, 174, 177, 179, 180, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [159, 171]
+Iter 26: 
+Min Hitting Set: [116, 139, 147, 153, 159, 168, 170, 174, 177, 179, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [131, 135, 180]
+Iter 27: 
+Min Hitting Set: [116, 135, 139, 147, 153, 159, 168, 170, 177, 179, 186, 188, 189, 191, 192, 605, 611, 1621, 1622]
+Min Correction Subset: [44, 140, 141, 142]
+Optimal IIS
+IIS generation
+Instance: j6034_6
+----------------------------
+Query: 6
+Query element:29,46
+Query element:40,46
+Query element:25,44
+Query scope: 8215
+Query scope: 11442
+Query scope: 7024
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 11011.945
+IIS Constraint: 44; completion; {activity:45}
+IIS Constraint: 116; precedence; {activity:36,predecessor:25}
+IIS Constraint: 135; precedence; {activity:43,predecessor:29}
+IIS Constraint: 139; precedence; {activity:44,predecessor:43}
+IIS Constraint: 147; precedence; {activity:47,predecessor:36}
+IIS Constraint: 153; precedence; {activity:49,predecessor:47}
+IIS Constraint: 159; precedence; {activity:51,predecessor:49}
+IIS Constraint: 168; precedence; {activity:54,predecessor:44}
+IIS Constraint: 170; precedence; {activity:55,predecessor:45}
+IIS Constraint: 177; precedence; {activity:57,predecessor:54}
+IIS Constraint: 179; precedence; {activity:58,predecessor:51}
+IIS Constraint: 186; precedence; {activity:60,predecessor:57}
+IIS Constraint: 188; precedence; {activity:61,predecessor:55}
+IIS Constraint: 189; precedence; {activity:61,predecessor:58}
+IIS Constraint: 191; precedence; {activity:62,predecessor:60}
+IIS Constraint: 192; precedence; {activity:62,predecessor:61}
+IIS Constraint: 605; renewable; {resource:2,t:55}
+IIS Constraint: 611; renewable; {resource:2,t:61}
+IIS Constraint: 1621; query; {activities:[29,40,25],t:46,query:6}
+IIS Constraint: 1622; max; {f:81.0,objective:max}

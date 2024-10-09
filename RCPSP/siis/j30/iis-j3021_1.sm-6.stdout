@@ -1,0 +1,89 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [775]
+Iter 2: 
+Min Hitting Set: [775]
+Min Correction Subset: [89]
+Iter 3: 
+Min Hitting Set: [89, 775]
+Min Correction Subset: [66]
+Iter 4: 
+Min Hitting Set: [66, 89, 775]
+Min Correction Subset: [88]
+Iter 5: 
+Min Hitting Set: [66, 88, 89, 775]
+Min Correction Subset: [51]
+Iter 6: 
+Min Hitting Set: [51, 66, 88, 89, 775]
+Min Correction Subset: [61]
+Iter 7: 
+Min Hitting Set: [51, 61, 66, 88, 89, 775]
+Min Correction Subset: [37]
+Iter 8: 
+Min Hitting Set: [37, 51, 61, 66, 88, 89, 775]
+Min Correction Subset: [774]
+Iter 9: 
+Min Hitting Set: [37, 51, 61, 66, 88, 89, 774, 775]
+Min Correction Subset: [83, 86]
+Iter 10: 
+Min Hitting Set: [37, 51, 61, 66, 83, 88, 89, 774, 775]
+Min Correction Subset: [82, 87]
+Iter 11: 
+Min Hitting Set: [37, 51, 61, 66, 82, 83, 88, 89, 774, 775]
+Min Correction Subset: [73, 86]
+Iter 12: 
+Min Hitting Set: [37, 51, 61, 66, 82, 86, 88, 89, 774, 775]
+Min Correction Subset: [5, 36]
+Iter 13: 
+Min Hitting Set: [5, 37, 51, 61, 66, 82, 86, 88, 89, 774, 775]
+Min Correction Subset: [53, 83]
+Iter 14: 
+Min Hitting Set: [5, 37, 51, 61, 66, 82, 83, 86, 88, 89, 774, 775]
+Min Correction Subset: [8, 39]
+Iter 15: 
+Min Hitting Set: [5, 8, 37, 51, 61, 66, 82, 83, 86, 88, 89, 774, 775]
+Min Correction Subset: [53, 73]
+Iter 16: 
+Min Hitting Set: [5, 8, 37, 51, 53, 61, 66, 82, 86, 88, 89, 774, 775]
+Min Correction Subset: [300, 301]
+Iter 17: 
+Min Hitting Set: [5, 8, 37, 51, 53, 61, 66, 82, 86, 88, 89, 300, 774, 775]
+Min Correction Subset: [64, 83]
+Iter 18: 
+Min Hitting Set: [5, 8, 37, 51, 61, 66, 73, 82, 83, 88, 89, 300, 774, 775]
+Min Correction Subset: [64, 86]
+Iter 19: 
+Min Hitting Set: [5, 8, 37, 51, 61, 64, 66, 73, 82, 83, 88, 89, 300, 774, 775]
+Min Correction Subset: [67, 86]
+Iter 20: 
+Min Hitting Set: [5, 8, 37, 51, 53, 61, 66, 82, 83, 86, 88, 89, 300, 774, 775]
+Min Correction Subset: [18, 54, 55]
+IIS generation
+Instance: j3021_1
+----------------------------
+Query: 6
+Query element:21,40
+Query element:12,35
+Query element:13,35
+Query scope: 2393
+Query scope: 1334
+Query scope: 1441
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36002.025
+IIS Constraint: 5; completion; {activity:6}
+IIS Constraint: 8; completion; {activity:9}
+IIS Constraint: 37; precedence; {activity:7,predecessor:6}
+IIS Constraint: 51; precedence; {activity:17,predecessor:16}
+IIS Constraint: 53; precedence; {activity:18,predecessor:9}
+IIS Constraint: 61; precedence; {activity:22,predecessor:17}
+IIS Constraint: 66; precedence; {activity:24,predecessor:22}
+IIS Constraint: 82; precedence; {activity:30,predecessor:24}
+IIS Constraint: 83; precedence; {activity:30,predecessor:27}
+IIS Constraint: 86; precedence; {activity:31,predecessor:28}
+IIS Constraint: 88; precedence; {activity:32,predecessor:30}
+IIS Constraint: 89; precedence; {activity:32,predecessor:31}
+IIS Constraint: 300; renewable; {resource:2,t:39}
+IIS Constraint: 774; query; {activities:[21,12,13],t:40,query:6}
+IIS Constraint: 775; max; {f:84.0,objective:max}

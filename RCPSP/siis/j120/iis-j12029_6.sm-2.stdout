@@ -1,0 +1,64 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2951]
+Iter 2: 
+Min Hitting Set: [2951]
+Min Correction Subset: [2950]
+Iter 3: 
+Min Hitting Set: [2950, 2951]
+Min Correction Subset: [256, 280]
+Iter 4: 
+Min Hitting Set: [256, 2950, 2951]
+Min Correction Subset: [338, 339, 340]
+Iter 5: 
+Min Hitting Set: [256, 338, 2950, 2951]
+Min Correction Subset: [339, 340, 341]
+Iter 6: 
+Min Hitting Set: [256, 339, 2950, 2951]
+Min Correction Subset: [332, 340, 341]
+Iter 7: 
+Min Hitting Set: [256, 340, 2950, 2951]
+Min Correction Subset: [335, 338, 339]
+Iter 8: 
+Min Hitting Set: [256, 339, 340, 2950, 2951]
+Min Correction Subset: [332, 335, 341]
+Iter 9: 
+Min Hitting Set: [256, 335, 340, 2950, 2951]
+Min Correction Subset: [317, 338, 339]
+Iter 10: 
+Min Hitting Set: [256, 339, 341, 2950, 2951]
+Min Correction Subset: [332, 338, 340]
+Iter 11: 
+Min Hitting Set: [256, 338, 341, 2950, 2951]
+Min Correction Subset: [280, 305, 332]
+Iter 12: 
+Min Hitting Set: [280, 338, 341, 2950, 2951]
+Min Correction Subset: [256, 276]
+Iter 13: 
+Min Hitting Set: [256, 332, 339, 2950, 2951]
+Min Correction Subset: [276, 305, 329]
+Iter 14: 
+Min Hitting Set: [256, 305, 338, 341, 2950, 2951]
+Min Correction Subset: [259, 280, 339]
+Iter 15: 
+Min Hitting Set: [256, 276, 332, 339, 2950, 2951]
+Min Correction Subset: [280, 305, 329]
+Iter 16: 
+Min Hitting Set: [256, 305, 332, 339, 2950, 2951]
+Min Correction Subset: [191, 327, 328, 329, 330, 331, 340, 341]
+IIS generation
+Instance: j12029_6
+----------------------------
+Query: 2
+Query element:87,132
+Query scope: 50581
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36012.513
+IIS Constraint: 256; precedence; {activity:93,predecessor:87}
+IIS Constraint: 305; precedence; {activity:110,predecessor:94}
+IIS Constraint: 332; precedence; {activity:119,predecessor:118}
+IIS Constraint: 339; precedence; {activity:122,predecessor:119}
+IIS Constraint: 2950; query; {activity:87,t:132,query:2}
+IIS Constraint: 2951; max; {f:99.0,objective:max}

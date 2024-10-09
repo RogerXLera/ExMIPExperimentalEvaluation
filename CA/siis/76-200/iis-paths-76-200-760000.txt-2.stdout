@@ -1,0 +1,389 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [170]
+Iter 2: 
+Min Hitting Set: [170]
+Min Correction Subset: [10]
+Iter 3: 
+Min Hitting Set: [10, 170]
+Min Correction Subset: [7, 24]
+Iter 4: 
+Min Hitting Set: [7, 10, 170]
+Min Correction Subset: [24, 45]
+Iter 5: 
+Min Hitting Set: [10, 24, 170]
+Min Correction Subset: [7, 23]
+Iter 6: 
+Min Hitting Set: [7, 10, 24, 170]
+Min Correction Subset: [1, 45]
+Iter 7: 
+Min Hitting Set: [7, 10, 45, 170]
+Min Correction Subset: [23, 54]
+Iter 8: 
+Min Hitting Set: [7, 10, 23, 45, 170]
+Min Correction Subset: [5, 65]
+Iter 9: 
+Min Hitting Set: [5, 7, 10, 23, 45, 170]
+Min Correction Subset: [17, 24]
+Iter 10: 
+Min Hitting Set: [5, 10, 23, 24, 45, 170]
+Min Correction Subset: [54, 72]
+Iter 11: 
+Min Hitting Set: [5, 7, 10, 24, 45, 54, 170]
+Min Correction Subset: [36, 59]
+Iter 12: 
+Min Hitting Set: [5, 7, 10, 24, 36, 45, 54, 170]
+Min Correction Subset: [23, 50]
+Iter 13: 
+Min Hitting Set: [5, 10, 23, 24, 36, 45, 54, 170]
+Min Correction Subset: [7, 17]
+Iter 14: 
+Min Hitting Set: [5, 7, 10, 17, 23, 36, 45, 54, 170]
+Min Correction Subset: [0, 51]
+Iter 15: 
+Min Hitting Set: [0, 5, 7, 10, 17, 23, 36, 45, 54, 170]
+Min Correction Subset: [30, 47]
+Iter 16: 
+Min Hitting Set: [0, 5, 7, 10, 17, 23, 30, 36, 45, 54, 170]
+Min Correction Subset: [103, 169]
+Iter 17: 
+Min Hitting Set: [0, 5, 7, 10, 17, 23, 30, 36, 45, 54, 103, 170]
+Min Correction Subset: [14, 24]
+Iter 18: 
+Min Hitting Set: [0, 5, 7, 10, 23, 24, 30, 36, 45, 54, 103, 170]
+Min Correction Subset: [50, 62]
+Iter 19: 
+Min Hitting Set: [0, 5, 7, 10, 24, 30, 36, 45, 50, 54, 103, 170]
+Min Correction Subset: [17, 169]
+Iter 20: 
+Min Hitting Set: [0, 5, 7, 10, 24, 30, 36, 45, 50, 54, 169, 170]
+Min Correction Subset: [23, 57]
+Iter 21: 
+Min Hitting Set: [0, 5, 7, 10, 23, 24, 30, 36, 45, 50, 54, 169, 170]
+Min Correction Subset: [26, 43]
+Iter 22: 
+Min Hitting Set: [0, 5, 7, 10, 23, 24, 26, 30, 36, 45, 50, 54, 169, 170]
+Min Correction Subset: [47, 68]
+Iter 23: 
+Min Hitting Set: [0, 5, 7, 10, 23, 24, 26, 36, 45, 47, 50, 54, 169, 170]
+Min Correction Subset: [9, 72]
+Iter 24: 
+Min Hitting Set: [0, 5, 7, 10, 23, 24, 26, 36, 45, 47, 50, 72, 169, 170]
+Min Correction Subset: [19, 54]
+Iter 25: 
+Min Hitting Set: [0, 5, 7, 10, 23, 24, 26, 36, 45, 47, 50, 54, 72, 169, 170]
+Min Correction Subset: [35, 57]
+Iter 26: 
+Min Hitting Set: [0, 5, 7, 10, 24, 26, 36, 45, 47, 50, 54, 57, 72, 169, 170]
+Min Correction Subset: [23, 68]
+Iter 27: 
+Min Hitting Set: [0, 5, 7, 10, 23, 24, 26, 36, 45, 47, 50, 54, 57, 72, 169, 170]
+Min Correction Subset: [9, 11]
+Iter 28: 
+Min Hitting Set: [0, 5, 7, 9, 10, 23, 24, 26, 36, 45, 47, 50, 54, 57, 169, 170]
+Min Correction Subset: [65, 72]
+Iter 29: 
+Min Hitting Set: [0, 7, 9, 10, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 169, 170]
+Min Correction Subset: [11, 72]
+Iter 30: 
+Min Hitting Set: [0, 7, 9, 10, 11, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 169, 170]
+Min Correction Subset: [71, 72]
+Iter 31: 
+Min Hitting Set: [0, 7, 9, 10, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 72, 169, 170]
+Min Correction Subset: [17, 42, 68]
+Iter 32: 
+Min Hitting Set: [0, 9, 10, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 72, 169, 170]
+Min Correction Subset: [7, 52]
+Iter 33: 
+Min Hitting Set: [0, 7, 9, 10, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 72, 169, 170]
+Min Correction Subset: [23, 103]
+Iter 34: 
+Min Hitting Set: [0, 7, 9, 10, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 72, 103, 170]
+Min Correction Subset: [168, 169]
+Iter 35: 
+Min Hitting Set: [0, 7, 9, 10, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 72, 169, 170]
+Min Correction Subset: [14, 30, 71]
+Iter 36: 
+Min Hitting Set: [0, 7, 9, 10, 14, 17, 23, 26, 36, 45, 47, 50, 54, 57, 65, 72, 169, 170]
+Min Correction Subset: [24, 39]
+Iter 37: 
+Min Hitting Set: [0, 7, 9, 10, 23, 24, 26, 30, 36, 45, 50, 54, 57, 65, 68, 72, 169, 170]
+Min Correction Subset: [39, 47]
+Iter 38: 
+Min Hitting Set: [0, 7, 9, 10, 14, 17, 23, 26, 36, 39, 45, 47, 50, 54, 57, 65, 72, 169, 170]
+Min Correction Subset: [24, 74]
+Iter 39: 
+Min Hitting Set: [0, 7, 9, 10, 11, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 71, 169, 170]
+Min Correction Subset: [42, 72]
+Iter 40: 
+Min Hitting Set: [0, 7, 9, 10, 11, 23, 24, 26, 36, 42, 45, 47, 50, 54, 57, 65, 71, 169, 170]
+Min Correction Subset: [72, 103]
+Iter 41: 
+Min Hitting Set: [0, 7, 9, 10, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 71, 72, 169, 170]
+Min Correction Subset: [5, 14, 43]
+Iter 42: 
+Min Hitting Set: [0, 7, 9, 10, 23, 24, 36, 43, 45, 47, 50, 54, 57, 65, 68, 71, 72, 169, 170]
+Min Correction Subset: [2, 42, 103]
+Iter 43: 
+Min Hitting Set: [0, 7, 9, 10, 23, 24, 36, 42, 43, 45, 47, 50, 54, 57, 65, 71, 72, 169, 170]
+Min Correction Subset: [2, 17, 68]
+Iter 44: 
+Min Hitting Set: [0, 7, 9, 10, 24, 36, 43, 45, 47, 50, 54, 57, 65, 68, 71, 72, 103, 169, 170]
+Min Correction Subset: [23, 88]
+Iter 45: 
+Min Hitting Set: [0, 2, 7, 9, 10, 23, 24, 36, 42, 43, 45, 47, 50, 54, 57, 65, 71, 72, 169, 170]
+Min Correction Subset: [26, 39, 103]
+Iter 46: 
+Min Hitting Set: [0, 2, 5, 7, 9, 10, 23, 24, 26, 30, 36, 42, 45, 47, 50, 54, 57, 72, 169, 170]
+Min Correction Subset: [17, 19, 65]
+Iter 47: 
+Min Hitting Set: [0, 2, 5, 7, 9, 10, 19, 23, 24, 26, 30, 36, 42, 45, 47, 50, 57, 72, 169, 170]
+Min Correction Subset: [39, 54]
+Iter 48: 
+Min Hitting Set: [0, 7, 9, 10, 14, 17, 23, 24, 26, 36, 42, 45, 47, 50, 54, 57, 65, 72, 169, 170]
+Min Correction Subset: [11, 68, 103]
+Iter 49: 
+Min Hitting Set: [0, 7, 10, 11, 14, 23, 24, 26, 36, 42, 45, 47, 50, 54, 57, 65, 68, 72, 169, 170]
+Min Correction Subset: [5, 17, 43]
+Iter 50: 
+Min Hitting Set: [0, 7, 10, 11, 23, 24, 30, 36, 39, 42, 43, 45, 50, 54, 57, 65, 68, 72, 169, 170]
+Min Correction Subset: [17, 47]
+Iter 51: 
+Min Hitting Set: [0, 5, 7, 10, 11, 17, 23, 24, 26, 30, 36, 42, 45, 47, 50, 54, 57, 72, 169, 170]
+Min Correction Subset: [19, 65, 75]
+Iter 52: 
+Min Hitting Set: [0, 7, 10, 11, 23, 24, 30, 36, 43, 45, 47, 50, 54, 57, 65, 68, 72, 103, 169, 170]
+Min Correction Subset: [2, 26, 51]
+Iter 53: 
+Min Hitting Set: [7, 10, 11, 23, 24, 30, 36, 43, 45, 47, 50, 51, 54, 57, 65, 68, 72, 103, 169, 170]
+Min Correction Subset: [5, 17, 59]
+Iter 54: 
+Min Hitting Set: [7, 10, 11, 23, 24, 30, 43, 45, 47, 50, 51, 54, 57, 59, 65, 68, 72, 103, 169, 170]
+Min Correction Subset: [0, 36]
+Iter 55: 
+Min Hitting Set: [0, 7, 10, 11, 14, 17, 23, 24, 26, 36, 42, 45, 47, 50, 54, 57, 65, 72, 169, 170]
+Min Correction Subset: [64, 68, 103]
+Iter 56: 
+Min Hitting Set: [0, 7, 9, 10, 14, 17, 23, 24, 26, 45, 47, 50, 54, 57, 59, 65, 72, 103, 169, 170]
+Min Correction Subset: [36, 68]
+Iter 57: 
+Min Hitting Set: [7, 9, 10, 14, 17, 23, 24, 26, 36, 45, 47, 50, 51, 54, 57, 65, 72, 103, 169, 170]
+Min Correction Subset: [0, 39, 42]
+Iter 58: 
+Min Hitting Set: [0, 7, 9, 10, 14, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 72, 103, 169, 170]
+Min Correction Subset: [1, 11, 53]
+Iter 59: 
+Min Hitting Set: [0, 1, 7, 9, 10, 14, 17, 23, 24, 26, 36, 47, 50, 54, 57, 65, 72, 103, 169, 170]
+Min Correction Subset: [5, 45]
+Iter 60: 
+Min Hitting Set: [0, 7, 10, 11, 14, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 72, 103, 169, 170]
+Min Correction Subset: [22, 71, 168]
+Iter 61: 
+Min Hitting Set: [0, 7, 10, 11, 14, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 72, 103, 168, 170]
+Min Correction Subset: [71, 169]
+Iter 62: 
+Min Hitting Set: [0, 2, 7, 10, 11, 23, 24, 43, 45, 47, 50, 54, 57, 59, 65, 68, 71, 72, 103, 169, 170]
+Min Correction Subset: [14, 36]
+Iter 63: 
+Min Hitting Set: [7, 10, 11, 17, 23, 24, 36, 42, 43, 45, 47, 50, 51, 54, 57, 65, 71, 72, 103, 169, 170]
+Min Correction Subset: [5, 14, 59]
+Iter 64: 
+Min Hitting Set: [0, 5, 7, 10, 11, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 71, 72, 103, 169, 170]
+Min Correction Subset: [2, 9, 14]
+Iter 65: 
+Min Hitting Set: [0, 7, 10, 11, 14, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 71, 72, 103, 169, 170]
+Min Correction Subset: [5, 43, 68]
+Iter 66: 
+Min Hitting Set: [0, 1, 5, 7, 9, 10, 17, 23, 24, 26, 36, 47, 50, 54, 57, 65, 71, 72, 103, 169, 170]
+Min Correction Subset: [29, 45, 68]
+Iter 67: 
+Min Hitting Set: [0, 1, 5, 7, 9, 10, 23, 24, 26, 36, 42, 47, 50, 54, 57, 65, 68, 71, 72, 169, 170]
+Min Correction Subset: [11, 45, 103]
+Iter 68: 
+Min Hitting Set: [0, 1, 2, 5, 7, 10, 11, 23, 24, 26, 36, 47, 50, 54, 57, 65, 68, 71, 72, 169, 170]
+Min Correction Subset: [9, 45]
+Iter 69: 
+Min Hitting Set: [0, 1, 5, 7, 9, 10, 23, 24, 26, 36, 47, 50, 54, 57, 65, 68, 71, 72, 103, 169, 170]
+Min Correction Subset: [17, 19, 45]
+Iter 70: 
+Min Hitting Set: [0, 1, 5, 7, 9, 10, 19, 23, 24, 26, 36, 47, 50, 54, 57, 68, 71, 72, 103, 169, 170]
+Min Correction Subset: [14, 25, 45]
+Iter 71: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 71, 72, 169, 170]
+Min Correction Subset: [14, 19, 25]
+Iter 72: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 19, 23, 24, 36, 39, 43, 45, 47, 50, 57, 68, 71, 72, 169, 170]
+Min Correction Subset: [26, 54]
+Iter 73: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 19, 23, 24, 26, 36, 39, 45, 47, 50, 57, 68, 71, 72, 169, 170]
+Min Correction Subset: [9, 54]
+Iter 74: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 19, 23, 24, 26, 36, 45, 47, 50, 54, 57, 68, 71, 72, 169, 170]
+Min Correction Subset: [17, 65, 88]
+Iter 75: 
+Min Hitting Set: [0, 5, 7, 10, 11, 14, 23, 24, 26, 42, 45, 47, 50, 54, 57, 59, 65, 68, 72, 168, 169, 170]
+Min Correction Subset: [2, 36]
+Iter 76: 
+Min Hitting Set: [0, 5, 7, 10, 11, 14, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 71, 72, 103, 169, 170]
+Min Correction Subset: [2, 9, 88]
+Iter 77: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 17, 19, 23, 24, 26, 36, 45, 47, 50, 54, 57, 68, 71, 72, 169, 170]
+Min Correction Subset: [14, 65, 88]
+Iter 78: 
+Min Hitting Set: [0, 2, 7, 10, 11, 14, 23, 24, 39, 43, 45, 47, 50, 54, 57, 59, 65, 68, 71, 72, 169, 170]
+Min Correction Subset: [9, 36]
+Iter 79: 
+Min Hitting Set: [0, 5, 7, 10, 11, 14, 19, 24, 26, 36, 45, 47, 50, 54, 57, 68, 71, 72, 88, 103, 169, 170]
+Min Correction Subset: [23, 39]
+Iter 80: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 19, 23, 24, 26, 36, 45, 47, 50, 54, 57, 68, 71, 72, 88, 169, 170]
+Min Correction Subset: [14, 39, 103]
+Iter 81: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 14, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 71, 72, 169, 170]
+Min Correction Subset: [9, 17, 19]
+Iter 82: 
+Min Hitting Set: [0, 2, 7, 10, 11, 14, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 71, 72, 169, 170]
+Min Correction Subset: [5, 9, 53]
+Iter 83: 
+Min Hitting Set: [7, 9, 10, 11, 14, 17, 23, 24, 36, 42, 43, 45, 47, 50, 51, 54, 57, 65, 71, 103, 169, 170]
+Min Correction Subset: [63, 72]
+Iter 84: 
+Min Hitting Set: [0, 7, 9, 10, 11, 14, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 71, 72, 103, 169, 170]
+Min Correction Subset: [5, 42, 53]
+Iter 85: 
+Min Hitting Set: [0, 5, 7, 9, 10, 19, 23, 24, 26, 36, 39, 42, 45, 47, 50, 53, 57, 68, 71, 72, 88, 169, 170]
+Min Correction Subset: [11, 54, 65]
+Iter 86: 
+Min Hitting Set: [0, 1, 5, 7, 9, 10, 14, 17, 19, 23, 24, 26, 36, 45, 47, 50, 54, 57, 71, 72, 103, 169, 170]
+Min Correction Subset: [42, 65, 88]
+Iter 87: 
+Min Hitting Set: [0, 5, 7, 9, 10, 14, 17, 23, 24, 26, 36, 45, 47, 50, 53, 54, 57, 65, 71, 72, 103, 169, 170]
+Min Correction Subset: [19, 68, 88]
+Iter 88: 
+Min Hitting Set: [0, 1, 5, 7, 9, 10, 14, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 71, 72, 103, 169, 170]
+Min Correction Subset: [11, 17, 42]
+Iter 89: 
+Min Hitting Set: [2, 5, 7, 10, 11, 19, 23, 24, 26, 36, 42, 45, 47, 50, 51, 54, 57, 71, 72, 88, 103, 169, 170]
+Min Correction Subset: [52, 65, 68]
+Iter 90: 
+Min Hitting Set: [0, 5, 7, 10, 11, 14, 19, 23, 24, 26, 36, 42, 45, 47, 50, 54, 57, 68, 71, 72, 88, 169, 170]
+Min Correction Subset: [17, 25, 65]
+Iter 91: 
+Min Hitting Set: [0, 2, 5, 7, 9, 10, 11, 14, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 71, 72, 169, 170]
+Min Correction Subset: [64, 103, 168]
+Iter 92: 
+Min Hitting Set: [0, 5, 7, 10, 11, 14, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 72, 88, 103, 168, 169, 170]
+Min Correction Subset: [1, 2, 9]
+Iter 93: 
+Min Hitting Set: [0, 2, 7, 9, 10, 14, 17, 23, 24, 26, 36, 45, 47, 50, 53, 54, 57, 65, 68, 72, 168, 169, 170]
+Min Correction Subset: [11, 19, 103]
+Iter 94: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 14, 17, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 72, 168, 169, 170]
+Min Correction Subset: [30, 71, 103]
+Iter 95: 
+Min Hitting Set: [0, 5, 7, 9, 10, 11, 23, 24, 25, 26, 36, 45, 47, 50, 54, 57, 65, 68, 71, 72, 103, 169, 170]
+Min Correction Subset: [14, 42, 53]
+Iter 96: 
+Min Hitting Set: [2, 5, 7, 10, 11, 19, 23, 24, 36, 42, 43, 45, 47, 50, 51, 54, 57, 65, 71, 72, 103, 169, 170]
+Min Correction Subset: [0, 9, 17]
+Iter 97: 
+Min Hitting Set: [0, 5, 7, 9, 10, 17, 19, 23, 24, 26, 36, 45, 47, 50, 53, 54, 57, 65, 71, 72, 103, 168, 170]
+Min Correction Subset: [14, 169]
+Iter 98: 
+Min Hitting Set: [0, 1, 5, 7, 9, 10, 14, 17, 23, 24, 26, 36, 47, 50, 54, 57, 65, 68, 72, 103, 168, 169, 170]
+Min Correction Subset: [22, 42, 81]
+Iter 99: 
+Min Hitting Set: [0, 5, 7, 9, 10, 11, 14, 22, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 72, 103, 169, 170]
+Min Correction Subset: [30, 71, 88]
+Iter 100: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 19, 23, 24, 26, 36, 42, 45, 47, 50, 54, 57, 65, 71, 72, 103, 169, 170]
+Min Correction Subset: [17, 68, 88]
+Iter 101: 
+Min Hitting Set: [5, 7, 9, 10, 11, 17, 19, 23, 24, 26, 30, 36, 39, 42, 45, 50, 51, 57, 68, 72, 88, 168, 169, 170]
+Min Correction Subset: [47, 54]
+Iter 102: 
+Min Hitting Set: [2, 5, 10, 11, 14, 17, 19, 23, 24, 26, 36, 42, 45, 47, 50, 51, 52, 54, 57, 71, 72, 103, 169, 170]
+Min Correction Subset: [7, 65]
+Iter 103: 
+Min Hitting Set: [0, 2, 7, 9, 10, 14, 17, 22, 23, 24, 36, 43, 45, 47, 50, 53, 54, 57, 65, 72, 88, 103, 169, 170]
+Min Correction Subset: [11, 30, 99]
+Iter 104: 
+Min Hitting Set: [0, 1, 5, 9, 10, 14, 17, 22, 23, 24, 26, 30, 36, 47, 50, 52, 54, 57, 65, 68, 72, 103, 169, 170]
+Min Correction Subset: [7, 45]
+Iter 105: 
+Min Hitting Set: [7, 9, 10, 11, 19, 23, 24, 36, 42, 43, 45, 47, 50, 51, 54, 57, 59, 65, 68, 71, 72, 103, 169, 170]
+Min Correction Subset: [5, 14, 26]
+Iter 106: 
+Min Hitting Set: [7, 9, 10, 11, 14, 17, 23, 24, 36, 42, 43, 45, 47, 50, 51, 54, 57, 65, 72, 88, 103, 168, 169, 170]
+Min Correction Subset: [2, 26, 59]
+Iter 107: 
+Min Hitting Set: [5, 7, 9, 10, 11, 14, 23, 24, 26, 30, 36, 42, 45, 47, 50, 51, 54, 57, 65, 68, 72, 168, 169, 170]
+Min Correction Subset: [17, 39, 103]
+Iter 108: 
+Min Hitting Set: [0, 2, 10, 11, 14, 17, 22, 23, 24, 36, 43, 45, 47, 50, 52, 53, 54, 57, 65, 72, 88, 103, 169, 170]
+Min Correction Subset: [7, 75]
+Iter 109: 
+Min Hitting Set: [2, 5, 7, 10, 11, 17, 19, 23, 24, 26, 36, 42, 45, 47, 50, 51, 54, 57, 65, 71, 72, 103, 169, 170]
+Min Correction Subset: [9, 14, 88]
+Iter 110: 
+Min Hitting Set: [0, 7, 9, 10, 11, 14, 17, 23, 24, 26, 36, 42, 45, 47, 50, 54, 57, 65, 68, 71, 72, 103, 168, 170]
+Min Correction Subset: [2, 169]
+Iter 111: 
+Min Hitting Set: [0, 5, 7, 9, 10, 11, 14, 22, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 68, 72, 88, 103, 169, 170]
+Min Correction Subset: [17, 71, 168]
+Iter 112: 
+Min Hitting Set: [0, 5, 7, 9, 10, 11, 14, 17, 22, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 72, 88, 103, 169, 170]
+Min Correction Subset: [2, 42, 53]
+Iter 113: 
+Min Hitting Set: [0, 7, 9, 10, 11, 14, 17, 23, 24, 26, 30, 36, 42, 45, 47, 50, 54, 57, 65, 68, 72, 168, 169, 170]
+Min Correction Subset: [71, 88, 103]
+Iter 114: 
+Min Hitting Set: [7, 9, 10, 11, 14, 17, 23, 24, 26, 36, 42, 45, 47, 50, 51, 54, 57, 65, 68, 71, 72, 103, 169, 170]
+Min Correction Subset: [1, 30, 88]
+Iter 115: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 14, 17, 22, 23, 24, 26, 36, 45, 47, 50, 54, 57, 65, 72, 88, 103, 169, 170]
+Min Correction Subset: [9, 39, 43]
+Iter 116: 
+Min Hitting Set: [0, 5, 7, 9, 10, 17, 19, 22, 23, 24, 26, 30, 36, 45, 47, 50, 53, 54, 57, 65, 72, 103, 169, 170]
+Min Correction Subset: [2, 59, 168]
+Iter 117: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 19, 23, 24, 36, 42, 43, 45, 47, 50, 54, 57, 65, 71, 72, 88, 103, 169, 170]
+Min Correction Subset: [22, 26, 68]
+Iter 118: 
+Min Hitting Set: [0, 2, 5, 7, 10, 11, 14, 17, 22, 23, 24, 36, 43, 45, 47, 50, 54, 57, 65, 72, 88, 103, 169, 170]
+Min Correction Subset: [9, 49, 71, 99, 110]
+Instance: paths-76-200-760000
+----------------------------
+Query: 3
+Query element:66
+Query element:60
+Query scope: 66
+Query scope: 60
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36040.882
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 2; goods; {good:2}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 7; goods; {good:7}
+IIS Constraint: 10; goods; {good:10}
+IIS Constraint: 11; goods; {good:11}
+IIS Constraint: 14; goods; {good:14}
+IIS Constraint: 17; goods; {good:17}
+IIS Constraint: 22; goods; {good:22}
+IIS Constraint: 23; goods; {good:23}
+IIS Constraint: 24; goods; {good:24}
+IIS Constraint: 36; goods; {good:36}
+IIS Constraint: 43; goods; {good:43}
+IIS Constraint: 45; goods; {good:45}
+IIS Constraint: 47; goods; {good:47}
+IIS Constraint: 50; goods; {good:50}
+IIS Constraint: 54; goods; {good:54}
+IIS Constraint: 57; goods; {good:57}
+IIS Constraint: 65; goods; {good:65}
+IIS Constraint: 72; goods; {good:72}
+IIS Constraint: 88; goods; {good:88}
+IIS Constraint: 103; goods; {good:103}
+IIS Constraint: 169; query; {bid:60,query:3}
+IIS Constraint: 170; max; {f:24.370662000000003,objective:max}

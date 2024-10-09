@@ -1,0 +1,41 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [705]
+Iter 2: 
+Min Hitting Set: [705]
+Min Correction Subset: [98]
+Iter 3: 
+Min Hitting Set: [98, 705]
+Min Correction Subset: [97]
+Iter 4: 
+Min Hitting Set: [97, 98, 705]
+Min Correction Subset: [93]
+IIS generation
+Instance: j3045_1
+----------------------------
+Query: 3
+Query element:19,44
+Query scope: 1941
+Query scope: 1942
+Query scope: 1943
+Query scope: 1944
+Query scope: 1945
+Query scope: 1946
+Query scope: 1947
+Query scope: 1948
+Query scope: 1949
+Query scope: 1950
+Query scope: 1951
+Query scope: 1952
+Query scope: 1953
+Query scope: 1954
+Query scope: 1955
+Query scope: 1956
+Query scope: 1957
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36000.805
+IIS Constraint: 97; precedence; {activity:32,predecessor:29}
+IIS Constraint: 98; precedence; {activity:32,predecessor:30}
+IIS Constraint: 705; max; {f:82.0,objective:max}

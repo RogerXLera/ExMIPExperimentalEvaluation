@@ -1,0 +1,61 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [96]
+Iter 2: 
+Min Hitting Set: [96]
+Min Correction Subset: [1473]
+Iter 3: 
+Min Hitting Set: [96, 1473]
+Min Correction Subset: [89]
+Iter 4: 
+Min Hitting Set: [89, 96, 1473]
+Min Correction Subset: [1475]
+Iter 5: 
+Min Hitting Set: [89, 96, 1473, 1475]
+Min Correction Subset: [190]
+Iter 6: 
+Min Hitting Set: [89, 96, 190, 1473, 1475]
+Min Correction Subset: [114]
+Iter 7: 
+Min Hitting Set: [89, 96, 114, 190, 1473, 1475]
+Min Correction Subset: [180]
+Iter 8: 
+Min Hitting Set: [89, 96, 114, 180, 190, 1473, 1475]
+Min Correction Subset: [183]
+Iter 9: 
+Min Hitting Set: [89, 96, 114, 180, 183, 190, 1473, 1475]
+Min Correction Subset: [154]
+Iter 10: 
+Min Hitting Set: [89, 96, 114, 154, 180, 183, 190, 1473, 1475]
+Min Correction Subset: [177]
+Iter 11: 
+Min Hitting Set: [89, 96, 114, 154, 177, 180, 183, 190, 1473, 1475]
+Min Correction Subset: [165]
+Iter 12: 
+Min Hitting Set: [89, 96, 114, 154, 165, 177, 180, 183, 190, 1473, 1475]
+Min Correction Subset: [19, 83, 84]
+Optimal IIS
+IIS generation
+Instance: j6044_6
+----------------------------
+Query: 10
+Query element:20,37
+Query element:30,35
+Query scope: 4910
+Query scope: 7497
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 382.837
+IIS Constraint: 19; completion; {activity:20}
+IIS Constraint: 89; precedence; {activity:24,predecessor:20}
+IIS Constraint: 96; precedence; {activity:26,predecessor:24}
+IIS Constraint: 114; precedence; {activity:35,predecessor:26}
+IIS Constraint: 154; precedence; {activity:50,predecessor:35}
+IIS Constraint: 165; precedence; {activity:53,predecessor:50}
+IIS Constraint: 177; precedence; {activity:57,predecessor:53}
+IIS Constraint: 180; precedence; {activity:58,predecessor:57}
+IIS Constraint: 183; precedence; {activity:59,predecessor:58}
+IIS Constraint: 190; precedence; {activity:62,predecessor:59}
+IIS Constraint: 1473; query; {activity:20,t:37,query:10}
+IIS Constraint: 1475; max; {f:81.0,objective:max}

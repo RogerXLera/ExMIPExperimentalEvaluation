@@ -1,0 +1,120 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [137]
+Iter 2: 
+Min Hitting Set: [137]
+Min Correction Subset: [136]
+Iter 3: 
+Min Hitting Set: [136, 137]
+Min Correction Subset: [62, 64]
+Iter 4: 
+Min Hitting Set: [62, 136, 137]
+Min Correction Subset: [47, 66]
+Iter 5: 
+Min Hitting Set: [47, 62, 136, 137]
+Min Correction Subset: [25, 34]
+Iter 6: 
+Min Hitting Set: [25, 47, 62, 136, 137]
+Min Correction Subset: [83, 98]
+Iter 7: 
+Min Hitting Set: [25, 47, 62, 83, 136, 137]
+Min Correction Subset: [15, 66]
+Iter 8: 
+Min Hitting Set: [25, 62, 66, 83, 136, 137]
+Min Correction Subset: [39, 64]
+Iter 9: 
+Min Hitting Set: [25, 64, 66, 83, 136, 137]
+Min Correction Subset: [34, 47]
+Iter 10: 
+Min Hitting Set: [34, 64, 66, 83, 136, 137]
+Min Correction Subset: [0, 1]
+Iter 11: 
+Min Hitting Set: [0, 34, 64, 66, 83, 136, 137]
+Min Correction Subset: [47, 57]
+Iter 12: 
+Min Hitting Set: [0, 34, 47, 64, 66, 83, 136, 137]
+Min Correction Subset: [58, 68]
+Iter 13: 
+Min Hitting Set: [0, 34, 47, 58, 64, 66, 83, 136, 137]
+Min Correction Subset: [11, 39, 79]
+Iter 14: 
+Min Hitting Set: [0, 34, 39, 47, 58, 64, 66, 83, 136, 137]
+Min Correction Subset: [11, 21, 79]
+Iter 15: 
+Min Hitting Set: [0, 11, 34, 47, 58, 64, 66, 83, 136, 137]
+Min Correction Subset: [13, 39, 42]
+Iter 16: 
+Min Hitting Set: [0, 11, 34, 39, 47, 58, 64, 66, 83, 136, 137]
+Min Correction Subset: [79, 82, 98]
+Iter 17: 
+Min Hitting Set: [0, 34, 39, 47, 58, 62, 66, 79, 83, 136, 137]
+Min Correction Subset: [63, 64]
+Iter 18: 
+Min Hitting Set: [0, 34, 39, 47, 58, 64, 66, 79, 83, 136, 137]
+Min Correction Subset: [11, 82, 98]
+Iter 19: 
+Min Hitting Set: [0, 11, 34, 39, 47, 58, 64, 66, 98, 136, 137]
+Min Correction Subset: [5, 15, 87]
+Iter 20: 
+Min Hitting Set: [0, 11, 15, 34, 39, 47, 58, 64, 98, 136, 137]
+Min Correction Subset: [14, 66]
+Iter 21: 
+Min Hitting Set: [0, 11, 15, 34, 39, 47, 58, 64, 66, 98, 136, 137]
+Min Correction Subset: [41, 51, 53]
+Iter 22: 
+Min Hitting Set: [0, 11, 15, 34, 39, 41, 47, 58, 64, 66, 98, 136, 137]
+Min Correction Subset: [79, 92, 93]
+Iter 23: 
+Min Hitting Set: [0, 15, 34, 39, 41, 47, 58, 64, 66, 79, 98, 136, 137]
+Min Correction Subset: [11, 67, 82]
+Iter 24: 
+Min Hitting Set: [0, 15, 34, 39, 41, 47, 58, 64, 66, 79, 82, 98, 136, 137]
+Min Correction Subset: [12, 13, 22]
+Iter 25: 
+Min Hitting Set: [0, 11, 13, 15, 34, 41, 47, 58, 64, 66, 79, 98, 136, 137]
+Min Correction Subset: [39, 43, 53]
+Iter 26: 
+Min Hitting Set: [0, 11, 13, 15, 34, 47, 53, 58, 64, 66, 79, 98, 136, 137]
+Min Correction Subset: [39, 41, 65]
+Iter 27: 
+Min Hitting Set: [0, 13, 15, 34, 39, 41, 47, 58, 64, 66, 79, 82, 98, 136, 137]
+Min Correction Subset: [12, 18, 94]
+Iter 28: 
+Min Hitting Set: [0, 12, 15, 34, 39, 41, 47, 58, 64, 66, 79, 82, 98, 136, 137]
+Min Correction Subset: [5, 43, 53]
+Iter 29: 
+Min Hitting Set: [0, 5, 12, 34, 39, 47, 53, 58, 64, 66, 79, 82, 98, 136, 137]
+Min Correction Subset: [1, 11, 33]
+Iter 30: 
+Min Hitting Set: [1, 5, 11, 12, 34, 39, 47, 53, 58, 64, 66, 79, 98, 136, 137]
+Min Correction Subset: [41, 51, 99]
+Iter 31: 
+Min Hitting Set: [1, 5, 11, 12, 34, 39, 41, 47, 58, 64, 66, 79, 98, 136, 137]
+Min Correction Subset: [0, 67, 82]
+Iter 32: 
+Min Hitting Set: [0, 5, 11, 12, 34, 39, 41, 47, 58, 64, 66, 79, 98, 136, 137]
+Min Correction Subset: [33, 43, 53]
+Instance: regions-100-200-860000
+----------------------------
+Query: 2
+Query element:78
+Query scope: 78
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36121.805
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 11; goods; {good:11}
+IIS Constraint: 12; goods; {good:12}
+IIS Constraint: 34; goods; {good:34}
+IIS Constraint: 39; goods; {good:39}
+IIS Constraint: 41; goods; {good:41}
+IIS Constraint: 47; goods; {good:47}
+IIS Constraint: 58; goods; {good:58}
+IIS Constraint: 64; goods; {good:64}
+IIS Constraint: 66; goods; {good:66}
+IIS Constraint: 79; goods; {good:79}
+IIS Constraint: 98; goods; {good:98}
+IIS Constraint: 136; query; {bid:78,query:2}
+IIS Constraint: 137; max; {f:5256.4317,objective:max}

@@ -1,0 +1,73 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [35]
+Iter 2: 
+Min Hitting Set: [35]
+Min Correction Subset: [34]
+Iter 3: 
+Min Hitting Set: [34, 35]
+Min Correction Subset: [28]
+Iter 4: 
+Min Hitting Set: [28, 34, 35]
+Min Correction Subset: [17, 30]
+Iter 5: 
+Min Hitting Set: [17, 28, 34, 35]
+Min Correction Subset: [13, 30]
+Iter 6: 
+Min Hitting Set: [28, 30, 34, 35]
+Min Correction Subset: [5, 24]
+Iter 7: 
+Min Hitting Set: [5, 28, 30, 34, 35]
+Min Correction Subset: [0, 17]
+Iter 8: 
+Min Hitting Set: [5, 17, 28, 30, 34, 35]
+Min Correction Subset: [0, 21]
+Iter 9: 
+Min Hitting Set: [0, 5, 28, 30, 34, 35]
+Min Correction Subset: [1, 24]
+Iter 10: 
+Min Hitting Set: [0, 24, 28, 30, 34, 35]
+Min Correction Subset: [7, 9, 25]
+Iter 11: 
+Min Hitting Set: [0, 7, 24, 28, 30, 34, 35]
+Min Correction Subset: [3, 5, 31]
+Iter 12: 
+Min Hitting Set: [0, 1, 5, 7, 28, 30, 34, 35]
+Min Correction Subset: [9, 24]
+Iter 13: 
+Min Hitting Set: [0, 1, 5, 9, 28, 30, 34, 35]
+Min Correction Subset: [3, 17, 25]
+Iter 14: 
+Min Hitting Set: [0, 3, 24, 25, 28, 30, 34, 35]
+Min Correction Subset: [1, 7, 31]
+Iter 15: 
+Min Hitting Set: [0, 3, 7, 24, 28, 30, 34, 35]
+Min Correction Subset: [15, 17, 25]
+Iter 16: 
+Min Hitting Set: [0, 24, 25, 28, 30, 31, 34, 35]
+Min Correction Subset: [1, 3, 5, 7, 14, 21, 33]
+Iter 17: 
+Min Hitting Set: [17, 21, 24, 25, 28, 30, 31, 34, 35]
+Min Correction Subset: [0, 9]
+Iter 18: 
+Min Hitting Set: [9, 17, 21, 24, 28, 30, 31, 34, 35]
+Min Correction Subset: [0, 5]
+Optimal IIS
+Instance: matching-24-50-260000
+----------------------------
+Query: 1
+Query element:48
+Query scope: 48
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1349.093
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 7; goods; {good:7}
+IIS Constraint: 24; goods; {good:24}
+IIS Constraint: 25; goods; {good:25}
+IIS Constraint: 28; goods; {good:28}
+IIS Constraint: 30; goods; {good:30}
+IIS Constraint: 31; goods; {good:31}
+IIS Constraint: 34; query; {bid:48,query:1}
+IIS Constraint: 35; max; {f:48.29632000000001,objective:max}

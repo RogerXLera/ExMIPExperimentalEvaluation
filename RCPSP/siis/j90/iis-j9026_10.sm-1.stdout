@@ -1,0 +1,59 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2103]
+Iter 2: 
+Min Hitting Set: [2103]
+Min Correction Subset: [248]
+Iter 3: 
+Min Hitting Set: [248, 2103]
+Min Correction Subset: [236]
+Iter 4: 
+Min Hitting Set: [236, 248, 2103]
+Min Correction Subset: [255]
+Iter 5: 
+Min Hitting Set: [236, 248, 255, 2103]
+Min Correction Subset: [2102]
+Iter 6: 
+Min Hitting Set: [236, 248, 255, 2102, 2103]
+Min Correction Subset: [167]
+Iter 7: 
+Min Hitting Set: [167, 236, 248, 255, 2102, 2103]
+Min Correction Subset: [227]
+Iter 8: 
+Min Hitting Set: [167, 227, 236, 248, 255, 2102, 2103]
+Min Correction Subset: [242]
+Iter 9: 
+Min Hitting Set: [167, 227, 236, 242, 248, 255, 2102, 2103]
+Min Correction Subset: [215]
+Iter 10: 
+Min Hitting Set: [167, 215, 227, 236, 242, 248, 255, 2102, 2103]
+Min Correction Subset: [239]
+Iter 11: 
+Min Hitting Set: [167, 215, 227, 236, 239, 242, 248, 255, 2102, 2103]
+Min Correction Subset: [212]
+Iter 12: 
+Min Hitting Set: [167, 212, 215, 227, 236, 239, 242, 248, 255, 2102, 2103]
+Min Correction Subset: [49, 150, 151, 152]
+Optimal IIS
+IIS generation
+Instance: j9026_10
+----------------------------
+Query: 1
+Query element:50,40
+Query scope: 19713
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 2020.532
+IIS Constraint: 49; completion; {activity:50}
+IIS Constraint: 167; precedence; {activity:60,predecessor:50}
+IIS Constraint: 212; precedence; {activity:77,predecessor:60}
+IIS Constraint: 215; precedence; {activity:78,predecessor:77}
+IIS Constraint: 227; precedence; {activity:82,predecessor:78}
+IIS Constraint: 236; precedence; {activity:85,predecessor:82}
+IIS Constraint: 239; precedence; {activity:86,predecessor:85}
+IIS Constraint: 242; precedence; {activity:87,predecessor:86}
+IIS Constraint: 248; precedence; {activity:89,predecessor:87}
+IIS Constraint: 255; precedence; {activity:92,predecessor:89}
+IIS Constraint: 2102; query; {activity:50,t:40,query:1}
+IIS Constraint: 2103; max; {f:92.0,objective:max}

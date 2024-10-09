@@ -1,0 +1,68 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2814]
+Iter 2: 
+Min Hitting Set: [2814]
+Min Correction Subset: [2813]
+Iter 3: 
+Min Hitting Set: [2813, 2814]
+Min Correction Subset: [302, 304]
+Iter 4: 
+Min Hitting Set: [302, 2813, 2814]
+Min Correction Subset: [234, 304]
+Iter 5: 
+Min Hitting Set: [304, 2813, 2814]
+Min Correction Subset: [234, 301]
+Iter 6: 
+Min Hitting Set: [234, 304, 2813, 2814]
+Min Correction Subset: [300, 301, 302]
+Iter 7: 
+Min Hitting Set: [301, 304, 2813, 2814]
+Min Correction Subset: [234, 273]
+Iter 8: 
+Min Hitting Set: [234, 302, 2813, 2814]
+Min Correction Subset: [294, 304]
+Iter 9: 
+Min Hitting Set: [234, 301, 304, 2813, 2814]
+Min Correction Subset: [243, 273, 302]
+Iter 10: 
+Min Hitting Set: [273, 301, 304, 2813, 2814]
+Min Correction Subset: [234, 275, 292]
+Iter 11: 
+Min Hitting Set: [234, 302, 304, 2813, 2814]
+Min Correction Subset: [294, 300, 301]
+Iter 12: 
+Min Hitting Set: [234, 294, 302, 2813, 2814]
+Min Correction Subset: [285, 304]
+Iter 13: 
+Min Hitting Set: [234, 294, 302, 304, 2813, 2814]
+Min Correction Subset: [285, 300, 301]
+Iter 14: 
+Min Hitting Set: [234, 301, 302, 304, 2813, 2814]
+Min Correction Subset: [243, 273, 285]
+Iter 15: 
+Min Hitting Set: [234, 273, 301, 304, 2813, 2814]
+Min Correction Subset: [291, 292, 300, 302]
+Iter 16: 
+Min Hitting Set: [273, 292, 301, 304, 2813, 2814]
+Min Correction Subset: [234, 281, 291]
+Iter 17: 
+Min Hitting Set: [234, 273, 300, 304, 2813, 2814]
+Min Correction Subset: [277, 301, 302]
+Optimal IIS
+IIS generation
+Instance: j12014_3
+----------------------------
+Query: 2
+Query element:90,197
+Query scope: 50584
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 17549.716
+IIS Constraint: 234; precedence; {activity:95,predecessor:90}
+IIS Constraint: 285; precedence; {activity:116,predecessor:95}
+IIS Constraint: 294; precedence; {activity:119,predecessor:116}
+IIS Constraint: 302; precedence; {activity:122,predecessor:119}
+IIS Constraint: 2813; query; {activity:90,t:197,query:2}
+IIS Constraint: 2814; max; {f:88.0,objective:max}

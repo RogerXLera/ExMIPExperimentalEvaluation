@@ -1,0 +1,71 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [149]
+Iter 2: 
+Min Hitting Set: [149]
+Min Correction Subset: [136]
+Iter 3: 
+Min Hitting Set: [136, 149]
+Min Correction Subset: [1499]
+Iter 4: 
+Min Hitting Set: [136, 149, 1499]
+Min Correction Subset: [139]
+Iter 5: 
+Min Hitting Set: [136, 139, 149, 1499]
+Min Correction Subset: [172]
+Iter 6: 
+Min Hitting Set: [136, 139, 149, 172, 1499]
+Min Correction Subset: [565]
+Iter 7: 
+Min Hitting Set: [136, 139, 149, 172, 565, 1499]
+Min Correction Subset: [167]
+Iter 8: 
+Min Hitting Set: [136, 139, 149, 167, 172, 565, 1499]
+Min Correction Subset: [160]
+Iter 9: 
+Min Hitting Set: [136, 139, 149, 160, 167, 172, 565, 1499]
+Min Correction Subset: [1498]
+Iter 10: 
+Min Hitting Set: [136, 139, 149, 160, 167, 172, 565, 1498, 1499]
+Min Correction Subset: [50, 165]
+Iter 11: 
+Min Hitting Set: [50, 136, 139, 149, 160, 167, 172, 565, 1498, 1499]
+Min Correction Subset: [39, 113, 114]
+Iter 12: 
+Min Hitting Set: [39, 50, 136, 139, 149, 160, 167, 172, 565, 1498, 1499]
+Min Correction Subset: [561, 562, 563]
+Iter 13: 
+Min Hitting Set: [39, 50, 136, 139, 149, 160, 167, 172, 561, 565, 1498, 1499]
+Min Correction Subset: [47, 131, 132, 133]
+Optimal IIS
+IIS generation
+Instance: j6019_8
+----------------------------
+Query: 3
+Query element:51,82
+Query scope: 13682
+Query scope: 13683
+Query scope: 13684
+Query scope: 13685
+Query scope: 13686
+Query scope: 13687
+Query scope: 13688
+Query scope: 13689
+Query scope: 13690
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 2496.914
+IIS Constraint: 39; completion; {activity:40}
+IIS Constraint: 47; completion; {activity:48}
+IIS Constraint: 50; completion; {activity:51}
+IIS Constraint: 136; precedence; {activity:49,predecessor:40}
+IIS Constraint: 139; precedence; {activity:51,predecessor:49}
+IIS Constraint: 149; precedence; {activity:54,predecessor:48}
+IIS Constraint: 160; precedence; {activity:58,predecessor:54}
+IIS Constraint: 167; precedence; {activity:60,predecessor:58}
+IIS Constraint: 172; precedence; {activity:62,predecessor:60}
+IIS Constraint: 561; renewable; {resource:2,t:56}
+IIS Constraint: 565; renewable; {resource:2,t:60}
+IIS Constraint: 1498; query; {activity:51,t:82,query:3}
+IIS Constraint: 1499; max; {f:87.0,objective:max}

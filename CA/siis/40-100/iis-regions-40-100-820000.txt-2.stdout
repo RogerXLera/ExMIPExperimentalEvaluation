@@ -1,0 +1,125 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [60]
+Iter 2: 
+Min Hitting Set: [60]
+Min Correction Subset: [4, 59]
+Iter 3: 
+Min Hitting Set: [4, 60]
+Min Correction Subset: [25, 59]
+Iter 4: 
+Min Hitting Set: [59, 60]
+Min Correction Subset: [8, 11, 16]
+Iter 5: 
+Min Hitting Set: [8, 59, 60]
+Min Correction Subset: [16, 22, 28]
+Iter 6: 
+Min Hitting Set: [16, 59, 60]
+Min Correction Subset: [13, 21, 28]
+Iter 7: 
+Min Hitting Set: [16, 28, 59, 60]
+Min Correction Subset: [3, 13, 14]
+Iter 8: 
+Min Hitting Set: [13, 16, 59, 60]
+Min Correction Subset: [4, 19, 21, 25]
+Iter 9: 
+Min Hitting Set: [4, 13, 16, 25, 60]
+Min Correction Subset: [1, 59]
+Iter 10: 
+Min Hitting Set: [4, 13, 16, 59, 60]
+Min Correction Subset: [3, 14, 21, 25]
+Iter 11: 
+Min Hitting Set: [3, 16, 21, 59, 60]
+Min Correction Subset: [4, 13, 14]
+Iter 12: 
+Min Hitting Set: [13, 16, 21, 59, 60]
+Min Correction Subset: [0, 1, 3, 6, 7]
+Iter 13: 
+Min Hitting Set: [3, 13, 16, 25, 59, 60]
+Min Correction Subset: [4, 21, 22, 28]
+Iter 14: 
+Min Hitting Set: [3, 13, 16, 21, 59, 60]
+Min Correction Subset: [7, 8, 11, 14, 17]
+Iter 15: 
+Min Hitting Set: [7, 14, 16, 21, 59, 60]
+Min Correction Subset: [0, 1, 8, 13, 25]
+Iter 16: 
+Min Hitting Set: [7, 13, 16, 21, 59, 60]
+Min Correction Subset: [5, 10, 11, 17, 45]
+Iter 17: 
+Min Hitting Set: [3, 11, 13, 25, 28, 59, 60]
+Min Correction Subset: [4, 8, 14, 21]
+Iter 18: 
+Min Hitting Set: [3, 11, 14, 25, 28, 59, 60]
+Min Correction Subset: [0, 1, 8, 19, 21]
+Iter 19: 
+Min Hitting Set: [1, 11, 14, 21, 28, 59, 60]
+Min Correction Subset: [7, 8, 13, 19, 25]
+Iter 20: 
+Min Hitting Set: [1, 11, 14, 19, 28, 59, 60]
+Min Correction Subset: [3, 4, 21, 25]
+Iter 21: 
+Min Hitting Set: [1, 11, 14, 25, 28, 59, 60]
+Min Correction Subset: [7, 8, 13, 19, 21]
+Iter 22: 
+Min Hitting Set: [1, 11, 13, 21, 28, 59, 60]
+Min Correction Subset: [4, 7, 8, 9, 14, 58]
+Iter 23: 
+Min Hitting Set: [1, 4, 11, 13, 25, 28, 60]
+Min Correction Subset: [38, 59]
+Iter 24: 
+Min Hitting Set: [7, 11, 13, 21, 28, 59, 60]
+Min Correction Subset: [1, 3, 4, 8, 9, 15]
+Iter 25: 
+Min Hitting Set: [3, 4, 8, 11, 28, 59, 60]
+Min Correction Subset: [1, 7, 13, 14]
+Iter 26: 
+Min Hitting Set: [1, 3, 4, 11, 19, 28, 59, 60]
+Min Correction Subset: [8, 13, 14, 25]
+Iter 27: 
+Min Hitting Set: [1, 11, 14, 19, 25, 28, 59, 60]
+Min Correction Subset: [4, 8, 9, 15, 21]
+Iter 28: 
+Min Hitting Set: [1, 3, 4, 11, 13, 28, 59, 60]
+Min Correction Subset: [7, 8, 14, 21]
+Iter 29: 
+Min Hitting Set: [7, 8, 11, 14, 25, 28, 59, 60]
+Min Correction Subset: [3, 4, 5, 20, 21]
+Iter 30: 
+Min Hitting Set: [7, 8, 11, 14, 21, 28, 59, 60]
+Min Correction Subset: [3, 4, 5, 10, 13, 19]
+Iter 31: 
+Min Hitting Set: [7, 8, 11, 13, 21, 28, 59, 60]
+Min Correction Subset: [0, 1, 3, 4, 6, 9, 14, 58]
+Iter 32: 
+Min Hitting Set: [3, 4, 11, 13, 16, 21, 59, 60]
+Min Correction Subset: [0, 1, 6, 7, 8, 14]
+Iter 33: 
+Min Hitting Set: [1, 4, 11, 13, 21, 28, 59, 60]
+Min Correction Subset: [2, 3, 7, 8, 9, 14, 58]
+Iter 34: 
+Min Hitting Set: [4, 7, 11, 13, 21, 28, 59, 60]
+Min Correction Subset: [1, 2, 3, 8, 9, 14, 15]
+Iter 35: 
+Min Hitting Set: [3, 7, 11, 13, 21, 28, 59, 60]
+Min Correction Subset: [0, 1, 4, 8, 9, 14, 58]
+Optimal IIS
+Instance: regions-40-100-820000
+----------------------------
+Query: 3
+Query element:63
+Query element:51
+Query scope: 63
+Query scope: 51
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 10527.551
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 11; goods; {good:11}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 14; goods; {good:14}
+IIS Constraint: 16; goods; {good:16}
+IIS Constraint: 21; goods; {good:21}
+IIS Constraint: 59; query; {bid:51,query:3}
+IIS Constraint: 60; max; {f:2163.586,objective:max}

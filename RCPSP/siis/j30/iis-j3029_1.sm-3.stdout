@@ -1,0 +1,51 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [89]
+Iter 2: 
+Min Hitting Set: [89]
+Min Correction Subset: [78]
+Iter 3: 
+Min Hitting Set: [78, 89]
+Min Correction Subset: [86]
+Iter 4: 
+Min Hitting Set: [78, 86, 89]
+Min Correction Subset: [3]
+Iter 5: 
+Min Hitting Set: [3, 78, 86, 89]
+Min Correction Subset: [87]
+IIS generation
+Instance: j3029_1
+----------------------------
+Query: 3
+Query element:32,85
+Query scope: 4040
+Query scope: 4041
+Query scope: 4042
+Query scope: 4043
+Query scope: 4044
+Query scope: 4045
+Query scope: 4046
+Query scope: 4047
+Query scope: 4048
+Query scope: 4049
+Query scope: 4050
+Query scope: 4051
+Query scope: 4052
+Query scope: 4053
+Query scope: 4054
+Query scope: 4055
+Query scope: 4056
+Query scope: 4057
+Query scope: 4058
+Query scope: 4059
+Query scope: 4060
+Query scope: 4061
+Query scope: 4062
+----------------------------
+IIS optimality: infeasible
+IIS solution time: 36001.065
+IIS Constraint: 3; completion; {activity:4}
+IIS Constraint: 78; precedence; {activity:28,predecessor:27}
+IIS Constraint: 86; precedence; {activity:31,predecessor:28}
+IIS Constraint: 89; precedence; {activity:32,predecessor:31}

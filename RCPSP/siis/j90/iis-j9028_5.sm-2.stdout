@@ -1,0 +1,92 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2303]
+Iter 2: 
+Min Hitting Set: [2303]
+Min Correction Subset: [2302]
+Iter 3: 
+Min Hitting Set: [2302, 2303]
+Min Correction Subset: [169, 183, 239]
+Iter 4: 
+Min Hitting Set: [169, 2302, 2303]
+Min Correction Subset: [255, 256, 257]
+Iter 5: 
+Min Hitting Set: [169, 255, 2302, 2303]
+Min Correction Subset: [248, 256, 257]
+Iter 6: 
+Min Hitting Set: [169, 256, 2302, 2303]
+Min Correction Subset: [245, 250, 251, 257]
+Iter 7: 
+Min Hitting Set: [169, 257, 2302, 2303]
+Min Correction Subset: [253, 254, 255, 256]
+Iter 8: 
+Min Hitting Set: [169, 256, 257, 2302, 2303]
+Min Correction Subset: [250, 251, 253, 254, 255]
+Iter 9: 
+Min Hitting Set: [169, 255, 257, 2302, 2303]
+Min Correction Subset: [248, 253, 254, 256]
+Iter 10: 
+Min Hitting Set: [169, 253, 257, 2302, 2303]
+Min Correction Subset: [183, 204, 255, 256]
+Iter 11: 
+Min Hitting Set: [183, 253, 257, 2302, 2303]
+Min Correction Subset: [169, 206, 251, 254, 255]
+Iter 12: 
+Min Hitting Set: [183, 254, 257, 2302, 2303]
+Min Correction Subset: [217, 253, 255, 256]
+Iter 13: 
+Min Hitting Set: [183, 251, 256, 2302, 2303]
+Min Correction Subset: [239, 250, 255, 257]
+Iter 14: 
+Min Hitting Set: [239, 251, 256, 2302, 2303]
+Min Correction Subset: [169, 183, 233]
+Iter 15: 
+Min Hitting Set: [169, 250, 256, 2302, 2303]
+Min Correction Subset: [215, 251, 255, 257]
+Iter 16: 
+Min Hitting Set: [169, 253, 256, 257, 2302, 2303]
+Min Correction Subset: [183, 204, 250, 251, 255]
+Iter 17: 
+Min Hitting Set: [169, 255, 256, 257, 2302, 2303]
+Min Correction Subset: [215, 248, 251, 253, 254]
+Iter 18: 
+Min Hitting Set: [183, 254, 256, 257, 2302, 2303]
+Min Correction Subset: [217, 250, 251, 253, 255]
+Iter 19: 
+Min Hitting Set: [183, 254, 255, 257, 2302, 2303]
+Min Correction Subset: [217, 248, 253, 256]
+Iter 20: 
+Min Hitting Set: [183, 253, 255, 257, 2302, 2303]
+Min Correction Subset: [204, 206, 248, 254, 256]
+Iter 21: 
+Min Hitting Set: [169, 251, 256, 257, 2302, 2303]
+Min Correction Subset: [239, 250, 253, 254, 255]
+Iter 22: 
+Min Hitting Set: [169, 251, 255, 256, 2302, 2303]
+Min Correction Subset: [239, 248, 250, 257]
+Iter 23: 
+Min Hitting Set: [169, 250, 251, 256, 2302, 2303]
+Min Correction Subset: [215, 239, 255, 257]
+Iter 24: 
+Min Hitting Set: [169, 248, 255, 257, 2302, 2303]
+Min Correction Subset: [245, 253, 254, 256]
+Iter 25: 
+Min Hitting Set: [183, 253, 254, 257, 2302, 2303]
+Min Correction Subset: [204, 206, 217, 248, 256]
+Optimal IIS
+IIS generation
+Instance: j9028_5
+----------------------------
+Query: 2
+Query element:57,378
+Query scope: 25304
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1275.941
+IIS Constraint: 183; precedence; {activity:67,predecessor:57}
+IIS Constraint: 206; precedence; {activity:75,predecessor:67}
+IIS Constraint: 253; precedence; {activity:91,predecessor:75}
+IIS Constraint: 257; precedence; {activity:92,predecessor:91}
+IIS Constraint: 2302; query; {activity:57,t:378,query:2}
+IIS Constraint: 2303; max; {f:88.0,objective:max}

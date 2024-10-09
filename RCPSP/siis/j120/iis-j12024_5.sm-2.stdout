@@ -1,0 +1,103 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2719]
+Iter 2: 
+Min Hitting Set: [2719]
+Min Correction Subset: [341]
+Iter 3: 
+Min Hitting Set: [341, 2719]
+Min Correction Subset: [337]
+Iter 4: 
+Min Hitting Set: [337, 341, 2719]
+Min Correction Subset: [2718]
+Iter 5: 
+Min Hitting Set: [337, 341, 2718, 2719]
+Min Correction Subset: [311]
+Iter 6: 
+Min Hitting Set: [311, 337, 341, 2718, 2719]
+Min Correction Subset: [338, 340]
+Iter 7: 
+Min Hitting Set: [311, 337, 338, 341, 2718, 2719]
+Min Correction Subset: [329, 340]
+Iter 8: 
+Min Hitting Set: [311, 337, 340, 341, 2718, 2719]
+Min Correction Subset: [335, 338]
+Iter 9: 
+Min Hitting Set: [311, 337, 338, 340, 341, 2718, 2719]
+Min Correction Subset: [329, 335]
+Iter 10: 
+Min Hitting Set: [311, 335, 337, 340, 341, 2718, 2719]
+Min Correction Subset: [338, 1012]
+Iter 11: 
+Min Hitting Set: [311, 329, 337, 338, 341, 2718, 2719]
+Min Correction Subset: [340, 1010]
+Iter 12: 
+Min Hitting Set: [311, 329, 337, 338, 340, 341, 2718, 2719]
+Min Correction Subset: [335, 1010]
+Iter 13: 
+Min Hitting Set: [311, 335, 337, 338, 340, 341, 2718, 2719]
+Min Correction Subset: [329, 1005]
+Iter 14: 
+Min Hitting Set: [311, 329, 337, 338, 341, 1010, 2718, 2719]
+Min Correction Subset: [340, 1005]
+Iter 15: 
+Min Hitting Set: [311, 329, 337, 338, 340, 341, 1010, 2718, 2719]
+Min Correction Subset: [335, 1005]
+Iter 16: 
+Min Hitting Set: [311, 329, 335, 337, 338, 340, 341, 2718, 2719]
+Min Correction Subset: [1004, 1005, 1006, 1007]
+Iter 17: 
+Min Hitting Set: [311, 335, 337, 338, 340, 341, 1005, 2718, 2719]
+Min Correction Subset: [329, 1010]
+Iter 18: 
+Min Hitting Set: [311, 329, 337, 338, 341, 1005, 1010, 2718, 2719]
+Min Correction Subset: [340, 1011, 1012]
+Iter 19: 
+Min Hitting Set: [311, 329, 335, 337, 340, 341, 1005, 1012, 2718, 2719]
+Min Correction Subset: [338, 1010]
+Iter 20: 
+Min Hitting Set: [311, 335, 337, 338, 340, 341, 1005, 1010, 2718, 2719]
+Min Correction Subset: [329, 1012]
+Iter 21: 
+Min Hitting Set: [311, 329, 337, 338, 340, 341, 1005, 1010, 2718, 2719]
+Min Correction Subset: [335, 1011, 1012]
+Iter 22: 
+Min Hitting Set: [311, 335, 337, 340, 341, 1005, 1010, 1012, 2718, 2719]
+Min Correction Subset: [338, 1017]
+Iter 23: 
+Min Hitting Set: [311, 329, 337, 338, 341, 1005, 1010, 1012, 2718, 2719]
+Min Correction Subset: [116, 324, 325, 326, 335]
+Iter 24: 
+Min Hitting Set: [311, 329, 335, 337, 338, 340, 341, 1005, 2718, 2719]
+Min Correction Subset: [1010, 1011, 1012, 1013, 1014]
+Iter 25: 
+Min Hitting Set: [311, 329, 335, 337, 338, 340, 341, 1005, 1010, 2718, 2719]
+Min Correction Subset: [116, 324, 325, 326, 1017]
+Iter 26: 
+Min Hitting Set: [311, 324, 329, 337, 338, 341, 1005, 1010, 1012, 2718, 2719]
+Min Correction Subset: [99, 116, 274, 275, 276, 325, 326, 340]
+Iter 27: 
+Min Hitting Set: [311, 335, 337, 340, 341, 1005, 1010, 1012, 1017, 2718, 2719]
+Min Correction Subset: [109, 303, 304, 305, 338]
+Optimal IIS
+IIS generation
+Instance: j12024_5
+----------------------------
+Query: 2
+Query element:105,69
+Query scope: 55445
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 8937.559
+IIS Constraint: 116; completion; {activity:117}
+IIS Constraint: 311; precedence; {activity:112,predecessor:105}
+IIS Constraint: 329; precedence; {activity:118,predecessor:117}
+IIS Constraint: 337; precedence; {activity:121,predecessor:112}
+IIS Constraint: 338; precedence; {activity:121,predecessor:118}
+IIS Constraint: 341; precedence; {activity:122,predecessor:121}
+IIS Constraint: 1005; renewable; {resource:2,t:69}
+IIS Constraint: 1010; renewable; {resource:2,t:74}
+IIS Constraint: 1012; renewable; {resource:2,t:76}
+IIS Constraint: 2718; query; {activity:105,t:69,query:2}
+IIS Constraint: 2719; max; {f:86.0,objective:max}

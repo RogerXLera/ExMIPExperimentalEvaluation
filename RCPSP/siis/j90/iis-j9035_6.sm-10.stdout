@@ -1,0 +1,80 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2188]
+Iter 2: 
+Min Hitting Set: [2188]
+Min Correction Subset: [285]
+Iter 3: 
+Min Hitting Set: [285, 2188]
+Min Correction Subset: [258]
+Iter 4: 
+Min Hitting Set: [258, 285, 2188]
+Min Correction Subset: [273]
+Iter 5: 
+Min Hitting Set: [258, 273, 285, 2188]
+Min Correction Subset: [282]
+Iter 6: 
+Min Hitting Set: [258, 273, 282, 285, 2188]
+Min Correction Subset: [204, 2186]
+Iter 7: 
+Min Hitting Set: [204, 258, 273, 282, 285, 2188]
+Min Correction Subset: [243, 2186]
+Iter 8: 
+Min Hitting Set: [258, 273, 282, 285, 2186, 2188]
+Min Correction Subset: [254, 1259]
+Iter 9: 
+Min Hitting Set: [254, 258, 273, 282, 285, 2186, 2188]
+Min Correction Subset: [225, 1259]
+Iter 10: 
+Min Hitting Set: [258, 273, 282, 285, 1259, 2186, 2188]
+Min Correction Subset: [225, 243]
+Iter 11: 
+Min Hitting Set: [225, 258, 273, 282, 285, 1259, 2186, 2188]
+Min Correction Subset: [189, 243]
+Iter 12: 
+Min Hitting Set: [243, 258, 273, 282, 285, 1259, 2186, 2188]
+Min Correction Subset: [254, 255]
+Iter 13: 
+Min Hitting Set: [225, 243, 254, 258, 273, 282, 285, 2186, 2188]
+Min Correction Subset: [189, 255]
+Iter 14: 
+Min Hitting Set: [189, 225, 254, 258, 273, 282, 285, 2186, 2188]
+Min Correction Subset: [50, 168, 204]
+Iter 15: 
+Min Hitting Set: [204, 243, 255, 258, 273, 282, 285, 1259, 2188]
+Min Correction Subset: [225, 2187]
+Iter 16: 
+Min Hitting Set: [204, 225, 243, 254, 255, 258, 273, 282, 285, 2188]
+Min Correction Subset: [1259, 2186]
+Iter 17: 
+Min Hitting Set: [204, 225, 243, 255, 258, 273, 282, 285, 1259, 2188]
+Min Correction Subset: [189, 2187]
+Iter 18: 
+Min Hitting Set: [189, 204, 225, 254, 258, 273, 282, 285, 2186, 2188]
+Min Correction Subset: [50, 168, 243]
+Iter 19: 
+Min Hitting Set: [204, 243, 255, 258, 273, 282, 285, 1259, 2187, 2188]
+Min Correction Subset: [225, 242, 284]
+Optimal IIS
+IIS generation
+Instance: j9035_6
+----------------------------
+Query: 10
+Query element:51,31
+Query element:46,33
+Query scope: 20636
+Query scope: 18563
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 4161.753
+IIS Constraint: 50; completion; {activity:51}
+IIS Constraint: 189; precedence; {activity:60,predecessor:51}
+IIS Constraint: 225; precedence; {activity:72,predecessor:60}
+IIS Constraint: 254; precedence; {activity:82,predecessor:72}
+IIS Constraint: 258; precedence; {activity:83,predecessor:82}
+IIS Constraint: 273; precedence; {activity:88,predecessor:83}
+IIS Constraint: 282; precedence; {activity:91,predecessor:88}
+IIS Constraint: 285; precedence; {activity:92,predecessor:91}
+IIS Constraint: 2186; query; {activity:51,t:31,query:10}
+IIS Constraint: 2188; max; {f:72.0,objective:max}

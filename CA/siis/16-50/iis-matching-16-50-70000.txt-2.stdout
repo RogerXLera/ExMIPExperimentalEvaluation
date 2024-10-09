@@ -1,0 +1,43 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [33]
+Iter 2: 
+Min Hitting Set: [33]
+Min Correction Subset: [5]
+Iter 3: 
+Min Hitting Set: [5, 33]
+Min Correction Subset: [13]
+Iter 4: 
+Min Hitting Set: [5, 13, 33]
+Min Correction Subset: [9]
+Iter 5: 
+Min Hitting Set: [5, 9, 13, 33]
+Min Correction Subset: [1, 12]
+Iter 6: 
+Min Hitting Set: [1, 5, 9, 13, 33]
+Min Correction Subset: [0, 32]
+Iter 7: 
+Min Hitting Set: [0, 1, 5, 9, 13, 33]
+Min Correction Subset: [31, 32]
+Iter 8: 
+Min Hitting Set: [1, 5, 9, 13, 32, 33]
+Min Correction Subset: [0, 15, 21]
+Optimal IIS
+Instance: matching-16-50-70000
+----------------------------
+Query: 3
+Query element:25
+Query element:49
+Query scope: 25
+Query scope: 49
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 72.816
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 31; query; {bid:25,query:3}
+IIS Constraint: 33; max; {f:27.86241,objective:max}

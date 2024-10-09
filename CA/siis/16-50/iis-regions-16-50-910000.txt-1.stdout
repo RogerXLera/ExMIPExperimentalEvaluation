@@ -1,0 +1,74 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [28]
+Iter 2: 
+Min Hitting Set: [28]
+Min Correction Subset: [1]
+Iter 3: 
+Min Hitting Set: [1, 28]
+Min Correction Subset: [6]
+Iter 4: 
+Min Hitting Set: [1, 6, 28]
+Min Correction Subset: [27]
+Iter 5: 
+Min Hitting Set: [1, 6, 27, 28]
+Min Correction Subset: [7, 9]
+Iter 6: 
+Min Hitting Set: [1, 6, 7, 27, 28]
+Min Correction Subset: [9, 13]
+Iter 7: 
+Min Hitting Set: [1, 6, 9, 27, 28]
+Min Correction Subset: [5, 14]
+Iter 8: 
+Min Hitting Set: [1, 5, 6, 9, 27, 28]
+Min Correction Subset: [12, 13]
+Iter 9: 
+Min Hitting Set: [1, 5, 6, 9, 13, 27, 28]
+Min Correction Subset: [0, 14]
+Iter 10: 
+Min Hitting Set: [1, 6, 9, 13, 14, 27, 28]
+Min Correction Subset: [10, 11]
+Iter 11: 
+Min Hitting Set: [1, 6, 9, 10, 13, 14, 27, 28]
+Min Correction Subset: [0, 4]
+Iter 12: 
+Min Hitting Set: [0, 1, 6, 9, 10, 13, 14, 27, 28]
+Min Correction Subset: [5, 11]
+Iter 13: 
+Min Hitting Set: [0, 1, 5, 6, 9, 11, 13, 27, 28]
+Min Correction Subset: [7, 10, 14]
+Iter 14: 
+Min Hitting Set: [0, 1, 5, 6, 7, 11, 13, 27, 28]
+Min Correction Subset: [8, 9]
+Iter 15: 
+Min Hitting Set: [0, 1, 5, 6, 9, 10, 13, 27, 28]
+Min Correction Subset: [7, 11, 14]
+Iter 16: 
+Min Hitting Set: [0, 1, 6, 9, 11, 13, 14, 27, 28]
+Min Correction Subset: [4, 5]
+Iter 17: 
+Min Hitting Set: [1, 4, 6, 9, 11, 13, 14, 27, 28]
+Min Correction Subset: [0, 10]
+Iter 18: 
+Min Hitting Set: [0, 1, 5, 6, 9, 11, 13, 14, 27, 28]
+Min Correction Subset: [2, 7, 10, 12, 22]
+Optimal IIS
+Instance: regions-16-50-910000
+----------------------------
+Query: 1
+Query element:0
+Query scope: 0
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1571.561
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 6; goods; {good:6}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 11; goods; {good:11}
+IIS Constraint: 12; goods; {good:12}
+IIS Constraint: 14; goods; {good:14}
+IIS Constraint: 27; query; {bid:0,query:1}
+IIS Constraint: 28; max; {f:1124.7130000000002,objective:max}

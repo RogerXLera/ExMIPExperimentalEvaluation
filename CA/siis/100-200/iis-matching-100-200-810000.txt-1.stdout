@@ -1,0 +1,97 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [123]
+Iter 2: 
+Min Hitting Set: [123]
+Min Correction Subset: [52]
+Iter 3: 
+Min Hitting Set: [52, 123]
+Min Correction Subset: [104]
+Iter 4: 
+Min Hitting Set: [52, 104, 123]
+Min Correction Subset: [56]
+Iter 5: 
+Min Hitting Set: [52, 56, 104, 123]
+Min Correction Subset: [48]
+Iter 6: 
+Min Hitting Set: [48, 52, 56, 104, 123]
+Min Correction Subset: [116]
+Iter 7: 
+Min Hitting Set: [48, 52, 56, 104, 116, 123]
+Min Correction Subset: [105]
+Iter 8: 
+Min Hitting Set: [48, 52, 56, 104, 105, 116, 123]
+Min Correction Subset: [102]
+Iter 9: 
+Min Hitting Set: [48, 52, 56, 102, 104, 105, 116, 123]
+Min Correction Subset: [121]
+Iter 10: 
+Min Hitting Set: [48, 52, 56, 102, 104, 105, 116, 121, 123]
+Min Correction Subset: [44]
+Iter 11: 
+Min Hitting Set: [44, 48, 52, 56, 102, 104, 105, 116, 121, 123]
+Min Correction Subset: [60]
+Iter 12: 
+Min Hitting Set: [44, 48, 52, 56, 60, 102, 104, 105, 116, 121, 123]
+Min Correction Subset: [119]
+Iter 13: 
+Min Hitting Set: [44, 48, 52, 56, 60, 102, 104, 105, 116, 119, 121, 123]
+Min Correction Subset: [113]
+Iter 14: 
+Min Hitting Set: [44, 48, 52, 56, 60, 102, 104, 105, 113, 116, 119, 121, 123]
+Min Correction Subset: [103]
+Iter 15: 
+Min Hitting Set: [44, 48, 52, 56, 60, 102, 103, 104, 105, 113, 116, 119, 121, 123]
+Min Correction Subset: [114]
+Iter 16: 
+Min Hitting Set: [44, 48, 52, 56, 60, 102, 103, 104, 105, 113, 114, 116, 119, 121, 123]
+Min Correction Subset: [109]
+Iter 17: 
+Min Hitting Set: [44, 48, 52, 56, 60, 102, 103, 104, 105, 109, 113, 114, 116, 119, 121, 123]
+Min Correction Subset: [118]
+Iter 18: 
+Min Hitting Set: [44, 48, 52, 56, 60, 102, 103, 104, 105, 109, 113, 114, 116, 118, 119, 121, 123]
+Min Correction Subset: [107]
+Iter 19: 
+Min Hitting Set: [44, 48, 52, 56, 60, 102, 103, 104, 105, 107, 109, 113, 114, 116, 118, 119, 121, 123]
+Min Correction Subset: [64]
+Iter 20: 
+Min Hitting Set: [44, 48, 52, 56, 60, 64, 102, 103, 104, 105, 107, 109, 113, 114, 116, 118, 119, 121, 123]
+Min Correction Subset: [120]
+Iter 21: 
+Min Hitting Set: [44, 48, 52, 56, 60, 64, 102, 103, 104, 105, 107, 109, 113, 114, 116, 118, 119, 120, 121, 123]
+Min Correction Subset: [112]
+Iter 22: 
+Min Hitting Set: [44, 48, 52, 56, 60, 64, 102, 103, 104, 105, 107, 109, 112, 113, 114, 116, 118, 119, 120, 121, 123]
+Min Correction Subset: [106]
+Iter 23: 
+Min Hitting Set: [44, 48, 52, 56, 60, 64, 102, 103, 104, 105, 106, 107, 109, 112, 113, 114, 116, 118, 119, 120, 121, 123]
+Min Correction Subset: [40]
+Iter 24: 
+Min Hitting Set: [40, 44, 48, 52, 56, 60, 64, 102, 103, 104, 105, 106, 107, 109, 112, 113, 114, 116, 118, 119, 120, 121, 123]
+Min Correction Subset: [46]
+Iter 25: 
+Min Hitting Set: [40, 44, 46, 48, 52, 56, 60, 64, 102, 103, 104, 105, 106, 107, 109, 112, 113, 114, 116, 118, 119, 120, 121, 123]
+Min Correction Subset: [20]
+Iter 26: 
+Min Hitting Set: [20, 40, 44, 46, 48, 52, 56, 60, 64, 102, 103, 104, 105, 106, 107, 109, 112, 113, 114, 116, 118, 119, 120, 121, 123]
+Min Correction Subset: [122]
+Iter 27: 
+Min Hitting Set: [20, 40, 44, 46, 48, 52, 56, 60, 64, 102, 103, 104, 105, 106, 107, 109, 112, 113, 114, 116, 118, 119, 120, 121, 122, 123]
+Min Correction Subset: [62, 111]
+Iter 28: 
+Min Hitting Set: [20, 40, 44, 46, 48, 52, 56, 60, 62, 64, 102, 103, 104, 105, 106, 107, 109, 112, 113, 114, 116, 118, 119, 120, 121, 122, 123]
+Min Correction Subset: [100, 111]
+Iter 29: 
+Min Hitting Set: [20, 40, 44, 46, 48, 52, 56, 60, 64, 102, 103, 104, 105, 106, 107, 109, 111, 112, 113, 114, 116, 118, 119, 120, 121, 122, 123]
+Min Correction Subset: [62, 108]
+Iter 30: 
+Min Hitting Set: [20, 40, 44, 46, 48, 52, 56, 60, 62, 64, 102, 103, 104, 105, 106, 107, 109, 111, 112, 113, 114, 116, 118, 119, 120, 121, 122, 123]
+Min Correction Subset: [100, 108]
+Iter 31: 
+Min Hitting Set: [20, 40, 44, 46, 48, 52, 56, 60, 64, 102, 103, 104, 105, 106, 107, 108, 109, 111, 112, 113, 114, 116, 118, 119, 120, 121, 122, 123]
+Min Correction Subset: [62, 100]
+Iter 32: 
+Min Hitting Set: [20, 40, 44, 46, 48, 52, 56, 60, 62, 64, 100, 102, 103, 104, 105, 106, 107, 109, 112, 113, 114, 116, 118, 119, 120, 121, 122, 123]
+Min Correction Subset: [108, 111]

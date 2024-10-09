@@ -1,0 +1,107 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [139]
+Iter 2: 
+Min Hitting Set: [139]
+Min Correction Subset: [78]
+Iter 3: 
+Min Hitting Set: [78, 139]
+Min Correction Subset: [2]
+Iter 4: 
+Min Hitting Set: [2, 78, 139]
+Min Correction Subset: [41]
+Iter 5: 
+Min Hitting Set: [2, 41, 78, 139]
+Min Correction Subset: [11]
+Iter 6: 
+Min Hitting Set: [2, 11, 41, 78, 139]
+Min Correction Subset: [138]
+Iter 7: 
+Min Hitting Set: [2, 11, 41, 78, 138, 139]
+Min Correction Subset: [38]
+Iter 8: 
+Min Hitting Set: [2, 11, 38, 41, 78, 138, 139]
+Min Correction Subset: [40]
+Iter 9: 
+Min Hitting Set: [2, 11, 38, 40, 41, 78, 138, 139]
+Min Correction Subset: [93]
+Iter 10: 
+Min Hitting Set: [2, 11, 38, 40, 41, 78, 93, 138, 139]
+Min Correction Subset: [31]
+Iter 11: 
+Min Hitting Set: [2, 11, 31, 38, 40, 41, 78, 93, 138, 139]
+Min Correction Subset: [9, 81]
+Iter 12: 
+Min Hitting Set: [2, 9, 11, 31, 38, 40, 41, 78, 93, 138, 139]
+Min Correction Subset: [13, 46]
+Iter 13: 
+Min Hitting Set: [2, 9, 11, 13, 31, 38, 40, 41, 78, 93, 138, 139]
+Min Correction Subset: [54, 81]
+Iter 14: 
+Min Hitting Set: [2, 11, 13, 31, 38, 40, 41, 78, 81, 93, 138, 139]
+Min Correction Subset: [3, 9]
+Iter 15: 
+Min Hitting Set: [2, 9, 11, 13, 31, 38, 40, 41, 78, 81, 93, 138, 139]
+Min Correction Subset: [29, 76]
+Iter 16: 
+Min Hitting Set: [2, 9, 11, 13, 29, 31, 38, 40, 41, 78, 81, 93, 138, 139]
+Min Correction Subset: [0, 79]
+Iter 17: 
+Min Hitting Set: [0, 2, 9, 11, 13, 29, 31, 38, 40, 41, 78, 81, 93, 138, 139]
+Min Correction Subset: [35, 75]
+Iter 18: 
+Min Hitting Set: [0, 2, 9, 11, 13, 29, 31, 35, 38, 40, 41, 78, 81, 93, 138, 139]
+Min Correction Subset: [46, 80]
+Iter 19: 
+Min Hitting Set: [0, 2, 9, 11, 29, 31, 35, 38, 40, 41, 46, 78, 81, 93, 138, 139]
+Min Correction Subset: [24, 44]
+Iter 20: 
+Min Hitting Set: [0, 2, 9, 11, 24, 29, 31, 35, 38, 40, 41, 46, 78, 81, 93, 138, 139]
+Min Correction Subset: [27, 95]
+Instance: arbitrary-100-200-740000
+----------------------------
+Query: 8
+Query element:85
+Query scope: 21
+Query scope: 35
+Query scope: 37
+Query scope: 39
+Query scope: 43
+Query scope: 51
+Query scope: 68
+Query scope: 76
+Query scope: 90
+Query scope: 108
+Query scope: 117
+Query scope: 123
+Query scope: 124
+Query scope: 125
+Query scope: 127
+Query scope: 140
+Query scope: 153
+Query scope: 155
+Query scope: 158
+Query scope: 159
+Query scope: 161
+Query scope: 194
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36059.266
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 2; goods; {good:2}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 11; goods; {good:11}
+IIS Constraint: 24; goods; {good:24}
+IIS Constraint: 29; goods; {good:29}
+IIS Constraint: 31; goods; {good:31}
+IIS Constraint: 35; goods; {good:35}
+IIS Constraint: 38; goods; {good:38}
+IIS Constraint: 40; goods; {good:40}
+IIS Constraint: 41; goods; {good:41}
+IIS Constraint: 46; goods; {good:46}
+IIS Constraint: 78; goods; {good:78}
+IIS Constraint: 81; goods; {good:81}
+IIS Constraint: 93; goods; {good:93}
+IIS Constraint: 138; query; {good:85,query:8}
+IIS Constraint: 139; max; {f:5662.6714,objective:max}

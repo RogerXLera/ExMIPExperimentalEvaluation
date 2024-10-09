@@ -1,0 +1,64 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [30]
+Iter 2: 
+Min Hitting Set: [30]
+Min Correction Subset: [31]
+Iter 3: 
+Min Hitting Set: [30, 31]
+Min Correction Subset: [13, 17]
+Iter 4: 
+Min Hitting Set: [13, 30, 31]
+Min Correction Subset: [12, 17]
+Iter 5: 
+Min Hitting Set: [17, 30, 31]
+Min Correction Subset: [1, 12]
+Iter 6: 
+Min Hitting Set: [12, 17, 30, 31]
+Min Correction Subset: [1, 13]
+Iter 7: 
+Min Hitting Set: [1, 17, 30, 31]
+Min Correction Subset: [12, 13, 19]
+Iter 8: 
+Min Hitting Set: [12, 13, 30, 31]
+Min Correction Subset: [8, 9, 15, 19]
+Iter 9: 
+Min Hitting Set: [1, 17, 19, 30, 31]
+Min Correction Subset: [2, 8, 13]
+Iter 10: 
+Min Hitting Set: [12, 13, 19, 30, 31]
+Min Correction Subset: [2, 9, 10, 17]
+Iter 11: 
+Min Hitting Set: [9, 12, 13, 30, 31]
+Min Correction Subset: [2, 10, 17, 19]
+Iter 12: 
+Min Hitting Set: [1, 8, 17, 19, 30, 31]
+Min Correction Subset: [2, 10, 13]
+Iter 13: 
+Min Hitting Set: [2, 9, 12, 13, 30, 31]
+Min Correction Subset: [8, 10, 17, 19]
+Iter 14: 
+Min Hitting Set: [9, 12, 13, 19, 30, 31]
+Min Correction Subset: [4, 15, 17, 20, 28]
+Iter 15: 
+Min Hitting Set: [10, 12, 13, 15, 30, 31]
+Min Correction Subset: [8, 9, 17, 19]
+Iter 16: 
+Min Hitting Set: [12, 13, 15, 17, 30, 31]
+Min Correction Subset: [2, 8, 9, 19, 27]
+Optimal IIS
+Instance: arbitrary-20-50-650000
+----------------------------
+Query: 2
+Query element:50
+Query scope: 50
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 211.231
+IIS Constraint: 8; goods; {good:8}
+IIS Constraint: 12; goods; {good:12}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 17; goods; {good:17}
+IIS Constraint: 30; query; {bid:50,query:2}
+IIS Constraint: 31; max; {f:1437.58,objective:max}

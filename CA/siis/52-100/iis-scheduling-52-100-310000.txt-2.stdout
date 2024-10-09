@@ -1,0 +1,26 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [52]
+Iter 2: 
+Min Hitting Set: [52]
+Min Correction Subset: [55]
+Iter 3: 
+Min Hitting Set: [52, 55]
+Min Correction Subset: [54]
+Iter 4: 
+Min Hitting Set: [52, 54, 55]
+Min Correction Subset: [53]
+Optimal IIS
+Instance: scheduling-52-100-310000
+----------------------------
+Query: 2
+Query element:47
+Query scope: 47
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 4.673
+IIS Constraint: 52; goods; {good:52}
+IIS Constraint: 53; goods; {good:53}
+IIS Constraint: 54; query; {bid:47,query:2}
+IIS Constraint: 55; max; {f:5.57985,objective:max}

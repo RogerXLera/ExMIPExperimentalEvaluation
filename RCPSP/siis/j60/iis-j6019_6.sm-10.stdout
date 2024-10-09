@@ -1,0 +1,93 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [170]
+Iter 2: 
+Min Hitting Set: [170]
+Min Correction Subset: [165]
+Iter 3: 
+Min Hitting Set: [165, 170]
+Min Correction Subset: [1241]
+Iter 4: 
+Min Hitting Set: [165, 170, 1241]
+Min Correction Subset: [1544]
+Iter 5: 
+Min Hitting Set: [165, 170, 1241, 1544]
+Min Correction Subset: [1240]
+Iter 6: 
+Min Hitting Set: [165, 170, 1240, 1241, 1544]
+Min Correction Subset: [172]
+Iter 7: 
+Min Hitting Set: [165, 170, 172, 1240, 1241, 1544]
+Min Correction Subset: [173]
+Iter 8: 
+Min Hitting Set: [165, 170, 172, 173, 1240, 1241, 1544]
+Min Correction Subset: [142]
+Iter 9: 
+Min Hitting Set: [142, 165, 170, 172, 173, 1240, 1241, 1544]
+Min Correction Subset: [166]
+Iter 10: 
+Min Hitting Set: [142, 165, 166, 170, 172, 173, 1240, 1241, 1544]
+Min Correction Subset: [921]
+Iter 11: 
+Min Hitting Set: [142, 165, 166, 170, 172, 173, 921, 1240, 1241, 1544]
+Min Correction Subset: [147]
+Iter 12: 
+Min Hitting Set: [142, 147, 165, 166, 170, 172, 173, 921, 1240, 1241, 1544]
+Min Correction Subset: [1242]
+Iter 13: 
+Min Hitting Set: [142, 147, 165, 166, 170, 172, 173, 921, 1240, 1241, 1242, 1544]
+Min Correction Subset: [155]
+Iter 14: 
+Min Hitting Set: [142, 147, 155, 165, 166, 170, 172, 173, 921, 1240, 1241, 1242, 1544]
+Min Correction Subset: [1543]
+Iter 15: 
+Min Hitting Set: [142, 147, 155, 165, 166, 170, 172, 173, 921, 1240, 1241, 1242, 1543, 1544]
+Min Correction Subset: [134]
+Iter 16: 
+Min Hitting Set: [134, 142, 147, 155, 165, 166, 170, 172, 173, 921, 1240, 1241, 1242, 1543, 1544]
+Min Correction Subset: [96]
+Iter 17: 
+Min Hitting Set: [96, 134, 142, 147, 155, 165, 166, 170, 172, 173, 921, 1240, 1241, 1242, 1543, 1544]
+Min Correction Subset: [25, 89]
+Iter 18: 
+Min Hitting Set: [25, 96, 134, 142, 147, 155, 165, 166, 170, 172, 173, 921, 1240, 1241, 1242, 1543, 1544]
+Min Correction Subset: [919, 920]
+Iter 19: 
+Min Hitting Set: [25, 96, 134, 142, 147, 155, 165, 166, 170, 172, 173, 919, 921, 1240, 1241, 1242, 1543, 1544]
+Min Correction Subset: [56, 157, 158]
+Iter 20: 
+Min Hitting Set: [25, 56, 96, 134, 142, 147, 155, 165, 166, 170, 172, 173, 919, 921, 1240, 1241, 1242, 1543, 1544]
+Min Correction Subset: [28, 93, 94]
+Optimal IIS
+IIS generation
+Instance: j6019_6
+----------------------------
+Query: 10
+Query element:43,42
+Query element:22,41
+Query scope: 11995
+Query scope: 5932
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 2304.340
+IIS Constraint: 25; completion; {activity:26}
+IIS Constraint: 28; completion; {activity:29}
+IIS Constraint: 56; completion; {activity:57}
+IIS Constraint: 96; precedence; {activity:30,predecessor:26}
+IIS Constraint: 134; precedence; {activity:49,predecessor:30}
+IIS Constraint: 142; precedence; {activity:52,predecessor:29}
+IIS Constraint: 147; precedence; {activity:53,predecessor:52}
+IIS Constraint: 155; precedence; {activity:56,predecessor:49}
+IIS Constraint: 165; precedence; {activity:60,predecessor:53}
+IIS Constraint: 166; precedence; {activity:60,predecessor:56}
+IIS Constraint: 170; precedence; {activity:61,predecessor:57}
+IIS Constraint: 172; precedence; {activity:62,predecessor:60}
+IIS Constraint: 173; precedence; {activity:62,predecessor:61}
+IIS Constraint: 919; renewable; {resource:3,t:61}
+IIS Constraint: 921; renewable; {resource:3,t:63}
+IIS Constraint: 1240; renewable; {resource:4,t:40}
+IIS Constraint: 1241; renewable; {resource:4,t:41}
+IIS Constraint: 1242; renewable; {resource:4,t:42}
+IIS Constraint: 1543; query; {activity:22,t:42,query:10}
+IIS Constraint: 1544; max; {f:69.0,objective:max}

@@ -1,0 +1,79 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [28]
+Iter 2: 
+Min Hitting Set: [28]
+Min Correction Subset: [26, 27]
+Iter 3: 
+Min Hitting Set: [26, 28]
+Min Correction Subset: [9, 27]
+Iter 4: 
+Min Hitting Set: [27, 28]
+Min Correction Subset: [11, 19]
+Iter 5: 
+Min Hitting Set: [11, 27, 28]
+Min Correction Subset: [9, 22]
+Iter 6: 
+Min Hitting Set: [9, 11, 27, 28]
+Min Correction Subset: [0, 19]
+Iter 7: 
+Min Hitting Set: [9, 19, 27, 28]
+Min Correction Subset: [0, 26]
+Iter 8: 
+Min Hitting Set: [9, 19, 26, 28]
+Min Correction Subset: [12, 27]
+Iter 9: 
+Min Hitting Set: [0, 9, 19, 27, 28]
+Min Correction Subset: [11, 26]
+Iter 10: 
+Min Hitting Set: [0, 9, 11, 27, 28]
+Min Correction Subset: [12, 19]
+Iter 11: 
+Min Hitting Set: [9, 19, 26, 27, 28]
+Min Correction Subset: [0, 12]
+Iter 12: 
+Min Hitting Set: [9, 12, 19, 26, 28]
+Min Correction Subset: [2, 27]
+Iter 13: 
+Min Hitting Set: [9, 12, 19, 26, 27, 28]
+Min Correction Subset: [0, 13]
+Iter 14: 
+Min Hitting Set: [0, 9, 11, 19, 27, 28]
+Min Correction Subset: [12, 21, 26]
+Iter 15: 
+Min Hitting Set: [0, 9, 11, 12, 27, 28]
+Min Correction Subset: [19, 26]
+Iter 16: 
+Min Hitting Set: [0, 9, 19, 26, 27, 28]
+Min Correction Subset: [11, 12]
+Iter 17: 
+Min Hitting Set: [0, 9, 11, 12, 19, 27, 28]
+Min Correction Subset: [2, 17, 26]
+Iter 18: 
+Min Hitting Set: [0, 9, 11, 12, 26, 27, 28]
+Min Correction Subset: [2, 19]
+Iter 19: 
+Min Hitting Set: [0, 9, 11, 19, 26, 27, 28]
+Min Correction Subset: [2, 12, 17]
+Iter 20: 
+Min Hitting Set: [0, 2, 9, 12, 19, 26, 28]
+Min Correction Subset: [13, 27]
+Optimal IIS
+Instance: paths-16-20-250000
+----------------------------
+Query: 3
+Query element:18
+Query element:1
+Query scope: 18
+Query scope: 1
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 244.854
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 12; goods; {good:12}
+IIS Constraint: 19; goods; {good:19}
+IIS Constraint: 26; query; {bid:18,query:3}
+IIS Constraint: 27; query; {bid:1,query:3}
+IIS Constraint: 28; max; {f:6.273644,objective:max}

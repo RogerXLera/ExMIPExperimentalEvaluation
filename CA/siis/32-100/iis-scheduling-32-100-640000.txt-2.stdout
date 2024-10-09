@@ -1,0 +1,94 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [40]
+Iter 2: 
+Min Hitting Set: [40]
+Min Correction Subset: [37]
+Iter 3: 
+Min Hitting Set: [37, 40]
+Min Correction Subset: [35]
+Iter 4: 
+Min Hitting Set: [35, 37, 40]
+Min Correction Subset: [9]
+Iter 5: 
+Min Hitting Set: [9, 35, 37, 40]
+Min Correction Subset: [7]
+Iter 6: 
+Min Hitting Set: [7, 9, 35, 37, 40]
+Min Correction Subset: [0]
+Iter 7: 
+Min Hitting Set: [0, 7, 9, 35, 37, 40]
+Min Correction Subset: [2]
+Iter 8: 
+Min Hitting Set: [0, 2, 7, 9, 35, 37, 40]
+Min Correction Subset: [1]
+Iter 9: 
+Min Hitting Set: [0, 1, 2, 7, 9, 35, 37, 40]
+Min Correction Subset: [19]
+Iter 10: 
+Min Hitting Set: [0, 1, 2, 7, 9, 19, 35, 37, 40]
+Min Correction Subset: [38]
+Iter 11: 
+Min Hitting Set: [0, 1, 2, 7, 9, 19, 35, 37, 38, 40]
+Min Correction Subset: [22]
+Iter 12: 
+Min Hitting Set: [0, 1, 2, 7, 9, 19, 22, 35, 37, 38, 40]
+Min Correction Subset: [32]
+Iter 13: 
+Min Hitting Set: [0, 1, 2, 7, 9, 19, 22, 32, 35, 37, 38, 40]
+Min Correction Subset: [10]
+Iter 14: 
+Min Hitting Set: [0, 1, 2, 7, 9, 10, 19, 22, 32, 35, 37, 38, 40]
+Min Correction Subset: [5]
+Iter 15: 
+Min Hitting Set: [0, 1, 2, 5, 7, 9, 10, 19, 22, 32, 35, 37, 38, 40]
+Min Correction Subset: [14]
+Iter 16: 
+Min Hitting Set: [0, 1, 2, 5, 7, 9, 10, 14, 19, 22, 32, 35, 37, 38, 40]
+Min Correction Subset: [16]
+Iter 17: 
+Min Hitting Set: [0, 1, 2, 5, 7, 9, 10, 14, 16, 19, 22, 32, 35, 37, 38, 40]
+Min Correction Subset: [23]
+Iter 18: 
+Min Hitting Set: [0, 1, 2, 5, 7, 9, 10, 14, 16, 19, 22, 23, 32, 35, 37, 38, 40]
+Min Correction Subset: [12]
+Iter 19: 
+Min Hitting Set: [0, 1, 2, 5, 7, 9, 10, 12, 14, 16, 19, 22, 23, 32, 35, 37, 38, 40]
+Min Correction Subset: [39]
+Iter 20: 
+Min Hitting Set: [0, 1, 2, 5, 7, 9, 10, 12, 14, 16, 19, 22, 23, 32, 35, 37, 38, 39, 40]
+Min Correction Subset: [3, 4]
+Iter 21: 
+Min Hitting Set: [0, 1, 2, 3, 5, 7, 9, 10, 12, 14, 16, 19, 22, 23, 32, 35, 37, 38, 39, 40]
+Min Correction Subset: [17, 18]
+Optimal IIS
+Instance: scheduling-32-100-640000
+----------------------------
+Query: 1
+Query element:13
+Query scope: 13
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1988.924
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 2; goods; {good:2}
+IIS Constraint: 3; goods; {good:3}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 7; goods; {good:7}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 10; goods; {good:10}
+IIS Constraint: 12; goods; {good:12}
+IIS Constraint: 14; goods; {good:14}
+IIS Constraint: 16; goods; {good:16}
+IIS Constraint: 17; goods; {good:17}
+IIS Constraint: 19; goods; {good:19}
+IIS Constraint: 22; goods; {good:22}
+IIS Constraint: 23; goods; {good:23}
+IIS Constraint: 32; goods; {good:32}
+IIS Constraint: 35; goods; {good:35}
+IIS Constraint: 37; goods; {good:37}
+IIS Constraint: 38; goods; {good:38}
+IIS Constraint: 39; query; {bid:13,query:1}
+IIS Constraint: 40; max; {f:31.434446,objective:max}

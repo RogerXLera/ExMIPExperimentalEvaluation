@@ -1,0 +1,66 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2123]
+Iter 2: 
+Min Hitting Set: [2123]
+Min Correction Subset: [2122]
+Iter 3: 
+Min Hitting Set: [2122, 2123]
+Min Correction Subset: [256, 257]
+Iter 4: 
+Min Hitting Set: [256, 2122, 2123]
+Min Correction Subset: [251, 253]
+Iter 5: 
+Min Hitting Set: [251, 256, 2122, 2123]
+Min Correction Subset: [224, 257]
+Iter 6: 
+Min Hitting Set: [251, 257, 2122, 2123]
+Min Correction Subset: [253, 256]
+Iter 7: 
+Min Hitting Set: [253, 257, 2122, 2123]
+Min Correction Subset: [224, 242]
+Iter 8: 
+Min Hitting Set: [224, 253, 256, 2122, 2123]
+Min Correction Subset: [198, 242]
+Iter 9: 
+Min Hitting Set: [242, 253, 257, 2122, 2123]
+Min Correction Subset: [224, 230]
+Iter 10: 
+Min Hitting Set: [224, 242, 253, 256, 2122, 2123]
+Min Correction Subset: [198, 257]
+Iter 11: 
+Min Hitting Set: [198, 224, 253, 257, 2122, 2123]
+Min Correction Subset: [241, 242, 256]
+Iter 12: 
+Min Hitting Set: [198, 224, 253, 256, 2122, 2123]
+Min Correction Subset: [251, 257]
+Iter 13: 
+Min Hitting Set: [198, 224, 251, 256, 2122, 2123]
+Min Correction Subset: [238, 257]
+Iter 14: 
+Min Hitting Set: [224, 242, 253, 257, 2122, 2123]
+Min Correction Subset: [198, 230]
+Iter 15: 
+Min Hitting Set: [230, 242, 253, 257, 2122, 2123]
+Min Correction Subset: [221, 224]
+Iter 16: 
+Min Hitting Set: [198, 224, 242, 253, 257, 2122, 2123]
+Min Correction Subset: [230, 241, 251]
+Optimal IIS
+IIS generation
+Instance: j9026_3
+----------------------------
+Query: 2
+Query element:63,184
+Query scope: 25310
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 4466.212
+IIS Constraint: 198; precedence; {activity:72,predecessor:63}
+IIS Constraint: 224; precedence; {activity:81,predecessor:72}
+IIS Constraint: 241; precedence; {activity:87,predecessor:81}
+IIS Constraint: 253; precedence; {activity:91,predecessor:87}
+IIS Constraint: 257; precedence; {activity:92,predecessor:91}
+IIS Constraint: 2122; query; {activity:63,t:184,query:2}
+IIS Constraint: 2123; max; {f:80.0,objective:max}

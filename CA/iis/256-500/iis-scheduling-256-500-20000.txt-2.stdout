@@ -1,0 +1,18 @@
+IIS generation
+Instance: scheduling-256-500-20000
+----------------------------
+Query: 11
+Query element:256
+Query element:100
+Query scope: 97
+Query scope: 98
+Query scope: 99
+Query scope: 100
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 0.20639
+IIS Constraint: 256; goods; {good:256}
+IIS Constraint: 257; goods; {good:257}
+IIS Constraint: 258; goods; {good:258}
+IIS Constraint: 259; query; {goods:[256,100],query:11}
+IIS Constraint: 260; max; {f:39.322010000000006,objective:max}

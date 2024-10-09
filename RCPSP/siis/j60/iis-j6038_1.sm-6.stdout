@@ -1,0 +1,33 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [1557]
+Iter 2: 
+Min Hitting Set: [1557]
+Min Correction Subset: [46, 48, 245, 1558]
+Iter 3: 
+Min Hitting Set: [46, 1557]
+Min Correction Subset: [48, 147, 149, 245, 1558]
+Iter 4: 
+Min Hitting Set: [48, 1557]
+Min Correction Subset: [46, 152, 153, 245, 1558]
+Optimal IIS
+IIS generation
+Instance: j6038_1
+----------------------------
+Query: 6
+Query element:47,52
+Query element:49,52
+Query element:51,52
+Query element:27,51
+Query element:46,51
+Query scope: 12962
+Query scope: 13523
+Query scope: 14079
+Query scope: 7349
+Query scope: 12694
+----------------------------
+IIS optimality: infeasible
+IIS solution time: 1090.631
+IIS Constraint: 245; renewable; {resource:1,t:52}
+IIS Constraint: 1557; query; {activities:[47,49,51,27,46],t:52,query:6}

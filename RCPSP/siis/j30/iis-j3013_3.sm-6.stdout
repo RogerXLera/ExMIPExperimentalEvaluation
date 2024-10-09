@@ -1,0 +1,65 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [785]
+Iter 2: 
+Min Hitting Set: [785]
+Min Correction Subset: [77]
+Iter 3: 
+Min Hitting Set: [77, 785]
+Min Correction Subset: [79]
+Iter 4: 
+Min Hitting Set: [77, 79, 785]
+Min Correction Subset: [78]
+Iter 5: 
+Min Hitting Set: [77, 78, 79, 785]
+Min Correction Subset: [75]
+Iter 6: 
+Min Hitting Set: [75, 77, 78, 79, 785]
+Min Correction Subset: [70]
+Iter 7: 
+Min Hitting Set: [70, 75, 77, 78, 79, 785]
+Min Correction Subset: [73]
+Iter 8: 
+Min Hitting Set: [70, 73, 75, 77, 78, 79, 785]
+Min Correction Subset: [62]
+Iter 9: 
+Min Hitting Set: [62, 70, 73, 75, 77, 78, 79, 785]
+Min Correction Subset: [65]
+Iter 10: 
+Min Hitting Set: [62, 65, 70, 73, 75, 77, 78, 79, 785]
+Min Correction Subset: [64]
+Iter 11: 
+Min Hitting Set: [62, 64, 65, 70, 73, 75, 77, 78, 79, 785]
+Min Correction Subset: [69]
+Iter 12: 
+Min Hitting Set: [62, 64, 65, 69, 70, 73, 75, 77, 78, 79, 785]
+Min Correction Subset: [57]
+Iter 13: 
+Min Hitting Set: [57, 62, 64, 65, 69, 70, 73, 75, 77, 78, 79, 785]
+Min Correction Subset: [20, 55]
+IIS generation
+Instance: j3013_3
+----------------------------
+Query: 6
+Query element:11,43
+Query element:7,40
+Query element:13,40
+Query scope: 1386
+Query scope: 842
+Query scope: 1648
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36015.171
+IIS Constraint: 57; precedence; {activity:23,predecessor:22}
+IIS Constraint: 62; precedence; {activity:25,predecessor:23}
+IIS Constraint: 64; precedence; {activity:26,predecessor:15}
+IIS Constraint: 65; precedence; {activity:26,predecessor:21}
+IIS Constraint: 69; precedence; {activity:29,predecessor:20}
+IIS Constraint: 70; precedence; {activity:29,predecessor:24}
+IIS Constraint: 73; precedence; {activity:30,predecessor:25}
+IIS Constraint: 75; precedence; {activity:31,predecessor:26}
+IIS Constraint: 77; precedence; {activity:32,predecessor:29}
+IIS Constraint: 78; precedence; {activity:32,predecessor:30}
+IIS Constraint: 79; precedence; {activity:32,predecessor:31}
+IIS Constraint: 785; max; {f:77.0,objective:max}

@@ -1,0 +1,536 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [92]
+Iter 2: 
+Min Hitting Set: [92]
+Min Correction Subset: [945]
+Iter 3: 
+Min Hitting Set: [92, 945]
+Min Correction Subset: [98]
+Iter 4: 
+Min Hitting Set: [92, 98, 945]
+Min Correction Subset: [83]
+Iter 5: 
+Min Hitting Set: [83, 92, 98, 945]
+Min Correction Subset: [78]
+Iter 6: 
+Min Hitting Set: [78, 83, 92, 98, 945]
+Min Correction Subset: [84]
+Iter 7: 
+Min Hitting Set: [78, 83, 84, 92, 98, 945]
+Min Correction Subset: [80]
+Iter 8: 
+Min Hitting Set: [78, 80, 83, 84, 92, 98, 945]
+Min Correction Subset: [91]
+Iter 9: 
+Min Hitting Set: [78, 80, 83, 84, 91, 92, 98, 945]
+Min Correction Subset: [71]
+Iter 10: 
+Min Hitting Set: [71, 78, 80, 83, 84, 91, 92, 98, 945]
+Min Correction Subset: [62]
+Iter 11: 
+Min Hitting Set: [62, 71, 78, 80, 83, 84, 91, 92, 98, 945]
+Min Correction Subset: [73]
+Iter 12: 
+Min Hitting Set: [62, 71, 73, 78, 80, 83, 84, 91, 92, 98, 945]
+Min Correction Subset: [61, 75]
+Iter 13: 
+Min Hitting Set: [61, 62, 71, 73, 78, 80, 83, 84, 91, 92, 98, 945]
+Min Correction Subset: [57, 70]
+Iter 14: 
+Min Hitting Set: [57, 61, 62, 71, 73, 78, 80, 83, 84, 91, 92, 98, 945]
+Min Correction Subset: [75, 839]
+Iter 15: 
+Min Hitting Set: [57, 62, 71, 73, 75, 78, 80, 83, 84, 91, 92, 98, 945]
+Min Correction Subset: [655, 656]
+Iter 16: 
+Min Hitting Set: [57, 62, 71, 73, 75, 78, 80, 83, 84, 91, 92, 98, 655, 945]
+Min Correction Subset: [820, 822]
+Iter 17: 
+Min Hitting Set: [57, 62, 71, 73, 75, 78, 80, 83, 84, 91, 92, 98, 655, 820, 945]
+Min Correction Subset: [663, 664]
+Iter 18: 
+Min Hitting Set: [57, 62, 71, 73, 75, 78, 80, 83, 84, 91, 92, 98, 655, 663, 820, 945]
+Min Correction Subset: [58, 60]
+Iter 19: 
+Min Hitting Set: [57, 58, 62, 71, 73, 75, 78, 80, 83, 84, 91, 92, 98, 655, 663, 820, 945]
+Min Correction Subset: [664, 665]
+Iter 20: 
+Min Hitting Set: [57, 58, 62, 71, 73, 75, 78, 80, 83, 84, 91, 92, 98, 655, 664, 820, 945]
+Min Correction Subset: [661, 662]
+Iter 21: 
+Min Hitting Set: [57, 58, 62, 71, 73, 75, 78, 80, 83, 84, 91, 92, 98, 655, 661, 664, 820, 945]
+Min Correction Subset: [81, 827]
+Iter 22: 
+Min Hitting Set: [57, 58, 62, 71, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 655, 661, 664, 820, 945]
+Min Correction Subset: [656, 663]
+Iter 23: 
+Min Hitting Set: [57, 58, 62, 71, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 656, 661, 664, 820, 945]
+Min Correction Subset: [76, 823]
+Iter 24: 
+Min Hitting Set: [57, 58, 62, 71, 73, 75, 76, 78, 80, 81, 83, 84, 91, 92, 98, 656, 661, 664, 820, 945]
+Min Correction Subset: [21, 69, 70]
+Iter 25: 
+Min Hitting Set: [58, 62, 70, 71, 73, 75, 76, 78, 80, 81, 83, 84, 91, 92, 98, 656, 661, 664, 820, 945]
+Min Correction Subset: [15, 54, 55]
+Iter 26: 
+Min Hitting Set: [15, 58, 62, 70, 71, 73, 75, 76, 78, 80, 81, 83, 84, 91, 92, 98, 656, 661, 664, 820, 945]
+Min Correction Subset: [663, 821, 825]
+Iter 27: 
+Min Hitting Set: [15, 58, 62, 70, 71, 73, 75, 76, 78, 80, 81, 83, 84, 91, 92, 98, 655, 661, 663, 664, 820, 945]
+Min Correction Subset: [147, 662, 687]
+Iter 28: 
+Min Hitting Set: [15, 58, 62, 70, 71, 73, 75, 76, 78, 80, 81, 83, 84, 91, 92, 98, 656, 662, 663, 665, 820, 945]
+Min Correction Subset: [491, 492, 824]
+Iter 29: 
+Min Hitting Set: [15, 58, 62, 70, 71, 73, 75, 76, 78, 80, 81, 83, 84, 91, 92, 98, 491, 656, 662, 663, 665, 820, 945]
+Min Correction Subset: [494, 495, 823]
+Iter 30: 
+Min Hitting Set: [15, 58, 62, 70, 71, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 491, 655, 662, 663, 664, 820, 823, 945]
+Min Correction Subset: [17, 59, 60, 822]
+Iter 31: 
+Min Hitting Set: [15, 60, 62, 70, 71, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 491, 656, 662, 663, 665, 822, 823, 945]
+Min Correction Subset: [820, 825]
+Iter 32: 
+Min Hitting Set: [15, 60, 62, 70, 71, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 491, 656, 662, 664, 820, 823, 825, 945]
+Min Correction Subset: [58, 831]
+Iter 33: 
+Min Hitting Set: [15, 58, 62, 70, 71, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 491, 656, 662, 664, 822, 823, 825, 945]
+Min Correction Subset: [820, 826]
+Iter 34: 
+Min Hitting Set: [15, 58, 60, 62, 70, 71, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 491, 656, 662, 663, 664, 820, 823, 945]
+Min Correction Subset: [13, 49, 50, 51]
+Iter 35: 
+Min Hitting Set: [13, 15, 58, 60, 62, 70, 71, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 491, 656, 662, 663, 664, 820, 823, 945]
+Min Correction Subset: [3, 12, 47, 48]
+Iter 36: 
+Min Hitting Set: [3, 13, 15, 58, 60, 62, 70, 71, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 491, 656, 662, 663, 664, 820, 823, 945]
+Min Correction Subset: [12, 46, 47, 48]
+Iter 37: 
+Min Hitting Set: [13, 15, 47, 58, 60, 62, 70, 71, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 491, 656, 662, 663, 664, 820, 823, 945]
+Min Correction Subset: [72, 478, 479, 480]
+Iter 38: 
+Min Hitting Set: [13, 15, 47, 58, 60, 62, 70, 71, 72, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 491, 656, 662, 663, 664, 820, 823, 945]
+Min Correction Subset: [147, 148, 687, 688]
+Iter 39: 
+Min Hitting Set: [13, 15, 47, 58, 60, 62, 70, 71, 72, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 491, 656, 662, 663, 664, 687, 820, 823, 945]
+Min Correction Subset: [495, 496, 497, 826]
+Iter 40: 
+Min Hitting Set: [12, 13, 15, 58, 62, 70, 71, 72, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 491, 656, 662, 664, 687, 822, 823, 825, 826, 945]
+Min Correction Subset: [820, 824]
+Iter 41: 
+Min Hitting Set: [12, 13, 15, 58, 62, 70, 71, 72, 73, 75, 78, 80, 81, 83, 84, 91, 92, 98, 656, 662, 664, 687, 822, 823, 824, 825, 826, 945]
+Min Correction Subset: [61, 820, 827]
+Iter 42: 
+Min Hitting Set: [13, 15, 47, 58, 62, 70, 71, 72, 73, 75, 78, 80, 83, 84, 91, 92, 98, 656, 662, 664, 687, 822, 823, 824, 825, 826, 827, 945]
+Min Correction Subset: [81, 97, 489]
+IIS generation
+Instance: j3043_5
+----------------------------
+Query: 8
+Query element:15,27
+Query element:18,22
+Query scope: 1790
+Query scope: 2152
+Query scope: 4077
+Query scope: 1791
+Query scope: 2153
+Query scope: 4078
+Query scope: 1792
+Query scope: 2154
+Query scope: 4079
+Query scope: 1793
+Query scope: 2155
+Query scope: 4080
+Query scope: 1794
+Query scope: 2156
+Query scope: 4081
+Query scope: 1795
+Query scope: 2157
+Query scope: 4082
+Query scope: 1796
+Query scope: 2158
+Query scope: 4083
+Query scope: 1797
+Query scope: 2159
+Query scope: 4084
+Query scope: 1798
+Query scope: 2160
+Query scope: 4085
+Query scope: 1799
+Query scope: 2161
+Query scope: 4086
+Query scope: 1800
+Query scope: 2162
+Query scope: 4087
+Query scope: 1801
+Query scope: 2163
+Query scope: 4088
+Query scope: 1802
+Query scope: 2164
+Query scope: 4089
+Query scope: 1803
+Query scope: 2165
+Query scope: 4090
+Query scope: 1804
+Query scope: 2166
+Query scope: 4091
+Query scope: 1805
+Query scope: 2167
+Query scope: 4092
+Query scope: 1806
+Query scope: 2168
+Query scope: 4093
+Query scope: 1807
+Query scope: 2169
+Query scope: 4094
+Query scope: 1808
+Query scope: 2170
+Query scope: 4095
+Query scope: 1809
+Query scope: 2171
+Query scope: 4096
+Query scope: 1810
+Query scope: 2172
+Query scope: 4097
+Query scope: 1811
+Query scope: 2173
+Query scope: 4098
+Query scope: 1812
+Query scope: 2174
+Query scope: 4099
+Query scope: 1813
+Query scope: 2175
+Query scope: 4100
+Query scope: 1814
+Query scope: 2176
+Query scope: 4101
+Query scope: 1815
+Query scope: 2177
+Query scope: 4102
+Query scope: 1816
+Query scope: 2178
+Query scope: 4103
+Query scope: 1817
+Query scope: 2179
+Query scope: 4104
+Query scope: 1818
+Query scope: 2180
+Query scope: 4105
+Query scope: 1819
+Query scope: 2181
+Query scope: 4106
+Query scope: 1820
+Query scope: 2182
+Query scope: 4107
+Query scope: 1821
+Query scope: 2183
+Query scope: 4108
+Query scope: 1822
+Query scope: 2184
+Query scope: 4109
+Query scope: 1823
+Query scope: 2185
+Query scope: 4110
+Query scope: 1824
+Query scope: 2186
+Query scope: 4111
+Query scope: 1825
+Query scope: 2187
+Query scope: 4112
+Query scope: 1826
+Query scope: 2188
+Query scope: 4113
+Query scope: 1827
+Query scope: 2189
+Query scope: 4114
+Query scope: 1828
+Query scope: 2190
+Query scope: 4115
+Query scope: 1829
+Query scope: 2191
+Query scope: 4116
+Query scope: 1830
+Query scope: 2192
+Query scope: 4117
+Query scope: 1831
+Query scope: 2193
+Query scope: 4118
+Query scope: 1832
+Query scope: 2194
+Query scope: 4119
+Query scope: 1833
+Query scope: 2195
+Query scope: 4120
+Query scope: 1834
+Query scope: 2196
+Query scope: 4121
+Query scope: 1835
+Query scope: 2197
+Query scope: 4122
+Query scope: 1836
+Query scope: 2198
+Query scope: 4123
+Query scope: 1837
+Query scope: 2199
+Query scope: 4124
+Query scope: 1838
+Query scope: 2200
+Query scope: 4125
+Query scope: 1839
+Query scope: 2201
+Query scope: 4126
+Query scope: 1840
+Query scope: 2202
+Query scope: 4127
+Query scope: 1841
+Query scope: 2203
+Query scope: 4128
+Query scope: 1842
+Query scope: 2204
+Query scope: 4129
+Query scope: 1843
+Query scope: 2205
+Query scope: 4130
+Query scope: 1844
+Query scope: 2206
+Query scope: 4131
+Query scope: 1845
+Query scope: 2207
+Query scope: 4132
+Query scope: 1846
+Query scope: 2208
+Query scope: 4133
+Query scope: 1847
+Query scope: 2209
+Query scope: 4134
+Query scope: 1848
+Query scope: 2210
+Query scope: 4135
+Query scope: 1849
+Query scope: 2211
+Query scope: 4136
+Query scope: 1850
+Query scope: 2212
+Query scope: 4137
+Query scope: 1851
+Query scope: 2213
+Query scope: 4138
+Query scope: 1852
+Query scope: 2214
+Query scope: 4139
+Query scope: 1853
+Query scope: 2215
+Query scope: 4140
+Query scope: 1854
+Query scope: 2216
+Query scope: 4141
+Query scope: 1855
+Query scope: 2217
+Query scope: 4142
+Query scope: 1856
+Query scope: 2218
+Query scope: 4143
+Query scope: 1857
+Query scope: 2219
+Query scope: 4144
+Query scope: 1858
+Query scope: 2220
+Query scope: 4145
+Query scope: 1859
+Query scope: 2221
+Query scope: 4146
+Query scope: 1860
+Query scope: 2222
+Query scope: 4147
+Query scope: 1861
+Query scope: 2223
+Query scope: 4148
+Query scope: 1862
+Query scope: 2224
+Query scope: 4149
+Query scope: 1863
+Query scope: 2225
+Query scope: 4150
+Query scope: 1864
+Query scope: 2226
+Query scope: 4151
+Query scope: 1865
+Query scope: 2227
+Query scope: 4152
+Query scope: 1866
+Query scope: 2228
+Query scope: 4153
+Query scope: 1867
+Query scope: 2229
+Query scope: 4154
+Query scope: 1868
+Query scope: 2230
+Query scope: 4155
+Query scope: 1869
+Query scope: 2231
+Query scope: 4156
+Query scope: 1870
+Query scope: 2232
+Query scope: 4157
+Query scope: 1871
+Query scope: 2233
+Query scope: 4158
+Query scope: 1872
+Query scope: 2234
+Query scope: 4159
+Query scope: 1873
+Query scope: 2235
+Query scope: 4160
+Query scope: 1874
+Query scope: 2236
+Query scope: 4161
+Query scope: 1875
+Query scope: 2237
+Query scope: 4162
+Query scope: 1876
+Query scope: 2238
+Query scope: 4163
+Query scope: 1877
+Query scope: 2239
+Query scope: 4164
+Query scope: 1878
+Query scope: 2240
+Query scope: 4165
+Query scope: 1879
+Query scope: 2241
+Query scope: 4166
+Query scope: 1880
+Query scope: 2242
+Query scope: 4167
+Query scope: 1881
+Query scope: 2243
+Query scope: 4168
+Query scope: 1882
+Query scope: 2244
+Query scope: 4169
+Query scope: 1883
+Query scope: 2245
+Query scope: 4170
+Query scope: 1884
+Query scope: 2246
+Query scope: 4171
+Query scope: 1885
+Query scope: 2247
+Query scope: 4172
+Query scope: 1886
+Query scope: 2248
+Query scope: 4173
+Query scope: 1887
+Query scope: 2249
+Query scope: 4174
+Query scope: 1888
+Query scope: 2250
+Query scope: 4175
+Query scope: 1889
+Query scope: 2251
+Query scope: 4176
+Query scope: 1890
+Query scope: 2252
+Query scope: 4177
+Query scope: 1891
+Query scope: 2253
+Query scope: 4178
+Query scope: 1892
+Query scope: 2254
+Query scope: 4179
+Query scope: 1893
+Query scope: 2255
+Query scope: 4180
+Query scope: 1894
+Query scope: 2256
+Query scope: 4181
+Query scope: 1895
+Query scope: 2257
+Query scope: 4182
+Query scope: 1896
+Query scope: 2258
+Query scope: 4183
+Query scope: 1897
+Query scope: 2259
+Query scope: 4184
+Query scope: 1898
+Query scope: 2260
+Query scope: 4185
+Query scope: 1899
+Query scope: 2261
+Query scope: 4186
+Query scope: 1900
+Query scope: 2262
+Query scope: 4187
+Query scope: 1901
+Query scope: 2263
+Query scope: 4188
+Query scope: 1902
+Query scope: 2264
+Query scope: 4189
+Query scope: 1903
+Query scope: 2265
+Query scope: 4190
+Query scope: 1904
+Query scope: 2266
+Query scope: 4191
+Query scope: 1905
+Query scope: 2267
+Query scope: 4192
+Query scope: 1906
+Query scope: 2268
+Query scope: 4193
+Query scope: 1907
+Query scope: 2269
+Query scope: 4194
+Query scope: 1908
+Query scope: 2270
+Query scope: 4195
+Query scope: 1909
+Query scope: 2271
+Query scope: 4196
+Query scope: 1910
+Query scope: 2272
+Query scope: 4197
+Query scope: 1911
+Query scope: 2273
+Query scope: 4198
+Query scope: 1912
+Query scope: 2274
+Query scope: 4199
+Query scope: 1913
+Query scope: 2275
+Query scope: 4200
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36002.060
+IIS Constraint: 13; completion; {activity:14}
+IIS Constraint: 15; completion; {activity:16}
+IIS Constraint: 47; precedence; {activity:13,predecessor:11}
+IIS Constraint: 58; precedence; {activity:17,predecessor:16}
+IIS Constraint: 62; precedence; {activity:19,predecessor:17}
+IIS Constraint: 70; precedence; {activity:22,predecessor:13}
+IIS Constraint: 71; precedence; {activity:23,predecessor:14}
+IIS Constraint: 72; precedence; {activity:23,predecessor:15}
+IIS Constraint: 73; precedence; {activity:23,predecessor:22}
+IIS Constraint: 75; precedence; {activity:24,predecessor:18}
+IIS Constraint: 78; precedence; {activity:25,predecessor:23}
+IIS Constraint: 80; precedence; {activity:26,predecessor:19}
+IIS Constraint: 83; precedence; {activity:27,predecessor:25}
+IIS Constraint: 84; precedence; {activity:27,predecessor:26}
+IIS Constraint: 91; precedence; {activity:30,predecessor:20}
+IIS Constraint: 92; precedence; {activity:30,predecessor:27}
+IIS Constraint: 98; precedence; {activity:32,predecessor:30}
+IIS Constraint: 656; renewable; {resource:4,t:16}
+IIS Constraint: 662; renewable; {resource:4,t:22}
+IIS Constraint: 664; renewable; {resource:4,t:24}
+IIS Constraint: 687; renewable; {resource:4,t:47}
+IIS Constraint: 822; query; {activities:[15,18],t:24,query:8}
+IIS Constraint: 823; query; {activities:[15,18],t:25,query:8}
+IIS Constraint: 824; query; {activities:[15,18],t:26,query:8}
+IIS Constraint: 825; query; {activities:[15,18],t:27,query:8}
+IIS Constraint: 826; query; {activities:[15,18],t:28,query:8}
+IIS Constraint: 827; query; {activities:[15,18],t:29,query:8}
+IIS Constraint: 945; max; {f:64.0,objective:max}

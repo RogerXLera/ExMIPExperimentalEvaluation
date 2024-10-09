@@ -1,0 +1,109 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [99]
+Iter 2: 
+Min Hitting Set: [99]
+Min Correction Subset: [88]
+Iter 3: 
+Min Hitting Set: [88, 99]
+Min Correction Subset: [78]
+Iter 4: 
+Min Hitting Set: [78, 88, 99]
+Min Correction Subset: [76]
+Iter 5: 
+Min Hitting Set: [76, 78, 88, 99]
+Min Correction Subset: [93]
+Iter 6: 
+Min Hitting Set: [76, 78, 88, 93, 99]
+Min Correction Subset: [91]
+Iter 7: 
+Min Hitting Set: [76, 78, 88, 91, 93, 99]
+Min Correction Subset: [77]
+Iter 8: 
+Min Hitting Set: [76, 77, 78, 88, 91, 93, 99]
+Min Correction Subset: [90]
+Iter 9: 
+Min Hitting Set: [76, 77, 78, 88, 90, 91, 93, 99]
+Min Correction Subset: [92]
+Iter 10: 
+Min Hitting Set: [76, 77, 78, 88, 90, 91, 92, 93, 99]
+Min Correction Subset: [97]
+Iter 11: 
+Min Hitting Set: [76, 77, 78, 88, 90, 91, 92, 93, 97, 99]
+Min Correction Subset: [95]
+Iter 12: 
+Min Hitting Set: [76, 77, 78, 88, 90, 91, 92, 93, 95, 97, 99]
+Min Correction Subset: [83]
+Iter 13: 
+Min Hitting Set: [76, 77, 78, 83, 88, 90, 91, 92, 93, 95, 97, 99]
+Min Correction Subset: [87]
+Iter 14: 
+Min Hitting Set: [76, 77, 78, 83, 87, 88, 90, 91, 92, 93, 95, 97, 99]
+Min Correction Subset: [84]
+Iter 15: 
+Min Hitting Set: [76, 77, 78, 83, 84, 87, 88, 90, 91, 92, 93, 95, 97, 99]
+Min Correction Subset: [86]
+Iter 16: 
+Min Hitting Set: [76, 77, 78, 83, 84, 86, 87, 88, 90, 91, 92, 93, 95, 97, 99]
+Min Correction Subset: [79]
+Iter 17: 
+Min Hitting Set: [76, 77, 78, 79, 83, 84, 86, 87, 88, 90, 91, 92, 93, 95, 97, 99]
+Min Correction Subset: [82]
+Iter 18: 
+Min Hitting Set: [76, 77, 78, 79, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 95, 97, 99]
+Min Correction Subset: [94]
+Iter 19: 
+Min Hitting Set: [76, 77, 78, 79, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 97, 99]
+Min Correction Subset: [96]
+Iter 20: 
+Min Hitting Set: [76, 77, 78, 79, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 99]
+Min Correction Subset: [98]
+Iter 21: 
+Min Hitting Set: [76, 77, 78, 79, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [57]
+Iter 22: 
+Min Hitting Set: [57, 76, 77, 78, 79, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [64, 85]
+Iter 23: 
+Min Hitting Set: [57, 64, 76, 77, 78, 79, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [9, 23]
+Iter 24: 
+Min Hitting Set: [9, 57, 64, 76, 77, 78, 79, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [63, 80]
+Iter 25: 
+Min Hitting Set: [9, 57, 63, 64, 76, 77, 78, 79, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [24, 59]
+Iter 26: 
+Min Hitting Set: [9, 24, 57, 63, 64, 76, 77, 78, 79, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [37, 80]
+Iter 27: 
+Min Hitting Set: [9, 24, 57, 64, 76, 77, 78, 79, 80, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [23, 89]
+Iter 28: 
+Min Hitting Set: [23, 24, 57, 64, 76, 77, 78, 79, 80, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [59, 85]
+Iter 29: 
+Min Hitting Set: [23, 57, 59, 76, 77, 78, 79, 80, 82, 83, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [64, 89]
+Iter 30: 
+Min Hitting Set: [23, 57, 59, 64, 76, 77, 78, 79, 80, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [37, 51]
+Iter 31: 
+Min Hitting Set: [23, 37, 57, 59, 64, 76, 77, 78, 79, 80, 82, 83, 84, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [55, 85]
+Iter 32: 
+Min Hitting Set: [23, 37, 57, 59, 64, 76, 77, 78, 79, 80, 82, 83, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [6, 24]
+Iter 33: 
+Min Hitting Set: [23, 24, 37, 57, 64, 76, 77, 78, 79, 80, 82, 83, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [6, 44]
+Iter 34: 
+Min Hitting Set: [6, 23, 24, 37, 57, 64, 76, 77, 78, 79, 80, 82, 83, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [14, 56, 89]
+Iter 35: 
+Min Hitting Set: [6, 23, 24, 37, 57, 76, 77, 78, 79, 80, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [64, 81]
+Iter 36: 
+Min Hitting Set: [6, 23, 24, 37, 57, 64, 76, 77, 78, 79, 80, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Min Correction Subset: [14, 56, 81]

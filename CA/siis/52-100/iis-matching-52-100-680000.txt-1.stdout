@@ -1,0 +1,67 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [69]
+Iter 2: 
+Min Hitting Set: [69]
+Min Correction Subset: [55]
+Iter 3: 
+Min Hitting Set: [55, 69]
+Min Correction Subset: [60]
+Iter 4: 
+Min Hitting Set: [55, 60, 69]
+Min Correction Subset: [4]
+Iter 5: 
+Min Hitting Set: [4, 55, 60, 69]
+Min Correction Subset: [68]
+Iter 6: 
+Min Hitting Set: [4, 55, 60, 68, 69]
+Min Correction Subset: [54]
+Iter 7: 
+Min Hitting Set: [4, 54, 55, 60, 68, 69]
+Min Correction Subset: [65]
+Iter 8: 
+Min Hitting Set: [4, 54, 55, 60, 65, 68, 69]
+Min Correction Subset: [0]
+Iter 9: 
+Min Hitting Set: [0, 4, 54, 55, 60, 65, 68, 69]
+Min Correction Subset: [59]
+Iter 10: 
+Min Hitting Set: [0, 4, 54, 55, 59, 60, 65, 68, 69]
+Min Correction Subset: [67]
+Iter 11: 
+Min Hitting Set: [0, 4, 54, 55, 59, 60, 65, 67, 68, 69]
+Min Correction Subset: [5, 63]
+Iter 12: 
+Min Hitting Set: [0, 4, 5, 54, 55, 59, 60, 65, 67, 68, 69]
+Min Correction Subset: [1, 63]
+Iter 13: 
+Min Hitting Set: [0, 4, 54, 55, 59, 60, 63, 65, 67, 68, 69]
+Min Correction Subset: [5, 58]
+Iter 14: 
+Min Hitting Set: [0, 4, 5, 54, 55, 59, 60, 63, 65, 67, 68, 69]
+Min Correction Subset: [52, 58]
+Iter 15: 
+Min Hitting Set: [0, 4, 54, 55, 58, 59, 60, 63, 65, 67, 68, 69]
+Min Correction Subset: [5, 52]
+Iter 16: 
+Min Hitting Set: [0, 4, 5, 52, 54, 55, 59, 60, 63, 65, 67, 68, 69]
+Min Correction Subset: [1, 61]
+Iter 17: 
+Min Hitting Set: [0, 1, 4, 5, 52, 54, 55, 59, 60, 65, 67, 68, 69]
+Min Correction Subset: [9, 63]
+Iter 18: 
+Min Hitting Set: [0, 1, 4, 5, 52, 54, 55, 59, 60, 63, 65, 67, 68, 69]
+Min Correction Subset: [9, 58]
+Iter 19: 
+Min Hitting Set: [0, 1, 4, 52, 54, 55, 58, 59, 60, 63, 65, 67, 68, 69]
+Min Correction Subset: [5, 19]
+Iter 20: 
+Min Hitting Set: [0, 1, 4, 5, 9, 54, 55, 58, 59, 60, 65, 67, 68, 69]
+Min Correction Subset: [13, 52]
+Iter 21: 
+Min Hitting Set: [0, 1, 4, 5, 9, 52, 54, 55, 59, 60, 65, 67, 68, 69]
+Min Correction Subset: [58, 63]
+Iter 22: 
+Min Hitting Set: [0, 1, 4, 5, 9, 52, 54, 55, 58, 59, 60, 65, 67, 68, 69]
+Min Correction Subset: [13, 44, 63]

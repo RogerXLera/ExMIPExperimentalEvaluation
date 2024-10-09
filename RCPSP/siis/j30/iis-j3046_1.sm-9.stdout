@@ -1,0 +1,66 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [97]
+Iter 2: 
+Min Hitting Set: [97]
+Min Correction Subset: [705]
+Iter 3: 
+Min Hitting Set: [97, 705]
+Min Correction Subset: [90]
+Iter 4: 
+Min Hitting Set: [90, 97, 705]
+Min Correction Subset: [86]
+Iter 5: 
+Min Hitting Set: [86, 90, 97, 705]
+Min Correction Subset: [73]
+Iter 6: 
+Min Hitting Set: [73, 86, 90, 97, 705]
+Min Correction Subset: [258]
+Iter 7: 
+Min Hitting Set: [73, 86, 90, 97, 258, 705]
+Min Correction Subset: [44]
+Iter 8: 
+Min Hitting Set: [44, 73, 86, 90, 97, 258, 705]
+Min Correction Subset: [99]
+Iter 9: 
+Min Hitting Set: [44, 73, 86, 90, 97, 99, 258, 705]
+Min Correction Subset: [437]
+Iter 10: 
+Min Hitting Set: [44, 73, 86, 90, 97, 99, 258, 437, 705]
+Min Correction Subset: [89]
+Iter 11: 
+Min Hitting Set: [44, 73, 86, 89, 90, 97, 99, 258, 437, 705]
+Min Correction Subset: [704]
+Iter 12: 
+Min Hitting Set: [44, 73, 86, 89, 90, 97, 99, 258, 437, 704, 705]
+Min Correction Subset: [274]
+Iter 13: 
+Min Hitting Set: [44, 73, 86, 89, 90, 97, 99, 258, 274, 437, 704, 705]
+Min Correction Subset: [273]
+Iter 14: 
+Min Hitting Set: [44, 73, 86, 89, 90, 97, 99, 258, 273, 274, 437, 704, 705]
+Min Correction Subset: [2, 5]
+IIS generation
+Instance: j3046_1
+----------------------------
+Query: 9
+Query element:25,49
+Query element:25,48
+Query scope: 2508
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36000.969
+IIS Constraint: 44; precedence; {activity:11,predecessor:10}
+IIS Constraint: 73; precedence; {activity:24,predecessor:19}
+IIS Constraint: 86; precedence; {activity:28,predecessor:24}
+IIS Constraint: 89; precedence; {activity:29,predecessor:27}
+IIS Constraint: 90; precedence; {activity:29,predecessor:28}
+IIS Constraint: 97; precedence; {activity:32,predecessor:29}
+IIS Constraint: 99; precedence; {activity:32,predecessor:31}
+IIS Constraint: 258; renewable; {resource:2,t:7}
+IIS Constraint: 273; renewable; {resource:2,t:22}
+IIS Constraint: 274; renewable; {resource:2,t:23}
+IIS Constraint: 437; renewable; {resource:3,t:35}
+IIS Constraint: 704; query; {activity:25,t:49,t_:48,query:9}
+IIS Constraint: 705; max; {f:59.0,objective:max}

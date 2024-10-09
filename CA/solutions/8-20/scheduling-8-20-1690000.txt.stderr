@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/rlera/beegfs/ExMIPcopy/CA/problem.py", line 36, in <module>
+    I.solve(solution_time=args.s,log=False,n_threads=args.t)
+  File "/mnt/beegfs/iiia/rlera/ExMIPcopy/CA/definitions.py", line 133, in solve
+    objective_generation(self)
+  File "/mnt/beegfs/iiia/rlera/ExMIPcopy/CA/formalisation.py", line 110, in objective_generation
+    sum_list += [b.prize*x[j]]
+  File "/home/rlera/.local/lib/python3.8/site-packages/cplex/lib/python/docplex/mp/dvar.py", line 279, in __rmul__
+    return self.times(e)
+  File "/home/rlera/.local/lib/python3.8/site-packages/cplex/lib/python/docplex/mp/dvar.py", line 269, in times
+    return self.lfactory._new_monomial_expr(dvar=self, coeff=e, safe=False)
+  File "/home/rlera/.local/lib/python3.8/site-packages/cplex/lib/python/docplex/mp/mfactory.py", line 578, in _new_monomial_expr
+    return MonomialExpr(self._model, dvar, coeff, safe)
+  File "/home/rlera/.local/lib/python3.8/site-packages/cplex/lib/python/docplex/mp/linear.py", line 89, in __init__
+    self._coef = validfn(coeff) if validfn else coeff
+  File "/home/rlera/.local/lib/python3.8/site-packages/cplex/lib/python/docplex/mp/tck.py", line 48, in static_validate_num1
+    docplex_fatal(("Expecting valid float number, got: {0!r}".format(e)))
+  File "/home/rlera/.local/lib/python3.8/site-packages/cplex/lib/python/docplex/mp/error_handler.py", line 256, in docplex_fatal
+    raise DOcplexException(resolved_message)
+docplex.mp.utils.DOcplexException: Expecting valid float number, got: nan
+srun: error: c11: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=5898180.0

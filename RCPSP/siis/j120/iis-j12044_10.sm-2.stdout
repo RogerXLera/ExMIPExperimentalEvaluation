@@ -1,0 +1,51 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [3316]
+Iter 2: 
+Min Hitting Set: [3316]
+Min Correction Subset: [3315]
+Iter 3: 
+Min Hitting Set: [3315, 3316]
+Min Correction Subset: [376, 377, 378]
+Iter 4: 
+Min Hitting Set: [376, 3315, 3316]
+Min Correction Subset: [286, 297, 378]
+Iter 5: 
+Min Hitting Set: [378, 3315, 3316]
+Min Correction Subset: [249, 286, 375]
+Iter 6: 
+Min Hitting Set: [286, 378, 3315, 3316]
+Min Correction Subset: [373, 375, 376, 377]
+Iter 7: 
+Min Hitting Set: [375, 378, 3315, 3316]
+Min Correction Subset: [249, 286, 363]
+Iter 8: 
+Min Hitting Set: [286, 377, 3315, 3316]
+Min Correction Subset: [372, 376, 378]
+Iter 9: 
+Min Hitting Set: [286, 376, 3315, 3316]
+Min Correction Subset: [368, 369, 377, 378]
+Iter 10: 
+Min Hitting Set: [286, 376, 377, 3315, 3316]
+Min Correction Subset: [368, 369, 372, 378]
+Iter 11: 
+Min Hitting Set: [286, 375, 378, 3315, 3316]
+Min Correction Subset: [363, 373, 376, 377]
+Iter 12: 
+Min Hitting Set: [363, 375, 378, 3315, 3316]
+Min Correction Subset: [249, 360, 374, 376, 377]
+IIS generation
+Instance: j12044_10
+----------------------------
+Query: 2
+Query element:78,418
+Query scope: 50572
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36238.607
+IIS Constraint: 363; precedence; {activity:117,predecessor:116}
+IIS Constraint: 375; precedence; {activity:121,predecessor:117}
+IIS Constraint: 378; precedence; {activity:122,predecessor:121}
+IIS Constraint: 3315; query; {activity:78,t:418,query:2}
+IIS Constraint: 3316; max; {f:98.0,objective:max}

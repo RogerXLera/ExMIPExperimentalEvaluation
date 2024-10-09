@@ -1,0 +1,65 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2247]
+Iter 2: 
+Min Hitting Set: [2247]
+Min Correction Subset: [2246]
+Iter 3: 
+Min Hitting Set: [2246, 2247]
+Min Correction Subset: [284, 285]
+Iter 4: 
+Min Hitting Set: [284, 2246, 2247]
+Min Correction Subset: [277, 278, 285]
+Iter 5: 
+Min Hitting Set: [285, 2246, 2247]
+Min Correction Subset: [281, 282, 284]
+Iter 6: 
+Min Hitting Set: [284, 285, 2246, 2247]
+Min Correction Subset: [212, 216, 227]
+Iter 7: 
+Min Hitting Set: [212, 284, 285, 2246, 2247]
+Min Correction Subset: [234, 277, 278, 282]
+Iter 8: 
+Min Hitting Set: [212, 282, 285, 2246, 2247]
+Min Correction Subset: [216, 263, 264, 284]
+Iter 9: 
+Min Hitting Set: [216, 282, 285, 2246, 2247]
+Min Correction Subset: [248, 258, 263, 284]
+Iter 10: 
+Min Hitting Set: [216, 278, 284, 2246, 2247]
+Min Correction Subset: [266, 277, 285]
+Iter 11: 
+Min Hitting Set: [216, 277, 284, 2246, 2247]
+Min Correction Subset: [244, 245, 278, 285]
+Iter 12: 
+Min Hitting Set: [216, 277, 278, 284, 2246, 2247]
+Min Correction Subset: [212, 245, 266, 285]
+Iter 13: 
+Min Hitting Set: [212, 277, 278, 284, 2246, 2247]
+Min Correction Subset: [244, 245, 266, 285]
+Iter 14: 
+Min Hitting Set: [212, 277, 284, 285, 2246, 2247]
+Min Correction Subset: [216, 244, 266, 282]
+Iter 15: 
+Min Hitting Set: [216, 277, 284, 285, 2246, 2247]
+Min Correction Subset: [212, 227, 234, 245]
+Iter 16: 
+Min Hitting Set: [212, 282, 284, 285, 2246, 2247]
+Min Correction Subset: [227, 243, 252, 277]
+Optimal IIS
+IIS generation
+Instance: j9039_9
+----------------------------
+Query: 2
+Query element:60,218
+Query scope: 25307
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1456.068
+IIS Constraint: 212; precedence; {activity:68,predecessor:60}
+IIS Constraint: 244; precedence; {activity:79,predecessor:68}
+IIS Constraint: 277; precedence; {activity:90,predecessor:79}
+IIS Constraint: 284; precedence; {activity:92,predecessor:90}
+IIS Constraint: 2246; query; {activity:60,t:218,query:2}
+IIS Constraint: 2247; max; {f:79.0,objective:max}

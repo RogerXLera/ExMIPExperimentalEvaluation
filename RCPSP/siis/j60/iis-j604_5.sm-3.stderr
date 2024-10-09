@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/rlera/beegfs/SmallestIIS/RCPSP/small_iis.py", line 209, in <module>
+    q.read(I,q_filename)
+  File "/mnt/beegfs/iiia/rlera/SmallestIIS/RCPSP/definitions.py", line 269, in read
+    raise f"No query for this instance."
+TypeError: exceptions must derive from BaseException
+srun: error: c07: task 0: Exited with exit code 1
+srun: Terminating StepId=6495857.0

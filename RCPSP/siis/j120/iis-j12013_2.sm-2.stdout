@@ -1,0 +1,66 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2846]
+Iter 2: 
+Min Hitting Set: [2846]
+Min Correction Subset: [249]
+Iter 3: 
+Min Hitting Set: [249, 2846]
+Min Correction Subset: [2845]
+Iter 4: 
+Min Hitting Set: [249, 2845, 2846]
+Min Correction Subset: [302, 304]
+Iter 5: 
+Min Hitting Set: [249, 302, 2845, 2846]
+Min Correction Subset: [295, 304]
+Iter 6: 
+Min Hitting Set: [249, 304, 2845, 2846]
+Min Correction Subset: [301, 302]
+Iter 7: 
+Min Hitting Set: [249, 302, 304, 2845, 2846]
+Min Correction Subset: [295, 301]
+Iter 8: 
+Min Hitting Set: [249, 301, 304, 2845, 2846]
+Min Correction Subset: [289, 302]
+Iter 9: 
+Min Hitting Set: [249, 295, 302, 2845, 2846]
+Min Correction Subset: [262, 304]
+Iter 10: 
+Min Hitting Set: [249, 295, 302, 304, 2845, 2846]
+Min Correction Subset: [274, 301]
+Iter 11: 
+Min Hitting Set: [249, 301, 302, 304, 2845, 2846]
+Min Correction Subset: [289, 295]
+Iter 12: 
+Min Hitting Set: [249, 289, 301, 304, 2845, 2846]
+Min Correction Subset: [286, 302]
+Iter 13: 
+Min Hitting Set: [249, 289, 301, 302, 304, 2845, 2846]
+Min Correction Subset: [286, 295]
+Iter 14: 
+Min Hitting Set: [249, 295, 301, 302, 304, 2845, 2846]
+Min Correction Subset: [274, 289]
+Iter 15: 
+Min Hitting Set: [249, 274, 295, 302, 304, 2845, 2846]
+Min Correction Subset: [262, 301]
+Iter 16: 
+Min Hitting Set: [249, 286, 289, 301, 304, 2845, 2846]
+Min Correction Subset: [277, 302]
+Optimal IIS
+IIS generation
+Instance: j12013_2
+----------------------------
+Query: 2
+Query element:88,288
+Query scope: 50582
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 14702.799
+IIS Constraint: 249; precedence; {activity:101,predecessor:88}
+IIS Constraint: 262; precedence; {activity:107,predecessor:101}
+IIS Constraint: 274; precedence; {activity:112,predecessor:107}
+IIS Constraint: 295; precedence; {activity:119,predecessor:112}
+IIS Constraint: 302; precedence; {activity:122,predecessor:119}
+IIS Constraint: 2845; query; {activity:88,t:288,query:2}
+IIS Constraint: 2846; max; {f:99.0,objective:max}

@@ -1,0 +1,69 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [68]
+Iter 2: 
+Min Hitting Set: [68]
+Min Correction Subset: [37]
+Iter 3: 
+Min Hitting Set: [37, 68]
+Min Correction Subset: [33]
+Iter 4: 
+Min Hitting Set: [33, 37, 68]
+Min Correction Subset: [60]
+Iter 5: 
+Min Hitting Set: [33, 37, 60, 68]
+Min Correction Subset: [21]
+Iter 6: 
+Min Hitting Set: [21, 33, 37, 60, 68]
+Min Correction Subset: [25]
+Iter 7: 
+Min Hitting Set: [21, 25, 33, 37, 60, 68]
+Min Correction Subset: [36]
+Iter 8: 
+Min Hitting Set: [21, 25, 33, 36, 37, 60, 68]
+Min Correction Subset: [29]
+Iter 9: 
+Min Hitting Set: [21, 25, 29, 33, 36, 37, 60, 68]
+Min Correction Subset: [0]
+Iter 10: 
+Min Hitting Set: [0, 21, 25, 29, 33, 36, 37, 60, 68]
+Min Correction Subset: [67]
+Iter 11: 
+Min Hitting Set: [0, 21, 25, 29, 33, 36, 37, 60, 67, 68]
+Min Correction Subset: [17, 41]
+Iter 12: 
+Min Hitting Set: [0, 17, 21, 25, 29, 33, 36, 37, 60, 67, 68]
+Min Correction Subset: [1, 32, 51]
+Iter 13: 
+Min Hitting Set: [0, 1, 17, 21, 25, 29, 33, 36, 37, 60, 67, 68]
+Min Correction Subset: [5, 32, 51]
+Iter 14: 
+Min Hitting Set: [0, 17, 21, 25, 29, 32, 33, 36, 37, 60, 67, 68]
+Min Correction Subset: [1, 28, 51]
+Iter 15: 
+Min Hitting Set: [0, 17, 21, 25, 29, 33, 36, 37, 51, 60, 67, 68]
+Min Correction Subset: [1, 32, 63]
+Optimal IIS
+Instance: matching-40-100-350000
+----------------------------
+Query: 10
+Query element:29
+Query element:22
+Query scope: 86
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 5533.115
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 17; goods; {good:17}
+IIS Constraint: 21; goods; {good:21}
+IIS Constraint: 25; goods; {good:25}
+IIS Constraint: 29; goods; {good:29}
+IIS Constraint: 32; goods; {good:32}
+IIS Constraint: 33; goods; {good:33}
+IIS Constraint: 36; goods; {good:36}
+IIS Constraint: 37; goods; {good:37}
+IIS Constraint: 60; goods; {good:60}
+IIS Constraint: 67; query; {goods:[29,22],query:10}
+IIS Constraint: 68; max; {f:82.66666000000001,objective:max}

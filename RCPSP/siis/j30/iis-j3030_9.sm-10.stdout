@@ -1,0 +1,111 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [804]
+Iter 2: 
+Min Hitting Set: [804]
+Min Correction Subset: [88]
+Iter 3: 
+Min Hitting Set: [88, 804]
+Min Correction Subset: [77]
+Iter 4: 
+Min Hitting Set: [77, 88, 804]
+Min Correction Subset: [83]
+Iter 5: 
+Min Hitting Set: [77, 83, 88, 804]
+Min Correction Subset: [87]
+Iter 6: 
+Min Hitting Set: [77, 83, 87, 88, 804]
+Min Correction Subset: [82]
+Iter 7: 
+Min Hitting Set: [77, 82, 83, 87, 88, 804]
+Min Correction Subset: [73]
+Iter 8: 
+Min Hitting Set: [73, 77, 82, 83, 87, 88, 804]
+Min Correction Subset: [84]
+Iter 9: 
+Min Hitting Set: [73, 77, 82, 83, 84, 87, 88, 804]
+Min Correction Subset: [89]
+Iter 10: 
+Min Hitting Set: [73, 77, 82, 83, 84, 87, 88, 89, 804]
+Min Correction Subset: [50]
+Iter 11: 
+Min Hitting Set: [50, 73, 77, 82, 83, 84, 87, 88, 89, 804]
+Min Correction Subset: [79]
+Iter 12: 
+Min Hitting Set: [50, 73, 77, 79, 82, 83, 84, 87, 88, 89, 804]
+Min Correction Subset: [803]
+Iter 13: 
+Min Hitting Set: [50, 73, 77, 79, 82, 83, 84, 87, 88, 89, 803, 804]
+Min Correction Subset: [80]
+Iter 14: 
+Min Hitting Set: [50, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 803, 804]
+Min Correction Subset: [641]
+Iter 15: 
+Min Hitting Set: [50, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 641, 803, 804]
+Min Correction Subset: [45]
+Iter 16: 
+Min Hitting Set: [45, 50, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 641, 803, 804]
+Min Correction Subset: [71]
+Iter 17: 
+Min Hitting Set: [45, 50, 71, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 641, 803, 804]
+Min Correction Subset: [47, 78]
+Iter 18: 
+Min Hitting Set: [45, 47, 50, 71, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 641, 803, 804]
+Min Correction Subset: [63, 75]
+Iter 19: 
+Min Hitting Set: [45, 47, 50, 63, 71, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 641, 803, 804]
+Min Correction Subset: [21, 60]
+Iter 20: 
+Min Hitting Set: [21, 45, 47, 50, 63, 71, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 641, 803, 804]
+Min Correction Subset: [11, 43]
+Iter 21: 
+Min Hitting Set: [11, 21, 45, 47, 50, 63, 71, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 641, 803, 804]
+Min Correction Subset: [648, 649]
+Iter 22: 
+Min Hitting Set: [11, 21, 45, 47, 50, 63, 71, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 641, 648, 803, 804]
+Min Correction Subset: [3, 12]
+Iter 23: 
+Min Hitting Set: [3, 11, 21, 45, 47, 50, 63, 71, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 641, 648, 803, 804]
+Min Correction Subset: [56, 74]
+Iter 24: 
+Min Hitting Set: [3, 11, 21, 45, 47, 50, 56, 63, 71, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 641, 648, 803, 804]
+Min Correction Subset: [68, 76]
+Iter 25: 
+Min Hitting Set: [3, 11, 21, 45, 47, 50, 56, 63, 68, 71, 73, 77, 79, 80, 82, 83, 84, 87, 88, 89, 641, 648, 803, 804]
+Min Correction Subset: [12, 44]
+IIS generation
+Instance: j3030_9
+----------------------------
+Query: 10
+Query element:24,22
+Query element:17,26
+Query scope: 3284
+Query scope: 2300
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36022.054
+IIS Constraint: 3; completion; {activity:4}
+IIS Constraint: 11; completion; {activity:12}
+IIS Constraint: 21; completion; {activity:22}
+IIS Constraint: 45; precedence; {activity:14,predecessor:6}
+IIS Constraint: 47; precedence; {activity:15,predecessor:14}
+IIS Constraint: 50; precedence; {activity:16,predecessor:15}
+IIS Constraint: 56; precedence; {activity:20,predecessor:13}
+IIS Constraint: 63; precedence; {activity:23,predecessor:20}
+IIS Constraint: 68; precedence; {activity:25,predecessor:24}
+IIS Constraint: 71; precedence; {activity:26,predecessor:23}
+IIS Constraint: 73; precedence; {activity:27,predecessor:12}
+IIS Constraint: 77; precedence; {activity:28,predecessor:27}
+IIS Constraint: 79; precedence; {activity:29,predecessor:21}
+IIS Constraint: 80; precedence; {activity:29,predecessor:26}
+IIS Constraint: 82; precedence; {activity:30,predecessor:25}
+IIS Constraint: 83; precedence; {activity:30,predecessor:28}
+IIS Constraint: 84; precedence; {activity:31,predecessor:16}
+IIS Constraint: 87; precedence; {activity:32,predecessor:29}
+IIS Constraint: 88; precedence; {activity:32,predecessor:30}
+IIS Constraint: 89; precedence; {activity:32,predecessor:31}
+IIS Constraint: 641; renewable; {resource:4,t:17}
+IIS Constraint: 648; renewable; {resource:4,t:24}
+IIS Constraint: 803; query; {activity:17,t:22,query:10}
+IIS Constraint: 804; max; {f:46.0,objective:max}

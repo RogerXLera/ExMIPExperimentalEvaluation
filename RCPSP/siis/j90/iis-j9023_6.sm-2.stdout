@@ -1,0 +1,31 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2019]
+Iter 2: 
+Min Hitting Set: [2019]
+Min Correction Subset: [255]
+Iter 3: 
+Min Hitting Set: [255, 2019]
+Min Correction Subset: [247]
+Iter 4: 
+Min Hitting Set: [247, 255, 2019]
+Min Correction Subset: [240]
+Iter 5: 
+Min Hitting Set: [240, 247, 255, 2019]
+Min Correction Subset: [2018]
+Optimal IIS
+IIS generation
+Instance: j9023_6
+----------------------------
+Query: 2
+Query element:68,373
+Query scope: 25315
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 426.502
+IIS Constraint: 240; precedence; {activity:87,predecessor:68}
+IIS Constraint: 247; precedence; {activity:89,predecessor:87}
+IIS Constraint: 255; precedence; {activity:92,predecessor:89}
+IIS Constraint: 2018; query; {activity:68,t:373,query:2}
+IIS Constraint: 2019; max; {f:87.0,objective:max}

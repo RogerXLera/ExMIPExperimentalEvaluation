@@ -1,0 +1,62 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2023]
+Iter 2: 
+Min Hitting Set: [2023]
+Min Correction Subset: [2022]
+Iter 3: 
+Min Hitting Set: [2022, 2023]
+Min Correction Subset: [255, 256]
+Iter 4: 
+Min Hitting Set: [255, 2022, 2023]
+Min Correction Subset: [248, 256]
+Iter 5: 
+Min Hitting Set: [256, 2022, 2023]
+Min Correction Subset: [251, 255]
+Iter 6: 
+Min Hitting Set: [255, 256, 2022, 2023]
+Min Correction Subset: [248, 251]
+Iter 7: 
+Min Hitting Set: [251, 256, 2022, 2023]
+Min Correction Subset: [235, 255]
+Iter 8: 
+Min Hitting Set: [248, 255, 2022, 2023]
+Min Correction Subset: [245, 256]
+Iter 9: 
+Min Hitting Set: [248, 255, 256, 2022, 2023]
+Min Correction Subset: [245, 251]
+Iter 10: 
+Min Hitting Set: [251, 255, 256, 2022, 2023]
+Min Correction Subset: [203, 248]
+Iter 11: 
+Min Hitting Set: [245, 248, 255, 2022, 2023]
+Min Correction Subset: [242, 256]
+Iter 12: 
+Min Hitting Set: [245, 248, 255, 256, 2022, 2023]
+Min Correction Subset: [242, 251]
+Iter 13: 
+Min Hitting Set: [248, 251, 255, 256, 2022, 2023]
+Min Correction Subset: [235, 245]
+Iter 14: 
+Min Hitting Set: [235, 248, 251, 256, 2022, 2023]
+Min Correction Subset: [203, 255]
+Iter 15: 
+Min Hitting Set: [242, 245, 248, 255, 2022, 2023]
+Min Correction Subset: [239, 251]
+Optimal IIS
+IIS generation
+Instance: j9030_2
+----------------------------
+Query: 2
+Query element:67,122
+Query scope: 25314
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 3184.337
+IIS Constraint: 203; precedence; {activity:74,predecessor:67}
+IIS Constraint: 235; precedence; {activity:85,predecessor:74}
+IIS Constraint: 251; precedence; {activity:90,predecessor:85}
+IIS Constraint: 256; precedence; {activity:92,predecessor:90}
+IIS Constraint: 2022; query; {activity:67,t:122,query:2}
+IIS Constraint: 2023; max; {f:76.0,objective:max}

@@ -1,0 +1,86 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2223]
+Iter 2: 
+Min Hitting Set: [2223]
+Min Correction Subset: [2222]
+Iter 3: 
+Min Hitting Set: [2222, 2223]
+Min Correction Subset: [198, 228, 229]
+Iter 4: 
+Min Hitting Set: [198, 2222, 2223]
+Min Correction Subset: [211, 217, 228]
+Iter 5: 
+Min Hitting Set: [228, 2222, 2223]
+Min Correction Subset: [211, 217, 223]
+Iter 6: 
+Min Hitting Set: [211, 228, 2222, 2223]
+Min Correction Subset: [223, 227, 229]
+Iter 7: 
+Min Hitting Set: [223, 228, 2222, 2223]
+Min Correction Subset: [200, 227, 229]
+Iter 8: 
+Min Hitting Set: [217, 229, 2222, 2223]
+Min Correction Subset: [226, 227, 228]
+Iter 9: 
+Min Hitting Set: [211, 227, 228, 2222, 2223]
+Min Correction Subset: [220, 223, 229]
+Iter 10: 
+Min Hitting Set: [223, 227, 228, 2222, 2223]
+Min Correction Subset: [200, 217, 229]
+Iter 11: 
+Min Hitting Set: [217, 228, 229, 2222, 2223]
+Min Correction Subset: [223, 226, 227]
+Iter 12: 
+Min Hitting Set: [223, 228, 229, 2222, 2223]
+Min Correction Subset: [200, 226, 227]
+Iter 13: 
+Min Hitting Set: [200, 223, 228, 2222, 2223]
+Min Correction Subset: [180, 220, 229]
+Iter 14: 
+Min Hitting Set: [217, 227, 229, 2222, 2223]
+Min Correction Subset: [198, 211, 228]
+Iter 15: 
+Min Hitting Set: [211, 227, 229, 2222, 2223]
+Min Correction Subset: [214, 220, 228]
+Iter 16: 
+Min Hitting Set: [200, 220, 223, 228, 2222, 2223]
+Min Correction Subset: [180, 227, 229]
+Iter 17: 
+Min Hitting Set: [217, 227, 228, 229, 2222, 2223]
+Min Correction Subset: [220, 223, 226]
+Iter 18: 
+Min Hitting Set: [223, 226, 228, 229, 2222, 2223]
+Min Correction Subset: [200, 211, 227]
+Iter 19: 
+Min Hitting Set: [211, 226, 228, 229, 2222, 2223]
+Min Correction Subset: [214, 223, 227]
+Iter 20: 
+Min Hitting Set: [223, 227, 228, 229, 2222, 2223]
+Min Correction Subset: [200, 211, 220]
+Iter 21: 
+Min Hitting Set: [217, 220, 227, 228, 2222, 2223]
+Min Correction Subset: [198, 223, 229]
+Iter 22: 
+Min Hitting Set: [200, 223, 228, 229, 2222, 2223]
+Min Correction Subset: [180, 226, 227]
+Iter 23: 
+Min Hitting Set: [211, 220, 227, 229, 2222, 2223]
+Min Correction Subset: [217, 226, 228]
+Optimal IIS
+IIS generation
+Instance: j907_3
+----------------------------
+Query: 2
+Query element:58,431
+Query scope: 25305
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1738.105
+IIS Constraint: 180; precedence; {activity:71,predecessor:58}
+IIS Constraint: 200; precedence; {activity:82,predecessor:71}
+IIS Constraint: 223; precedence; {activity:90,predecessor:82}
+IIS Constraint: 228; precedence; {activity:92,predecessor:90}
+IIS Constraint: 2222; query; {activity:58,t:431,query:2}
+IIS Constraint: 2223; max; {f:80.0,objective:max}

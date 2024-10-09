@@ -1,0 +1,116 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [92]
+Iter 2: 
+Min Hitting Set: [92]
+Min Correction Subset: [13]
+Iter 3: 
+Min Hitting Set: [13, 92]
+Min Correction Subset: [23]
+Iter 4: 
+Min Hitting Set: [13, 23, 92]
+Min Correction Subset: [37]
+Iter 5: 
+Min Hitting Set: [13, 23, 37, 92]
+Min Correction Subset: [15]
+Iter 6: 
+Min Hitting Set: [13, 15, 23, 37, 92]
+Min Correction Subset: [3]
+Iter 7: 
+Min Hitting Set: [3, 13, 15, 23, 37, 92]
+Min Correction Subset: [64]
+Iter 8: 
+Min Hitting Set: [3, 13, 15, 23, 37, 64, 92]
+Min Correction Subset: [19]
+Iter 9: 
+Min Hitting Set: [3, 13, 15, 19, 23, 37, 64, 92]
+Min Correction Subset: [52]
+Iter 10: 
+Min Hitting Set: [3, 13, 15, 19, 23, 37, 52, 64, 92]
+Min Correction Subset: [61]
+Iter 11: 
+Min Hitting Set: [3, 13, 15, 19, 23, 37, 52, 61, 64, 92]
+Min Correction Subset: [41]
+Iter 12: 
+Min Hitting Set: [3, 13, 15, 19, 23, 37, 41, 52, 61, 64, 92]
+Min Correction Subset: [47]
+Iter 13: 
+Min Hitting Set: [3, 13, 15, 19, 23, 37, 41, 47, 52, 61, 64, 92]
+Min Correction Subset: [5]
+Iter 14: 
+Min Hitting Set: [3, 5, 13, 15, 19, 23, 37, 41, 47, 52, 61, 64, 92]
+Min Correction Subset: [8]
+Iter 15: 
+Min Hitting Set: [3, 5, 8, 13, 15, 19, 23, 37, 41, 47, 52, 61, 64, 92]
+Min Correction Subset: [91]
+Iter 16: 
+Min Hitting Set: [3, 5, 8, 13, 15, 19, 23, 37, 41, 47, 52, 61, 64, 91, 92]
+Min Correction Subset: [38]
+Iter 17: 
+Min Hitting Set: [3, 5, 8, 13, 15, 19, 23, 37, 38, 41, 47, 52, 61, 64, 91, 92]
+Min Correction Subset: [9]
+Iter 18: 
+Min Hitting Set: [3, 5, 8, 9, 13, 15, 19, 23, 37, 38, 41, 47, 52, 61, 64, 91, 92]
+Min Correction Subset: [25]
+Iter 19: 
+Min Hitting Set: [3, 5, 8, 9, 13, 15, 19, 23, 25, 37, 38, 41, 47, 52, 61, 64, 91, 92]
+Min Correction Subset: [33, 62]
+Iter 20: 
+Min Hitting Set: [3, 5, 8, 9, 13, 15, 19, 23, 25, 33, 37, 38, 41, 47, 52, 61, 64, 91, 92]
+Min Correction Subset: [6, 66]
+Iter 21: 
+Min Hitting Set: [3, 5, 6, 8, 9, 13, 15, 19, 23, 25, 33, 37, 38, 41, 47, 52, 61, 64, 91, 92]
+Min Correction Subset: [21, 22]
+Iter 22: 
+Min Hitting Set: [3, 5, 6, 8, 9, 13, 15, 19, 21, 23, 25, 33, 37, 38, 41, 47, 52, 61, 64, 91, 92]
+Min Correction Subset: [7, 66]
+Iter 23: 
+Min Hitting Set: [3, 5, 8, 9, 13, 15, 19, 21, 23, 25, 33, 37, 38, 41, 47, 52, 61, 64, 66, 91, 92]
+Min Correction Subset: [4, 11]
+Iter 24: 
+Min Hitting Set: [3, 4, 5, 8, 9, 13, 15, 19, 21, 23, 25, 33, 37, 38, 41, 47, 52, 61, 64, 66, 91, 92]
+Min Correction Subset: [29, 54]
+Iter 25: 
+Min Hitting Set: [3, 4, 5, 8, 9, 13, 15, 19, 21, 23, 25, 29, 33, 37, 38, 41, 47, 52, 61, 64, 66, 91, 92]
+Min Correction Subset: [0, 6, 34]
+Iter 26: 
+Min Hitting Set: [3, 4, 5, 6, 8, 9, 13, 15, 19, 21, 23, 25, 29, 33, 37, 38, 41, 47, 52, 61, 64, 66, 91, 92]
+Min Correction Subset: [28, 54, 56]
+Iter 27: 
+Min Hitting Set: [3, 4, 5, 6, 7, 8, 9, 13, 15, 19, 21, 23, 25, 33, 37, 38, 41, 47, 52, 54, 61, 64, 91, 92]
+Min Correction Subset: [11, 57, 62]
+Optimal IIS
+Instance: paths-52-100-430000
+----------------------------
+Query: 10
+Query element:37
+Query element:70
+Query scope: 87
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 10127.688
+IIS Constraint: 3; goods; {good:3}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 6; goods; {good:6}
+IIS Constraint: 8; goods; {good:8}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 11; goods; {good:11}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 15; goods; {good:15}
+IIS Constraint: 19; goods; {good:19}
+IIS Constraint: 21; goods; {good:21}
+IIS Constraint: 23; goods; {good:23}
+IIS Constraint: 25; goods; {good:25}
+IIS Constraint: 37; goods; {good:37}
+IIS Constraint: 38; goods; {good:38}
+IIS Constraint: 41; goods; {good:41}
+IIS Constraint: 47; goods; {good:47}
+IIS Constraint: 52; goods; {good:52}
+IIS Constraint: 54; goods; {good:54}
+IIS Constraint: 61; goods; {good:61}
+IIS Constraint: 62; goods; {good:62}
+IIS Constraint: 64; goods; {good:64}
+IIS Constraint: 66; goods; {good:66}
+IIS Constraint: 91; query; {goods:[37,70],query:10}
+IIS Constraint: 92; max; {f:13.982879,objective:max}

@@ -1,0 +1,64 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [72, 73]
+Iter 2: 
+Min Hitting Set: [72]
+Min Correction Subset: [71, 73]
+Iter 3: 
+Min Hitting Set: [73]
+Min Correction Subset: [6, 71]
+Iter 4: 
+Min Hitting Set: [71, 73]
+Min Correction Subset: [38, 72]
+Optimal IIS
+Instance: regions-52-100-800000
+----------------------------
+Query: 9
+Query element:18
+Query element:49
+Query scope: 17
+Query scope: 24
+Query scope: 25
+Query scope: 26
+Query scope: 27
+Query scope: 28
+Query scope: 35
+Query scope: 36
+Query scope: 38
+Query scope: 39
+Query scope: 41
+Query scope: 46
+Query scope: 49
+Query scope: 50
+Query scope: 53
+Query scope: 55
+Query scope: 58
+Query scope: 65
+Query scope: 66
+Query scope: 67
+Query scope: 68
+Query scope: 69
+Query scope: 70
+Query scope: 71
+Query scope: 77
+Query scope: 79
+Query scope: 80
+Query scope: 82
+Query scope: 83
+Query scope: 84
+Query scope: 86
+Query scope: 87
+Query scope: 88
+Query scope: 89
+Query scope: 90
+Query scope: 91
+Query scope: 92
+Query scope: 93
+Query scope: 94
+Query scope: 95
+----------------------------
+IIS optimality: infeasible
+IIS solution time: 197.111
+IIS Constraint: 71; query; {good:18,query:9}
+IIS Constraint: 72; query; {good:49,query:9}

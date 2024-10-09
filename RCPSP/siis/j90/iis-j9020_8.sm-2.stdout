@@ -1,0 +1,75 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2467]
+Iter 2: 
+Min Hitting Set: [2467]
+Min Correction Subset: [185]
+Iter 3: 
+Min Hitting Set: [185, 2467]
+Min Correction Subset: [2466]
+Iter 4: 
+Min Hitting Set: [185, 2466, 2467]
+Min Correction Subset: [194, 206]
+Iter 5: 
+Min Hitting Set: [185, 194, 2466, 2467]
+Min Correction Subset: [251, 255, 257]
+Iter 6: 
+Min Hitting Set: [185, 194, 251, 2466, 2467]
+Min Correction Subset: [255, 256, 257]
+Iter 7: 
+Min Hitting Set: [185, 194, 255, 2466, 2467]
+Min Correction Subset: [245, 248, 257]
+Iter 8: 
+Min Hitting Set: [185, 194, 257, 2466, 2467]
+Min Correction Subset: [206, 251, 254]
+Iter 9: 
+Min Hitting Set: [185, 206, 257, 2466, 2467]
+Min Correction Subset: [251, 254, 255]
+Iter 10: 
+Min Hitting Set: [185, 206, 251, 257, 2466, 2467]
+Min Correction Subset: [194, 254, 255]
+Iter 11: 
+Min Hitting Set: [185, 194, 254, 257, 2466, 2467]
+Min Correction Subset: [206, 239, 256]
+Iter 12: 
+Min Hitting Set: [185, 206, 254, 257, 2466, 2467]
+Min Correction Subset: [194, 238, 241]
+Iter 13: 
+Min Hitting Set: [185, 194, 206, 251, 257, 2466, 2467]
+Min Correction Subset: [254, 255, 256]
+Iter 14: 
+Min Hitting Set: [185, 194, 206, 254, 257, 2466, 2467]
+Min Correction Subset: [209, 238, 251, 255]
+Iter 15: 
+Min Hitting Set: [185, 194, 251, 256, 257, 2466, 2467]
+Min Correction Subset: [245, 254, 255]
+Iter 16: 
+Min Hitting Set: [185, 194, 245, 251, 256, 2466, 2467]
+Min Correction Subset: [233, 255, 257]
+Iter 17: 
+Min Hitting Set: [185, 194, 206, 245, 255, 2466, 2467]
+Min Correction Subset: [248, 256, 257]
+Iter 18: 
+Min Hitting Set: [185, 194, 206, 255, 257, 2466, 2467]
+Min Correction Subset: [245, 248, 254]
+Iter 19: 
+Min Hitting Set: [185, 194, 206, 248, 255, 2466, 2467]
+Min Correction Subset: [219, 251, 254]
+Optimal IIS
+IIS generation
+Instance: j9020_8
+----------------------------
+Query: 2
+Query element:53,63
+Query scope: 25300
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 5348.731
+IIS Constraint: 185; precedence; {activity:68,predecessor:53}
+IIS Constraint: 206; precedence; {activity:75,predecessor:68}
+IIS Constraint: 238; precedence; {activity:86,predecessor:75}
+IIS Constraint: 254; precedence; {activity:91,predecessor:86}
+IIS Constraint: 257; precedence; {activity:92,predecessor:91}
+IIS Constraint: 2466; query; {activity:53,t:63,query:2}
+IIS Constraint: 2467; max; {f:85.0,objective:max}

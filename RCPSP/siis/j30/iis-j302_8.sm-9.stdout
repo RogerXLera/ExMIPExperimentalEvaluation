@@ -1,0 +1,66 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [737]
+Iter 2: 
+Min Hitting Set: [737]
+Min Correction Subset: [49]
+Iter 3: 
+Min Hitting Set: [49, 737]
+Min Correction Subset: [59]
+Iter 4: 
+Min Hitting Set: [49, 59, 737]
+Min Correction Subset: [604]
+Iter 5: 
+Min Hitting Set: [49, 59, 604, 737]
+Min Correction Subset: [65]
+Iter 6: 
+Min Hitting Set: [49, 59, 65, 604, 737]
+Min Correction Subset: [76]
+Iter 7: 
+Min Hitting Set: [49, 59, 65, 76, 604, 737]
+Min Correction Subset: [79]
+Iter 8: 
+Min Hitting Set: [49, 59, 65, 76, 79, 604, 737]
+Min Correction Subset: [736]
+Iter 9: 
+Min Hitting Set: [49, 59, 65, 76, 79, 604, 736, 737]
+Min Correction Subset: [74, 607]
+Iter 10: 
+Min Hitting Set: [49, 59, 65, 74, 76, 79, 604, 736, 737]
+Min Correction Subset: [11, 42]
+Iter 11: 
+Min Hitting Set: [11, 49, 59, 65, 74, 76, 79, 604, 736, 737]
+Min Correction Subset: [22, 55]
+Iter 12: 
+Min Hitting Set: [11, 22, 49, 59, 65, 74, 76, 79, 604, 736, 737]
+Min Correction Subset: [24, 78]
+Iter 13: 
+Min Hitting Set: [11, 22, 24, 49, 59, 65, 74, 76, 79, 604, 736, 737]
+Min Correction Subset: [78, 607]
+Iter 14: 
+Min Hitting Set: [11, 22, 49, 59, 65, 76, 78, 79, 604, 607, 736, 737]
+Min Correction Subset: [24, 68]
+Optimal IIS
+IIS generation
+Instance: j302_8
+----------------------------
+Query: 9
+Query element:25,46
+Query element:25,45
+Query scope: 3137
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1475.243
+IIS Constraint: 11; completion; {activity:12}
+IIS Constraint: 22; completion; {activity:23}
+IIS Constraint: 24; completion; {activity:25}
+IIS Constraint: 49; precedence; {activity:18,predecessor:12}
+IIS Constraint: 59; precedence; {activity:25,predecessor:18}
+IIS Constraint: 65; precedence; {activity:27,predecessor:23}
+IIS Constraint: 76; precedence; {activity:31,predecessor:27}
+IIS Constraint: 79; precedence; {activity:32,predecessor:31}
+IIS Constraint: 604; renewable; {resource:4,t:32}
+IIS Constraint: 607; renewable; {resource:4,t:35}
+IIS Constraint: 736; query; {activity:25,t:46,t_:45,query:9}
+IIS Constraint: 737; max; {f:54.0,objective:max}

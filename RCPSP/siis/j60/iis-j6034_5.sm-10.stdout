@@ -1,0 +1,62 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [1443]
+Iter 2: 
+Min Hitting Set: [1443]
+Min Correction Subset: [146]
+Iter 3: 
+Min Hitting Set: [146, 1443]
+Min Correction Subset: [130]
+Iter 4: 
+Min Hitting Set: [130, 146, 1443]
+Min Correction Subset: [1442]
+Iter 5: 
+Min Hitting Set: [130, 146, 1442, 1443]
+Min Correction Subset: [191]
+Iter 6: 
+Min Hitting Set: [130, 146, 191, 1442, 1443]
+Min Correction Subset: [150]
+Iter 7: 
+Min Hitting Set: [130, 146, 150, 191, 1442, 1443]
+Min Correction Subset: [170]
+Iter 8: 
+Min Hitting Set: [130, 146, 150, 170, 191, 1442, 1443]
+Min Correction Subset: [185]
+Iter 9: 
+Min Hitting Set: [130, 146, 150, 170, 185, 191, 1442, 1443]
+Min Correction Subset: [38, 123, 124]
+Iter 10: 
+Min Hitting Set: [38, 130, 146, 150, 170, 185, 191, 1442, 1443]
+Min Correction Subset: [848, 849, 850, 851, 852, 853]
+Iter 11: 
+Min Hitting Set: [38, 130, 146, 150, 170, 185, 191, 848, 1442, 1443]
+Min Correction Subset: [849, 850, 851, 852, 853, 854, 855]
+Iter 12: 
+Min Hitting Set: [38, 130, 146, 150, 170, 185, 191, 849, 1442, 1443]
+Min Correction Subset: [850, 851, 852, 853, 854, 855, 856]
+Iter 13: 
+Min Hitting Set: [38, 130, 146, 150, 170, 185, 191, 850, 1442, 1443]
+Min Correction Subset: [851, 852, 853, 854, 855, 856, 857]
+Optimal IIS
+IIS generation
+Instance: j6034_5
+----------------------------
+Query: 10
+Query element:42,40
+Query element:33,46
+Query scope: 10285
+Query scope: 8046
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 3436.677
+IIS Constraint: 38; completion; {activity:39}
+IIS Constraint: 130; precedence; {activity:41,predecessor:39}
+IIS Constraint: 146; precedence; {activity:47,predecessor:41}
+IIS Constraint: 150; precedence; {activity:48,predecessor:47}
+IIS Constraint: 170; precedence; {activity:55,predecessor:48}
+IIS Constraint: 185; precedence; {activity:60,predecessor:55}
+IIS Constraint: 191; precedence; {activity:62,predecessor:60}
+IIS Constraint: 851; renewable; {resource:3,t:34}
+IIS Constraint: 1442; query; {activity:33,t:40,query:10}
+IIS Constraint: 1443; max; {f:80.0,objective:max}

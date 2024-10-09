@@ -1,0 +1,117 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [98]
+Iter 2: 
+Min Hitting Set: [98]
+Min Correction Subset: [821]
+Iter 3: 
+Min Hitting Set: [98, 821]
+Min Correction Subset: [92]
+Iter 4: 
+Min Hitting Set: [92, 98, 821]
+Min Correction Subset: [78]
+Iter 5: 
+Min Hitting Set: [78, 92, 98, 821]
+Min Correction Subset: [83]
+Iter 6: 
+Min Hitting Set: [78, 83, 92, 98, 821]
+Min Correction Subset: [84]
+Iter 7: 
+Min Hitting Set: [78, 83, 84, 92, 98, 821]
+Min Correction Subset: [80]
+Iter 8: 
+Min Hitting Set: [78, 80, 83, 84, 92, 98, 821]
+Min Correction Subset: [820]
+Iter 9: 
+Min Hitting Set: [78, 80, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [71, 72]
+Iter 10: 
+Min Hitting Set: [71, 78, 80, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [62, 75]
+Iter 11: 
+Min Hitting Set: [62, 71, 78, 80, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [72, 73, 95]
+Iter 12: 
+Min Hitting Set: [62, 72, 78, 80, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [71, 75]
+Iter 13: 
+Min Hitting Set: [72, 75, 78, 80, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [71, 81]
+Iter 14: 
+Min Hitting Set: [71, 72, 75, 78, 80, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [62, 81]
+Iter 15: 
+Min Hitting Set: [62, 71, 72, 78, 80, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [73, 75, 95]
+Iter 16: 
+Min Hitting Set: [72, 75, 78, 80, 81, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [18, 61, 62]
+Iter 17: 
+Min Hitting Set: [62, 71, 73, 78, 80, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [81, 666, 667]
+Iter 18: 
+Min Hitting Set: [62, 71, 73, 78, 80, 81, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [58, 60, 72]
+Iter 19: 
+Min Hitting Set: [62, 72, 75, 78, 80, 81, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [71, 491, 492]
+Iter 20: 
+Min Hitting Set: [62, 71, 72, 73, 78, 80, 81, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [58, 60, 75]
+Iter 21: 
+Min Hitting Set: [58, 62, 71, 73, 78, 80, 81, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [75, 479, 480, 660]
+Iter 22: 
+Min Hitting Set: [62, 71, 72, 75, 78, 80, 81, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [73, 91, 491, 492]
+Iter 23: 
+Min Hitting Set: [62, 72, 75, 78, 80, 81, 83, 84, 92, 98, 491, 820, 821]
+Min Correction Subset: [71, 495, 496, 497]
+Iter 24: 
+Min Hitting Set: [62, 71, 72, 73, 75, 78, 80, 81, 83, 84, 92, 98, 820, 821]
+Min Correction Subset: [491, 492, 666, 667]
+Iter 25: 
+Min Hitting Set: [62, 71, 72, 73, 75, 78, 80, 83, 84, 92, 98, 666, 820, 821]
+Min Correction Subset: [58, 60, 81]
+Iter 26: 
+Min Hitting Set: [62, 71, 72, 75, 78, 80, 81, 83, 84, 92, 98, 491, 820, 821]
+Min Correction Subset: [73, 91, 495, 496, 497]
+Iter 27: 
+Min Hitting Set: [60, 62, 71, 73, 75, 78, 80, 83, 84, 92, 98, 667, 820, 821]
+Min Correction Subset: [81, 480, 660, 666]
+Iter 28: 
+Min Hitting Set: [60, 62, 71, 73, 75, 78, 80, 83, 84, 92, 98, 666, 820, 821]
+Min Correction Subset: [21, 69, 70, 72]
+Iter 29: 
+Min Hitting Set: [62, 72, 75, 78, 80, 81, 83, 84, 92, 98, 491, 497, 820, 821]
+Min Correction Subset: [71, 492, 493, 494, 495, 496]
+Iter 30: 
+Min Hitting Set: [62, 72, 75, 78, 80, 81, 83, 84, 92, 98, 492, 495, 820, 821]
+Min Correction Subset: [1, 16, 18, 57, 58, 61]
+Optimal IIS
+IIS generation
+Instance: j3043_5
+----------------------------
+Query: 6
+Query element:15,27
+Query element:18,22
+Query scope: 1795
+Query scope: 2157
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 7423.938
+IIS Constraint: 18; completion; {activity:19}
+IIS Constraint: 72; precedence; {activity:23,predecessor:15}
+IIS Constraint: 75; precedence; {activity:24,predecessor:18}
+IIS Constraint: 78; precedence; {activity:25,predecessor:23}
+IIS Constraint: 80; precedence; {activity:26,predecessor:19}
+IIS Constraint: 81; precedence; {activity:26,predecessor:24}
+IIS Constraint: 83; precedence; {activity:27,predecessor:25}
+IIS Constraint: 84; precedence; {activity:27,predecessor:26}
+IIS Constraint: 92; precedence; {activity:30,predecessor:27}
+IIS Constraint: 98; precedence; {activity:32,predecessor:30}
+IIS Constraint: 492; renewable; {resource:3,t:32}
+IIS Constraint: 495; renewable; {resource:3,t:35}
+IIS Constraint: 820; query; {activities:[15,18],t:27,query:6}
+IIS Constraint: 821; max; {f:64.0,objective:max}

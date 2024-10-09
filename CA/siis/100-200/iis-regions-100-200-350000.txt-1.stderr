@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/rlera/beegfs/SmallestIIS/CA/small_iis.py", line 181, in <module>
+    iis.compute(args.e,args.s,n_threads=args.t)
+  File "/mnt/beegfs/iiia/rlera/SmallestIIS/CA/definitions.py", line 376, in compute
+    smallest_IIS(self,time_limit,n_threads)
+  File "/mnt/beegfs/iiia/rlera/SmallestIIS/CA/small_iis.py", line 61, in smallest_IIS
+    C = mfs_problem(I,F_,time_lim - (time.time() - st),n_threads)
+  File "/mnt/beegfs/iiia/rlera/SmallestIIS/CA/mfs.py", line 174, in mfs_problem
+    ind = sol(y)
+  File "/mnt/beegfs/iiia/rlera/SmallestIIS/CA/mfs.py", line 12, in sol
+    if y[i].solution_value >= 0.9:
+  File "/home/rlera/.local/lib/python3.8/site-packages/cplex/lib/python/docplex/mp/dvar.py", line 228, in solution_value
+    self.model._check_has_solution()
+  File "/home/rlera/.local/lib/python3.8/site-packages/cplex/lib/python/docplex/mp/model.py", line 5182, in _check_has_solution
+    self.fatal("Model<{0}> did not solve successfully", self.name)
+  File "/home/rlera/.local/lib/python3.8/site-packages/cplex/lib/python/docplex/mp/model.py", line 1078, in fatal
+    self._error_handler.fatal(msg, args)
+  File "/home/rlera/.local/lib/python3.8/site-packages/cplex/lib/python/docplex/mp/error_handler.py", line 210, in fatal
+    raise DOcplexException(resolved_message)
+docplex.mp.utils.DOcplexException: Model<docplex_model219> did not solve successfully
+srun: error: c11: task 0: Exited with exit code 1
+srun: Terminating StepId=6482352.0

@@ -1,0 +1,135 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [52]
+Iter 2: 
+Min Hitting Set: [52]
+Min Correction Subset: [15]
+Iter 3: 
+Min Hitting Set: [15, 52]
+Min Correction Subset: [17]
+Iter 4: 
+Min Hitting Set: [15, 17, 52]
+Min Correction Subset: [51]
+Iter 5: 
+Min Hitting Set: [15, 17, 51, 52]
+Min Correction Subset: [16, 26]
+Iter 6: 
+Min Hitting Set: [15, 16, 17, 51, 52]
+Min Correction Subset: [2, 25]
+Iter 7: 
+Min Hitting Set: [2, 15, 16, 17, 51, 52]
+Min Correction Subset: [11, 20]
+Iter 8: 
+Min Hitting Set: [2, 11, 15, 16, 17, 51, 52]
+Min Correction Subset: [7, 13]
+Iter 9: 
+Min Hitting Set: [2, 7, 11, 15, 16, 17, 51, 52]
+Min Correction Subset: [25, 31]
+Iter 10: 
+Min Hitting Set: [7, 11, 15, 16, 17, 25, 51, 52]
+Min Correction Subset: [8, 12]
+Iter 11: 
+Min Hitting Set: [7, 8, 11, 15, 16, 17, 25, 51, 52]
+Min Correction Subset: [5, 28]
+Iter 12: 
+Min Hitting Set: [5, 7, 8, 11, 15, 16, 17, 25, 51, 52]
+Min Correction Subset: [12, 31]
+Iter 13: 
+Min Hitting Set: [5, 7, 11, 12, 15, 16, 17, 25, 51, 52]
+Min Correction Subset: [1, 30]
+Iter 14: 
+Min Hitting Set: [1, 5, 7, 11, 12, 15, 16, 17, 25, 51, 52]
+Min Correction Subset: [2, 31]
+Iter 15: 
+Min Hitting Set: [1, 2, 5, 7, 11, 12, 15, 16, 17, 25, 51, 52]
+Min Correction Subset: [26, 28]
+Iter 16: 
+Min Hitting Set: [1, 2, 7, 11, 12, 15, 17, 25, 26, 28, 51, 52]
+Min Correction Subset: [9, 21]
+Iter 17: 
+Min Hitting Set: [1, 2, 7, 9, 11, 12, 15, 17, 25, 26, 28, 51, 52]
+Min Correction Subset: [16, 24]
+Iter 18: 
+Min Hitting Set: [1, 2, 7, 9, 11, 12, 15, 16, 17, 25, 28, 51, 52]
+Min Correction Subset: [13, 26]
+Iter 19: 
+Min Hitting Set: [1, 2, 9, 11, 12, 13, 15, 16, 17, 25, 28, 51, 52]
+Min Correction Subset: [0, 27]
+Iter 20: 
+Min Hitting Set: [0, 1, 2, 9, 11, 12, 13, 15, 16, 17, 25, 28, 51, 52]
+Min Correction Subset: [7, 24]
+Iter 21: 
+Min Hitting Set: [0, 1, 7, 9, 11, 12, 15, 16, 17, 25, 26, 28, 31, 51, 52]
+Min Correction Subset: [24, 30]
+Iter 22: 
+Min Hitting Set: [0, 7, 9, 11, 12, 15, 16, 17, 25, 26, 28, 30, 31, 51, 52]
+Min Correction Subset: [21, 27]
+Iter 23: 
+Min Hitting Set: [7, 11, 12, 15, 16, 17, 21, 25, 26, 27, 28, 30, 31, 51, 52]
+Min Correction Subset: [1, 13]
+Iter 24: 
+Min Hitting Set: [1, 7, 11, 12, 15, 17, 21, 24, 25, 26, 27, 28, 31, 51, 52]
+Min Correction Subset: [2, 13]
+Iter 25: 
+Min Hitting Set: [1, 2, 7, 11, 12, 15, 17, 21, 24, 25, 26, 27, 28, 51, 52]
+Min Correction Subset: [13, 30]
+Iter 26: 
+Min Hitting Set: [2, 7, 11, 12, 13, 15, 16, 17, 21, 25, 27, 28, 30, 51, 52]
+Min Correction Subset: [5, 31]
+Iter 27: 
+Min Hitting Set: [7, 11, 12, 13, 15, 16, 17, 21, 25, 27, 28, 30, 31, 51, 52]
+Min Correction Subset: [26, 46]
+Iter 28: 
+Min Hitting Set: [1, 2, 5, 11, 12, 13, 15, 17, 21, 24, 25, 26, 27, 51, 52]
+Min Correction Subset: [7, 46]
+Iter 29: 
+Min Hitting Set: [11, 12, 13, 15, 17, 21, 24, 25, 26, 27, 28, 30, 31, 46, 51, 52]
+Min Correction Subset: [6, 7]
+Iter 30: 
+Min Hitting Set: [1, 2, 5, 7, 11, 12, 13, 15, 17, 21, 24, 25, 26, 27, 51, 52]
+Min Correction Subset: [28, 30]
+Iter 31: 
+Min Hitting Set: [1, 7, 11, 12, 13, 15, 17, 21, 24, 25, 26, 27, 28, 31, 51, 52]
+Min Correction Subset: [19, 30]
+Iter 32: 
+Min Hitting Set: [2, 5, 7, 11, 12, 13, 15, 16, 17, 21, 25, 26, 27, 30, 51, 52]
+Min Correction Subset: [0, 10, 24]
+Instance: arbitrary-32-100-100000
+----------------------------
+Query: 10
+Query element:16
+Query element:23
+Query scope: 58
+Query scope: 59
+Query scope: 60
+Query scope: 63
+Query scope: 64
+Query scope: 74
+Query scope: 78
+Query scope: 79
+Query scope: 80
+Query scope: 81
+Query scope: 99
+Query scope: 102
+Query scope: 103
+Query scope: 104
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36126.554
+IIS Constraint: 2; goods; {good:2}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 7; goods; {good:7}
+IIS Constraint: 11; goods; {good:11}
+IIS Constraint: 12; goods; {good:12}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 15; goods; {good:15}
+IIS Constraint: 16; goods; {good:16}
+IIS Constraint: 17; goods; {good:17}
+IIS Constraint: 21; goods; {good:21}
+IIS Constraint: 25; goods; {good:25}
+IIS Constraint: 26; goods; {good:26}
+IIS Constraint: 27; goods; {good:27}
+IIS Constraint: 30; goods; {good:30}
+IIS Constraint: 51; query; {goods:[16,23],query:10}
+IIS Constraint: 52; max; {f:2174.9253000000003,objective:max}

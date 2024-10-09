@@ -1,0 +1,73 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [70]
+Iter 2: 
+Min Hitting Set: [70]
+Min Correction Subset: [68]
+Iter 3: 
+Min Hitting Set: [68, 70]
+Min Correction Subset: [55]
+Iter 4: 
+Min Hitting Set: [55, 68, 70]
+Min Correction Subset: [52]
+Iter 5: 
+Min Hitting Set: [52, 55, 68, 70]
+Min Correction Subset: [61]
+Iter 6: 
+Min Hitting Set: [52, 55, 61, 68, 70]
+Min Correction Subset: [0]
+Iter 7: 
+Min Hitting Set: [0, 52, 55, 61, 68, 70]
+Min Correction Subset: [4]
+Iter 8: 
+Min Hitting Set: [0, 4, 52, 55, 61, 68, 70]
+Min Correction Subset: [65]
+Iter 9: 
+Min Hitting Set: [0, 4, 52, 55, 61, 65, 68, 70]
+Min Correction Subset: [48]
+Iter 10: 
+Min Hitting Set: [0, 4, 48, 52, 55, 61, 65, 68, 70]
+Min Correction Subset: [44]
+Iter 11: 
+Min Hitting Set: [0, 4, 44, 48, 52, 55, 61, 65, 68, 70]
+Min Correction Subset: [62]
+Iter 12: 
+Min Hitting Set: [0, 4, 44, 48, 52, 55, 61, 62, 65, 68, 70]
+Min Correction Subset: [8]
+Iter 13: 
+Min Hitting Set: [0, 4, 8, 44, 48, 52, 55, 61, 62, 65, 68, 70]
+Min Correction Subset: [69]
+Iter 14: 
+Min Hitting Set: [0, 4, 8, 44, 48, 52, 55, 61, 62, 65, 68, 69, 70]
+Min Correction Subset: [2, 40]
+Iter 15: 
+Min Hitting Set: [0, 2, 4, 8, 44, 48, 52, 55, 61, 62, 65, 68, 69, 70]
+Min Correction Subset: [3, 40]
+Iter 16: 
+Min Hitting Set: [0, 4, 8, 40, 44, 48, 52, 55, 61, 62, 65, 68, 69, 70]
+Min Correction Subset: [21, 35, 60]
+Optimal IIS
+Instance: matching-52-100-370000
+----------------------------
+Query: 2
+Query element:30
+Query scope: 30
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 31217.459
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 4; goods; {good:4}
+IIS Constraint: 8; goods; {good:8}
+IIS Constraint: 21; goods; {good:21}
+IIS Constraint: 40; goods; {good:40}
+IIS Constraint: 44; goods; {good:44}
+IIS Constraint: 48; goods; {good:48}
+IIS Constraint: 52; goods; {good:52}
+IIS Constraint: 55; goods; {good:55}
+IIS Constraint: 61; goods; {good:61}
+IIS Constraint: 62; goods; {good:62}
+IIS Constraint: 65; goods; {good:65}
+IIS Constraint: 68; goods; {good:68}
+IIS Constraint: 69; query; {bid:30,query:2}
+IIS Constraint: 70; max; {f:69.81983,objective:max}

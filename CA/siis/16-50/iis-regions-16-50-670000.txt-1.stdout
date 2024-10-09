@@ -1,0 +1,75 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [28]
+Iter 2: 
+Min Hitting Set: [28]
+Min Correction Subset: [14, 27]
+Iter 3: 
+Min Hitting Set: [14, 28]
+Min Correction Subset: [6, 27]
+Iter 4: 
+Min Hitting Set: [27, 28]
+Min Correction Subset: [4, 5]
+Iter 5: 
+Min Hitting Set: [4, 27, 28]
+Min Correction Subset: [1, 2, 6]
+Iter 6: 
+Min Hitting Set: [4, 6, 14, 28]
+Min Correction Subset: [26, 27]
+Iter 7: 
+Min Hitting Set: [4, 6, 27, 28]
+Min Correction Subset: [5, 8, 9, 13, 26]
+Iter 8: 
+Min Hitting Set: [5, 6, 27, 28]
+Min Correction Subset: [0, 1, 2, 4, 24]
+Iter 9: 
+Min Hitting Set: [1, 5, 27, 28]
+Min Correction Subset: [6, 9, 10, 13]
+Iter 10: 
+Min Hitting Set: [2, 4, 9, 27, 28]
+Min Correction Subset: [1, 5, 6, 10, 13]
+Iter 11: 
+Min Hitting Set: [1, 4, 13, 27, 28]
+Min Correction Subset: [2, 3, 5, 6]
+Iter 12: 
+Min Hitting Set: [2, 4, 13, 27, 28]
+Min Correction Subset: [5, 6, 9, 10]
+Iter 13: 
+Min Hitting Set: [4, 6, 9, 27, 28]
+Min Correction Subset: [0, 1, 2, 5, 16]
+Iter 14: 
+Min Hitting Set: [4, 5, 6, 27, 28]
+Min Correction Subset: [0, 1, 2, 8, 9, 12, 13, 26]
+Iter 15: 
+Min Hitting Set: [1, 5, 9, 27, 28]
+Min Correction Subset: [2, 4, 6, 10, 13]
+Iter 16: 
+Min Hitting Set: [1, 5, 13, 27, 28]
+Min Correction Subset: [2, 4, 6, 8, 18, 26]
+Iter 17: 
+Min Hitting Set: [2, 5, 9, 27, 28]
+Min Correction Subset: [0, 1, 6, 10, 13]
+Iter 18: 
+Min Hitting Set: [2, 5, 13, 27, 28]
+Min Correction Subset: [0, 1, 4, 6, 10, 24]
+Iter 19: 
+Min Hitting Set: [2, 5, 6, 27, 28]
+Min Correction Subset: [4, 8, 9, 12, 13, 18, 26]
+Optimal IIS
+Instance: regions-16-50-670000
+----------------------------
+Query: 3
+Query element:14
+Query element:35
+Query scope: 14
+Query scope: 35
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 704.198
+IIS Constraint: 4; goods; {good:4}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 6; goods; {good:6}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 27; query; {bid:35,query:3}
+IIS Constraint: 28; max; {f:1065.8398,objective:max}

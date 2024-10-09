@@ -1,0 +1,75 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [144]
+Iter 2: 
+Min Hitting Set: [144]
+Min Correction Subset: [1210]
+Iter 3: 
+Min Hitting Set: [144, 1210]
+Min Correction Subset: [128]
+Iter 4: 
+Min Hitting Set: [128, 144, 1210]
+Min Correction Subset: [147]
+Iter 5: 
+Min Hitting Set: [128, 144, 147, 1210]
+Min Correction Subset: [149]
+Iter 6: 
+Min Hitting Set: [128, 144, 147, 149, 1210]
+Min Correction Subset: [126]
+Iter 7: 
+Min Hitting Set: [126, 128, 144, 147, 149, 1210]
+Min Correction Subset: [170]
+Iter 8: 
+Min Hitting Set: [126, 128, 144, 147, 149, 170, 1210]
+Min Correction Subset: [130]
+Iter 9: 
+Min Hitting Set: [126, 128, 130, 144, 147, 149, 170, 1210]
+Min Correction Subset: [165]
+Iter 10: 
+Min Hitting Set: [126, 128, 130, 144, 147, 149, 165, 170, 1210]
+Min Correction Subset: [162]
+Iter 11: 
+Min Hitting Set: [126, 128, 130, 144, 147, 149, 162, 165, 170, 1210]
+Min Correction Subset: [2142]
+Iter 12: 
+Min Hitting Set: [126, 128, 130, 144, 147, 149, 162, 165, 170, 1210, 2142]
+Min Correction Subset: [145, 229]
+Iter 13: 
+Min Hitting Set: [126, 128, 130, 144, 145, 147, 149, 162, 165, 170, 1210, 2142]
+Min Correction Subset: [66, 2143]
+Iter 14: 
+Min Hitting Set: [66, 126, 128, 130, 144, 145, 147, 149, 162, 165, 170, 1210, 2142]
+Min Correction Subset: [28, 120]
+Iter 15: 
+Min Hitting Set: [28, 66, 126, 128, 130, 144, 145, 147, 149, 162, 165, 170, 1210, 2142]
+Min Correction Subset: [11, 102]
+Iter 16: 
+Min Hitting Set: [11, 28, 66, 126, 128, 130, 144, 145, 147, 149, 162, 165, 170, 1210, 2142]
+Min Correction Subset: [1208, 1209]
+Optimal IIS
+IIS generation
+Instance: j901_2
+----------------------------
+Query: 3
+Query element:67,68
+Query scope: 27452
+----------------------------
+IIS optimality: infeasible
+IIS solution time: 11791.640
+IIS Constraint: 11; completion; {activity:12}
+IIS Constraint: 28; completion; {activity:29}
+IIS Constraint: 66; completion; {activity:67}
+IIS Constraint: 126; precedence; {activity:35,predecessor:29}
+IIS Constraint: 128; precedence; {activity:37,predecessor:35}
+IIS Constraint: 130; precedence; {activity:39,predecessor:12}
+IIS Constraint: 144; precedence; {activity:52,predecessor:37}
+IIS Constraint: 145; precedence; {activity:52,predecessor:39}
+IIS Constraint: 147; precedence; {activity:53,predecessor:52}
+IIS Constraint: 149; precedence; {activity:54,predecessor:53}
+IIS Constraint: 162; precedence; {activity:63,predecessor:54}
+IIS Constraint: 165; precedence; {activity:64,predecessor:63}
+IIS Constraint: 170; precedence; {activity:67,predecessor:64}
+IIS Constraint: 1208; renewable; {resource:3,t:22}
+IIS Constraint: 1210; renewable; {resource:3,t:24}
+IIS Constraint: 2142; query; {activity:67,t:68,query:3}

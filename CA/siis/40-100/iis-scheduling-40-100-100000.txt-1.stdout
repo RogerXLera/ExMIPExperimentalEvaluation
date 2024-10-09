@@ -1,0 +1,55 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [40]
+Iter 2: 
+Min Hitting Set: [40]
+Min Correction Subset: [46]
+Iter 3: 
+Min Hitting Set: [40, 46]
+Min Correction Subset: [43]
+Iter 4: 
+Min Hitting Set: [40, 43, 46]
+Min Correction Subset: [41]
+Iter 5: 
+Min Hitting Set: [40, 41, 43, 46]
+Min Correction Subset: [44]
+Optimal IIS
+Instance: scheduling-40-100-100000
+----------------------------
+Query: 9
+Query element:8
+Query element:20
+Query scope: 3
+Query scope: 4
+Query scope: 5
+Query scope: 6
+Query scope: 7
+Query scope: 8
+Query scope: 42
+Query scope: 43
+Query scope: 74
+Query scope: 75
+Query scope: 76
+Query scope: 77
+Query scope: 78
+Query scope: 86
+Query scope: 87
+Query scope: 15
+Query scope: 16
+Query scope: 17
+Query scope: 18
+Query scope: 19
+Query scope: 20
+Query scope: 54
+Query scope: 55
+Query scope: 98
+Query scope: 99
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 7.444
+IIS Constraint: 40; goods; {good:40}
+IIS Constraint: 41; goods; {good:41}
+IIS Constraint: 43; goods; {good:43}
+IIS Constraint: 44; query; {good:8,query:9}
+IIS Constraint: 46; max; {f:34.71668,objective:max}

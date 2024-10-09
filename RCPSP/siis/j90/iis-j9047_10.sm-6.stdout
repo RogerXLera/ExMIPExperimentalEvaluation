@@ -1,0 +1,38 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2010]
+Iter 2: 
+Min Hitting Set: [2010]
+Min Correction Subset: [175, 2011]
+Iter 3: 
+Min Hitting Set: [175, 2010]
+Min Correction Subset: [54, 2011]
+Iter 4: 
+Min Hitting Set: [2010, 2011]
+Min Correction Subset: [175, 285]
+Iter 5: 
+Min Hitting Set: [175, 2010, 2011]
+Min Correction Subset: [54, 279, 283, 285]
+Iter 6: 
+Min Hitting Set: [285, 2010, 2011]
+Min Correction Subset: [175, 282]
+Optimal IIS
+IIS generation
+Instance: j9047_10
+----------------------------
+Query: 6
+Query element:55,30
+Query element:56,30
+Query element:65,30
+Query element:34,26
+Query scope: 20425
+Query scope: 20799
+Query scope: 24204
+Query scope: 12481
+----------------------------
+IIS optimality: infeasible
+IIS solution time: 1801.411
+IIS Constraint: 54; completion; {activity:55}
+IIS Constraint: 175; precedence; {activity:55,predecessor:34}
+IIS Constraint: 2010; query; {activities:[55,56,65,34],t:30,query:6}

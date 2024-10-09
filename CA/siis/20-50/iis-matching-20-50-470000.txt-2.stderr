@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/rlera/beegfs/SmallestIIS/CA/small_iis.py", line 179, in <module>
+    q.query_transcription(I)
+  File "/mnt/beegfs/iiia/rlera/SmallestIIS/CA/definitions.py", line 253, in query_transcription
+    query_transcription_(self,I)
+  File "/mnt/beegfs/iiia/rlera/SmallestIIS/CA/queries_dict.py", line 421, in query_transcription_
+    function(q,I)
+  File "/mnt/beegfs/iiia/rlera/SmallestIIS/CA/queries_dict.py", line 49, in query_2
+    b = q.elements[0][0]
+IndexError: list index out of range
+srun: error: c11: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=6454634.0

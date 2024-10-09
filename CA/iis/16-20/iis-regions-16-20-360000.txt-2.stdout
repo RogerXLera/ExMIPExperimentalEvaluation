@@ -1,0 +1,21 @@
+IIS generation
+Instance: regions-16-20-360000
+----------------------------
+Query: 11
+Query element:9
+Query element:17
+Query scope: 3
+Query scope: 4
+Query scope: 5
+Query scope: 6
+Query scope: 7
+Query scope: 8
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 0.00998
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 3; goods; {good:3}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 8; goods; {good:8}
+IIS Constraint: 20; query; {goods:[9,17],query:11}
+IIS Constraint: 21; max; {f:962.082,objective:max}

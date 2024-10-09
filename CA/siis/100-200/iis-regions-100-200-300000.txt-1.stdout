@@ -1,0 +1,134 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [138]
+Iter 2: 
+Min Hitting Set: [138]
+Min Correction Subset: [137]
+Iter 3: 
+Min Hitting Set: [137, 138]
+Min Correction Subset: [23]
+Iter 4: 
+Min Hitting Set: [23, 137, 138]
+Min Correction Subset: [76, 86]
+Iter 5: 
+Min Hitting Set: [23, 76, 137, 138]
+Min Correction Subset: [52, 62]
+Iter 6: 
+Min Hitting Set: [23, 52, 76, 137, 138]
+Min Correction Subset: [47, 56]
+Iter 7: 
+Min Hitting Set: [23, 47, 52, 76, 137, 138]
+Min Correction Subset: [65, 88]
+Iter 8: 
+Min Hitting Set: [23, 47, 52, 65, 76, 137, 138]
+Min Correction Subset: [42, 61]
+Iter 9: 
+Min Hitting Set: [23, 42, 47, 52, 65, 76, 137, 138]
+Min Correction Subset: [18, 56]
+Iter 10: 
+Min Hitting Set: [23, 42, 52, 56, 65, 76, 137, 138]
+Min Correction Subset: [17, 61]
+Iter 11: 
+Min Hitting Set: [23, 52, 56, 61, 65, 76, 137, 138]
+Min Correction Subset: [67, 88]
+Iter 12: 
+Min Hitting Set: [23, 52, 56, 61, 76, 88, 137, 138]
+Min Correction Subset: [6, 17, 67]
+Iter 13: 
+Min Hitting Set: [17, 23, 52, 56, 61, 76, 88, 137, 138]
+Min Correction Subset: [22, 31, 53]
+Iter 14: 
+Min Hitting Set: [17, 22, 23, 52, 56, 61, 76, 88, 137, 138]
+Min Correction Subset: [31, 53, 54]
+Iter 15: 
+Min Hitting Set: [17, 23, 31, 52, 56, 61, 76, 88, 137, 138]
+Min Correction Subset: [42, 45, 46]
+Iter 16: 
+Min Hitting Set: [17, 23, 31, 42, 52, 56, 76, 88, 137, 138]
+Min Correction Subset: [45, 46, 99]
+Iter 17: 
+Min Hitting Set: [17, 23, 31, 45, 52, 56, 61, 76, 88, 137, 138]
+Min Correction Subset: [81, 91, 96]
+Iter 18: 
+Min Hitting Set: [17, 23, 31, 45, 52, 56, 61, 76, 81, 88, 137, 138]
+Min Correction Subset: [6, 46, 67]
+Iter 19: 
+Min Hitting Set: [17, 23, 31, 46, 52, 56, 61, 76, 81, 88, 137, 138]
+Min Correction Subset: [18, 51, 73]
+Iter 20: 
+Min Hitting Set: [17, 18, 23, 46, 52, 53, 56, 61, 76, 81, 88, 137, 138]
+Min Correction Subset: [30, 31, 54]
+Iter 21: 
+Min Hitting Set: [17, 18, 23, 31, 46, 52, 56, 61, 76, 81, 88, 137, 138]
+Min Correction Subset: [3, 6, 67]
+Iter 22: 
+Min Hitting Set: [18, 23, 31, 46, 52, 56, 61, 65, 67, 76, 81, 137, 138]
+Min Correction Subset: [33, 40, 90]
+Iter 23: 
+Min Hitting Set: [18, 23, 31, 33, 46, 52, 56, 61, 65, 67, 76, 81, 137, 138]
+Min Correction Subset: [13, 54, 88]
+Iter 24: 
+Min Hitting Set: [18, 23, 31, 33, 46, 52, 56, 61, 67, 76, 81, 88, 137, 138]
+Min Correction Subset: [53, 54, 87]
+Iter 25: 
+Min Hitting Set: [18, 23, 31, 33, 46, 47, 52, 53, 61, 67, 76, 81, 88, 137, 138]
+Min Correction Subset: [56, 57]
+Iter 26: 
+Min Hitting Set: [18, 23, 31, 33, 46, 52, 53, 56, 61, 67, 76, 81, 88, 137, 138]
+Min Correction Subset: [24, 55, 65]
+Iter 27: 
+Min Hitting Set: [18, 23, 31, 33, 46, 52, 54, 56, 61, 65, 67, 76, 81, 137, 138]
+Min Correction Subset: [51, 73, 86]
+Instance: regions-100-200-300000
+----------------------------
+Query: 7
+Query element:28
+Query scope: 19
+Query scope: 20
+Query scope: 21
+Query scope: 22
+Query scope: 24
+Query scope: 42
+Query scope: 43
+Query scope: 44
+Query scope: 46
+Query scope: 47
+Query scope: 49
+Query scope: 51
+Query scope: 53
+Query scope: 60
+Query scope: 83
+Query scope: 84
+Query scope: 87
+Query scope: 127
+Query scope: 130
+Query scope: 131
+Query scope: 132
+Query scope: 137
+Query scope: 139
+Query scope: 140
+Query scope: 141
+Query scope: 142
+Query scope: 144
+Query scope: 162
+Query scope: 166
+Query scope: 169
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36006.475
+IIS Constraint: 18; goods; {good:18}
+IIS Constraint: 23; goods; {good:23}
+IIS Constraint: 31; goods; {good:31}
+IIS Constraint: 33; goods; {good:33}
+IIS Constraint: 46; goods; {good:46}
+IIS Constraint: 52; goods; {good:52}
+IIS Constraint: 54; goods; {good:54}
+IIS Constraint: 56; goods; {good:56}
+IIS Constraint: 61; goods; {good:61}
+IIS Constraint: 65; goods; {good:65}
+IIS Constraint: 67; goods; {good:67}
+IIS Constraint: 76; goods; {good:76}
+IIS Constraint: 81; goods; {good:81}
+IIS Constraint: 137; query; {good:28,query:7}
+IIS Constraint: 138; max; {f:5881.979,objective:max}

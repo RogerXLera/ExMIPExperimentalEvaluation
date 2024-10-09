@@ -1,0 +1,64 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [734]
+Iter 2: 
+Min Hitting Set: [734]
+Min Correction Subset: [95]
+Iter 3: 
+Min Hitting Set: [95, 734]
+Min Correction Subset: [99]
+Iter 4: 
+Min Hitting Set: [95, 99, 734]
+Min Correction Subset: [449]
+Iter 5: 
+Min Hitting Set: [95, 99, 449, 734]
+Min Correction Subset: [98]
+Iter 6: 
+Min Hitting Set: [95, 98, 99, 449, 734]
+Min Correction Subset: [457]
+Iter 7: 
+Min Hitting Set: [95, 98, 99, 449, 457, 734]
+Min Correction Subset: [93]
+Iter 8: 
+Min Hitting Set: [93, 95, 98, 99, 449, 457, 734]
+Min Correction Subset: [733]
+Iter 9: 
+Min Hitting Set: [93, 95, 98, 99, 449, 457, 733, 734]
+Min Correction Subset: [84]
+Iter 10: 
+Min Hitting Set: [84, 93, 95, 98, 99, 449, 457, 733, 734]
+Min Correction Subset: [75]
+Iter 11: 
+Min Hitting Set: [75, 84, 93, 95, 98, 99, 449, 457, 733, 734]
+Min Correction Subset: [22, 70, 71, 72]
+Iter 12: 
+Min Hitting Set: [22, 75, 84, 93, 95, 98, 99, 449, 457, 733, 734]
+Min Correction Subset: [450, 451, 452, 453]
+Iter 13: 
+Min Hitting Set: [22, 75, 84, 93, 95, 98, 99, 449, 450, 457, 733, 734]
+Min Correction Subset: [453, 454, 455, 456]
+Optimal IIS
+IIS generation
+Instance: j3035_4
+----------------------------
+Query: 10
+Query element:15,23
+Query element:21,22
+Query scope: 1640
+Query scope: 2354
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 618.797
+IIS Constraint: 22; completion; {activity:23}
+IIS Constraint: 75; precedence; {activity:24,predecessor:21}
+IIS Constraint: 84; precedence; {activity:27,predecessor:24}
+IIS Constraint: 93; precedence; {activity:30,predecessor:23}
+IIS Constraint: 95; precedence; {activity:31,predecessor:27}
+IIS Constraint: 98; precedence; {activity:32,predecessor:30}
+IIS Constraint: 99; precedence; {activity:32,predecessor:31}
+IIS Constraint: 449; renewable; {resource:3,t:33}
+IIS Constraint: 453; renewable; {resource:3,t:37}
+IIS Constraint: 457; renewable; {resource:3,t:41}
+IIS Constraint: 733; query; {activity:21,t:23,query:10}
+IIS Constraint: 734; max; {f:50.0,objective:max}

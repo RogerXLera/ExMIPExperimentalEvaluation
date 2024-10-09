@@ -1,0 +1,111 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [77]
+Iter 2: 
+Min Hitting Set: [77]
+Min Correction Subset: [78]
+Iter 3: 
+Min Hitting Set: [77, 78]
+Min Correction Subset: [76]
+Iter 4: 
+Min Hitting Set: [76, 77, 78]
+Min Correction Subset: [82]
+Iter 5: 
+Min Hitting Set: [76, 77, 78, 82]
+Min Correction Subset: [79, 80]
+Iter 6: 
+Min Hitting Set: [76, 77, 78, 79, 82]
+Min Correction Subset: [80, 81]
+Optimal IIS
+Instance: scheduling-76-200-720000
+----------------------------
+Query: 9
+Query element:79
+Query element:60
+Query scope: 161
+Query scope: 162
+Query scope: 163
+Query scope: 164
+Query scope: 165
+Query scope: 166
+Query scope: 167
+Query scope: 168
+Query scope: 169
+Query scope: 170
+Query scope: 171
+Query scope: 172
+Query scope: 173
+Query scope: 174
+Query scope: 175
+Query scope: 176
+Query scope: 177
+Query scope: 178
+Query scope: 179
+Query scope: 180
+Query scope: 181
+Query scope: 182
+Query scope: 183
+Query scope: 184
+Query scope: 185
+Query scope: 186
+Query scope: 187
+Query scope: 188
+Query scope: 189
+Query scope: 190
+Query scope: 191
+Query scope: 192
+Query scope: 193
+Query scope: 194
+Query scope: 195
+Query scope: 196
+Query scope: 197
+Query scope: 198
+Query scope: 199
+Query scope: 200
+Query scope: 201
+Query scope: 202
+Query scope: 203
+Query scope: 204
+Query scope: 205
+Query scope: 206
+Query scope: 207
+Query scope: 208
+Query scope: 209
+Query scope: 210
+Query scope: 211
+Query scope: 212
+Query scope: 213
+Query scope: 214
+Query scope: 215
+Query scope: 216
+Query scope: 217
+Query scope: 218
+Query scope: 219
+Query scope: 220
+Query scope: 221
+Query scope: 222
+Query scope: 223
+Query scope: 224
+Query scope: 225
+Query scope: 226
+Query scope: 227
+Query scope: 228
+Query scope: 229
+Query scope: 230
+Query scope: 231
+Query scope: 93
+Query scope: 94
+Query scope: 95
+Query scope: 96
+Query scope: 97
+Query scope: 159
+Query scope: 160
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 90.055
+IIS Constraint: 76; goods; {good:76}
+IIS Constraint: 77; goods; {good:77}
+IIS Constraint: 78; goods; {good:78}
+IIS Constraint: 80; query; {good:79,query:9}
+IIS Constraint: 82; max; {f:22.188742,objective:max}

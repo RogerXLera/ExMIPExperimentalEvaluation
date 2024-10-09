@@ -1,0 +1,92 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [59]
+Iter 2: 
+Min Hitting Set: [59]
+Min Correction Subset: [58]
+Iter 3: 
+Min Hitting Set: [58, 59]
+Min Correction Subset: [52]
+Iter 4: 
+Min Hitting Set: [52, 58, 59]
+Min Correction Subset: [57]
+Iter 5: 
+Min Hitting Set: [52, 57, 58, 59]
+Min Correction Subset: [7, 53]
+Iter 6: 
+Min Hitting Set: [7, 52, 57, 58, 59]
+Min Correction Subset: [54, 56]
+Iter 7: 
+Min Hitting Set: [7, 52, 54, 57, 58, 59]
+Min Correction Subset: [15, 53]
+Iter 8: 
+Min Hitting Set: [52, 53, 54, 57, 58, 59]
+Min Correction Subset: [0, 1, 2, 3, 56]
+Iter 9: 
+Min Hitting Set: [52, 53, 56, 57, 58, 59]
+Min Correction Subset: [15, 54]
+Iter 10: 
+Min Hitting Set: [15, 52, 53, 56, 57, 58, 59]
+Min Correction Subset: [14, 54]
+Optimal IIS
+Instance: scheduling-52-200-300000
+----------------------------
+Query: 7
+Query element:55
+Query scope: 112
+Query scope: 113
+Query scope: 114
+Query scope: 115
+Query scope: 116
+Query scope: 117
+Query scope: 118
+Query scope: 119
+Query scope: 120
+Query scope: 121
+Query scope: 122
+Query scope: 123
+Query scope: 124
+Query scope: 125
+Query scope: 126
+Query scope: 127
+Query scope: 128
+Query scope: 129
+Query scope: 130
+Query scope: 131
+Query scope: 132
+Query scope: 133
+Query scope: 134
+Query scope: 135
+Query scope: 136
+Query scope: 137
+Query scope: 138
+Query scope: 139
+Query scope: 140
+Query scope: 141
+Query scope: 142
+Query scope: 143
+Query scope: 144
+Query scope: 145
+Query scope: 146
+Query scope: 147
+Query scope: 148
+Query scope: 149
+Query scope: 150
+Query scope: 151
+Query scope: 152
+Query scope: 153
+Query scope: 154
+Query scope: 155
+Query scope: 156
+Query scope: 157
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 2906.366
+IIS Constraint: 52; goods; {good:52}
+IIS Constraint: 53; goods; {good:53}
+IIS Constraint: 54; goods; {good:54}
+IIS Constraint: 56; goods; {good:56}
+IIS Constraint: 57; goods; {good:57}
+IIS Constraint: 58; query; {good:55,query:7}
+IIS Constraint: 59; max; {f:31.875833,objective:max}

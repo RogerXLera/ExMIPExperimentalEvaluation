@@ -1,0 +1,114 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [38]
+Iter 2: 
+Min Hitting Set: [38]
+Min Correction Subset: [10]
+Iter 3: 
+Min Hitting Set: [10, 38]
+Min Correction Subset: [9]
+Iter 4: 
+Min Hitting Set: [9, 10, 38]
+Min Correction Subset: [12]
+Iter 5: 
+Min Hitting Set: [9, 10, 12, 38]
+Min Correction Subset: [27]
+Iter 6: 
+Min Hitting Set: [9, 10, 12, 27, 38]
+Min Correction Subset: [30]
+Iter 7: 
+Min Hitting Set: [9, 10, 12, 27, 30, 38]
+Min Correction Subset: [21]
+Iter 8: 
+Min Hitting Set: [9, 10, 12, 21, 27, 30, 38]
+Min Correction Subset: [37]
+Iter 9: 
+Min Hitting Set: [9, 10, 12, 21, 27, 30, 37, 38]
+Min Correction Subset: [13]
+Iter 10: 
+Min Hitting Set: [9, 10, 12, 13, 21, 27, 30, 37, 38]
+Min Correction Subset: [6, 24]
+Iter 11: 
+Min Hitting Set: [6, 9, 10, 12, 13, 21, 27, 30, 37, 38]
+Min Correction Subset: [18, 24]
+Iter 12: 
+Min Hitting Set: [9, 10, 12, 13, 21, 24, 27, 30, 37, 38]
+Min Correction Subset: [18, 29]
+Iter 13: 
+Min Hitting Set: [9, 10, 12, 13, 18, 21, 24, 27, 30, 37, 38]
+Min Correction Subset: [0, 6]
+Iter 14: 
+Min Hitting Set: [6, 9, 10, 12, 13, 18, 21, 27, 30, 37, 38]
+Min Correction Subset: [0, 29]
+Iter 15: 
+Min Hitting Set: [0, 6, 9, 10, 12, 13, 18, 21, 27, 30, 37, 38]
+Min Correction Subset: [7, 29]
+Iter 16: 
+Min Hitting Set: [6, 9, 10, 12, 13, 21, 24, 27, 29, 30, 37, 38]
+Min Correction Subset: [7, 14]
+Iter 17: 
+Min Hitting Set: [0, 6, 7, 9, 10, 12, 13, 18, 21, 27, 30, 37, 38]
+Min Correction Subset: [20, 29]
+Iter 18: 
+Min Hitting Set: [6, 7, 9, 10, 12, 13, 21, 24, 27, 29, 30, 37, 38]
+Min Correction Subset: [18, 32]
+Iter 19: 
+Min Hitting Set: [6, 7, 9, 10, 12, 13, 18, 21, 27, 29, 30, 37, 38]
+Min Correction Subset: [20, 32]
+Iter 20: 
+Min Hitting Set: [0, 6, 7, 9, 10, 12, 13, 18, 20, 21, 27, 30, 37, 38]
+Min Correction Subset: [14, 24]
+Iter 21: 
+Min Hitting Set: [0, 7, 9, 10, 12, 13, 18, 20, 21, 24, 27, 30, 37, 38]
+Min Correction Subset: [1, 6]
+Iter 22: 
+Min Hitting Set: [6, 9, 10, 12, 13, 14, 18, 21, 27, 29, 30, 32, 37, 38]
+Min Correction Subset: [16, 24]
+Iter 23: 
+Min Hitting Set: [6, 7, 9, 10, 12, 13, 21, 24, 27, 29, 30, 32, 37, 38]
+Min Correction Subset: [0, 18]
+Iter 24: 
+Min Hitting Set: [6, 7, 9, 10, 12, 13, 18, 21, 24, 27, 29, 30, 32, 37, 38]
+Min Correction Subset: [0, 14, 26]
+Iter 25: 
+Min Hitting Set: [6, 9, 10, 12, 13, 14, 18, 20, 21, 24, 27, 29, 30, 37, 38]
+Min Correction Subset: [7, 32]
+Iter 26: 
+Min Hitting Set: [6, 9, 10, 12, 13, 14, 18, 21, 24, 27, 29, 30, 32, 37, 38]
+Min Correction Subset: [7, 20]
+Iter 27: 
+Min Hitting Set: [0, 6, 7, 9, 10, 12, 13, 18, 20, 21, 24, 27, 30, 37, 38]
+Min Correction Subset: [1, 2, 29]
+Iter 28: 
+Min Hitting Set: [0, 6, 7, 9, 10, 12, 13, 21, 24, 27, 29, 30, 32, 37, 38]
+Min Correction Subset: [14, 18]
+Optimal IIS
+Instance: paths-24-50-570000
+----------------------------
+Query: 7
+Query element:4
+Query scope: 2
+Query scope: 14
+Query scope: 22
+Query scope: 30
+Query scope: 36
+Query scope: 53
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 855.228
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 7; goods; {good:7}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 10; goods; {good:10}
+IIS Constraint: 12; goods; {good:12}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 18; goods; {good:18}
+IIS Constraint: 20; goods; {good:20}
+IIS Constraint: 21; goods; {good:21}
+IIS Constraint: 24; goods; {good:24}
+IIS Constraint: 27; goods; {good:27}
+IIS Constraint: 30; goods; {good:30}
+IIS Constraint: 37; query; {good:4,query:7}
+IIS Constraint: 38; max; {f:11.388834,objective:max}

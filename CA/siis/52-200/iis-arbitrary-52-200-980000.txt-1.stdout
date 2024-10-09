@@ -1,0 +1,84 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [90]
+Iter 2: 
+Min Hitting Set: [90]
+Min Correction Subset: [32]
+Iter 3: 
+Min Hitting Set: [32, 90]
+Min Correction Subset: [30, 39]
+Iter 4: 
+Min Hitting Set: [30, 32, 90]
+Min Correction Subset: [8, 22]
+Iter 5: 
+Min Hitting Set: [8, 30, 32, 90]
+Min Correction Subset: [12, 49]
+Iter 6: 
+Min Hitting Set: [8, 12, 30, 32, 90]
+Min Correction Subset: [0, 43]
+Iter 7: 
+Min Hitting Set: [0, 8, 12, 30, 32, 90]
+Min Correction Subset: [9, 51]
+Iter 8: 
+Min Hitting Set: [0, 8, 9, 12, 30, 32, 90]
+Min Correction Subset: [28, 51]
+Iter 9: 
+Min Hitting Set: [0, 8, 12, 30, 32, 51, 90]
+Min Correction Subset: [1, 3]
+Iter 10: 
+Min Hitting Set: [0, 1, 8, 12, 30, 32, 51, 90]
+Min Correction Subset: [26, 29]
+Iter 11: 
+Min Hitting Set: [0, 1, 8, 12, 26, 30, 32, 51, 90]
+Min Correction Subset: [27, 48]
+Iter 12: 
+Min Hitting Set: [0, 1, 8, 12, 26, 27, 30, 32, 51, 90]
+Min Correction Subset: [3, 43]
+Iter 13: 
+Min Hitting Set: [3, 8, 12, 26, 27, 30, 32, 43, 51, 90]
+Min Correction Subset: [20, 45]
+Iter 14: 
+Min Hitting Set: [3, 8, 12, 20, 26, 27, 30, 32, 43, 51, 90]
+Min Correction Subset: [49, 89]
+Iter 15: 
+Min Hitting Set: [3, 8, 20, 26, 27, 30, 32, 43, 49, 51, 90]
+Min Correction Subset: [12, 28]
+Iter 16: 
+Min Hitting Set: [3, 8, 12, 20, 26, 27, 30, 32, 43, 49, 51, 90]
+Min Correction Subset: [25, 89]
+Iter 17: 
+Min Hitting Set: [3, 8, 12, 20, 26, 27, 30, 32, 43, 51, 89, 90]
+Min Correction Subset: [9, 14]
+Iter 18: 
+Min Hitting Set: [3, 8, 9, 12, 20, 26, 27, 28, 30, 32, 43, 89, 90]
+Min Correction Subset: [29, 51]
+Iter 19: 
+Min Hitting Set: [3, 8, 9, 12, 20, 27, 28, 29, 30, 32, 43, 89, 90]
+Min Correction Subset: [14, 51]
+Iter 20: 
+Min Hitting Set: [3, 8, 9, 12, 20, 27, 29, 30, 32, 43, 51, 89, 90]
+Min Correction Subset: [2, 14]
+Instance: arbitrary-52-200-980000
+----------------------------
+Query: 3
+Query element:196
+Query element:28
+Query scope: 196
+Query scope: 28
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36037.810
+IIS Constraint: 3; goods; {good:3}
+IIS Constraint: 8; goods; {good:8}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 12; goods; {good:12}
+IIS Constraint: 20; goods; {good:20}
+IIS Constraint: 27; goods; {good:27}
+IIS Constraint: 29; goods; {good:29}
+IIS Constraint: 30; goods; {good:30}
+IIS Constraint: 32; goods; {good:32}
+IIS Constraint: 43; goods; {good:43}
+IIS Constraint: 51; goods; {good:51}
+IIS Constraint: 89; query; {bid:28,query:3}
+IIS Constraint: 90; max; {f:3123.4168,objective:max}

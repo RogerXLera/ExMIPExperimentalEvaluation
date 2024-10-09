@@ -1,0 +1,55 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [801]
+Iter 2: 
+Min Hitting Set: [801]
+Min Correction Subset: [90]
+Iter 3: 
+Min Hitting Set: [90, 801]
+Min Correction Subset: [97]
+Iter 4: 
+Min Hitting Set: [90, 97, 801]
+Min Correction Subset: [800]
+Iter 5: 
+Min Hitting Set: [90, 97, 800, 801]
+Min Correction Subset: [83, 98]
+Iter 6: 
+Min Hitting Set: [83, 90, 97, 800, 801]
+Min Correction Subset: [77, 98]
+Iter 7: 
+Min Hitting Set: [90, 97, 98, 800, 801]
+Min Correction Subset: [83, 99]
+Iter 8: 
+Min Hitting Set: [83, 90, 97, 98, 800, 801]
+Min Correction Subset: [77, 86]
+Iter 9: 
+Min Hitting Set: [77, 83, 90, 97, 800, 801]
+Min Correction Subset: [15, 50, 51]
+Iter 10: 
+Min Hitting Set: [15, 77, 83, 90, 97, 800, 801]
+Min Correction Subset: [301, 302, 303, 651, 652, 653]
+Optimal IIS
+IIS generation
+Instance: j3047_6
+----------------------------
+Query: 6
+Query element:17,28
+Query element:18,28
+Query element:24,28
+Query element:15,25
+Query scope: 2083
+Query scope: 2216
+Query scope: 2990
+Query scope: 1823
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1505.915
+IIS Constraint: 15; completion; {activity:16}
+IIS Constraint: 77; precedence; {activity:25,predecessor:16}
+IIS Constraint: 83; precedence; {activity:27,predecessor:25}
+IIS Constraint: 90; precedence; {activity:29,predecessor:27}
+IIS Constraint: 97; precedence; {activity:32,predecessor:29}
+IIS Constraint: 301; renewable; {resource:2,t:26}
+IIS Constraint: 800; query; {activities:[17,18,24,15],t:28,query:6}
+IIS Constraint: 801; max; {f:53.0,objective:max}

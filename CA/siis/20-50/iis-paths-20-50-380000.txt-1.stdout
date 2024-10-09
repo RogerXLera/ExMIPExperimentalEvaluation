@@ -1,0 +1,71 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [35]
+Iter 2: 
+Min Hitting Set: [35]
+Min Correction Subset: [1]
+Iter 3: 
+Min Hitting Set: [1, 35]
+Min Correction Subset: [22]
+Iter 4: 
+Min Hitting Set: [1, 22, 35]
+Min Correction Subset: [19]
+Iter 5: 
+Min Hitting Set: [1, 19, 22, 35]
+Min Correction Subset: [0]
+Iter 6: 
+Min Hitting Set: [0, 1, 19, 22, 35]
+Min Correction Subset: [11]
+Iter 7: 
+Min Hitting Set: [0, 1, 11, 19, 22, 35]
+Min Correction Subset: [14]
+Iter 8: 
+Min Hitting Set: [0, 1, 11, 14, 19, 22, 35]
+Min Correction Subset: [6]
+Iter 9: 
+Min Hitting Set: [0, 1, 6, 11, 14, 19, 22, 35]
+Min Correction Subset: [17]
+Iter 10: 
+Min Hitting Set: [0, 1, 6, 11, 14, 17, 19, 22, 35]
+Min Correction Subset: [5]
+Iter 11: 
+Min Hitting Set: [0, 1, 5, 6, 11, 14, 17, 19, 22, 35]
+Min Correction Subset: [10]
+Iter 12: 
+Min Hitting Set: [0, 1, 5, 6, 10, 11, 14, 17, 19, 22, 35]
+Min Correction Subset: [3]
+Iter 13: 
+Min Hitting Set: [0, 1, 3, 5, 6, 10, 11, 14, 17, 19, 22, 35]
+Min Correction Subset: [4]
+Iter 14: 
+Min Hitting Set: [0, 1, 3, 4, 5, 6, 10, 11, 14, 17, 19, 22, 35]
+Min Correction Subset: [2]
+Iter 15: 
+Min Hitting Set: [0, 1, 2, 3, 4, 5, 6, 10, 11, 14, 17, 19, 22, 35]
+Min Correction Subset: [34]
+Optimal IIS
+Instance: paths-20-50-380000
+----------------------------
+Query: 10
+Query element:1
+Query element:12
+Query scope: 24
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 16.311
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 2; goods; {good:2}
+IIS Constraint: 3; goods; {good:3}
+IIS Constraint: 4; goods; {good:4}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 6; goods; {good:6}
+IIS Constraint: 10; goods; {good:10}
+IIS Constraint: 11; goods; {good:11}
+IIS Constraint: 14; goods; {good:14}
+IIS Constraint: 17; goods; {good:17}
+IIS Constraint: 19; goods; {good:19}
+IIS Constraint: 22; goods; {good:22}
+IIS Constraint: 34; query; {goods:[1,12],query:10}
+IIS Constraint: 35; max; {f:7.166177,objective:max}

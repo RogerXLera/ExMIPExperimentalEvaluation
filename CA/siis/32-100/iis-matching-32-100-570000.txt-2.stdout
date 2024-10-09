@@ -1,0 +1,76 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [60]
+Iter 2: 
+Min Hitting Set: [60]
+Min Correction Subset: [17]
+Iter 3: 
+Min Hitting Set: [17, 60]
+Min Correction Subset: [13]
+Iter 4: 
+Min Hitting Set: [13, 17, 60]
+Min Correction Subset: [29]
+Iter 5: 
+Min Hitting Set: [13, 17, 29, 60]
+Min Correction Subset: [0]
+Iter 6: 
+Min Hitting Set: [0, 13, 17, 29, 60]
+Min Correction Subset: [9]
+Iter 7: 
+Min Hitting Set: [0, 9, 13, 17, 29, 60]
+Min Correction Subset: [59]
+Iter 8: 
+Min Hitting Set: [0, 9, 13, 17, 29, 59, 60]
+Min Correction Subset: [25, 57]
+Iter 9: 
+Min Hitting Set: [0, 9, 13, 17, 25, 29, 59, 60]
+Min Correction Subset: [1, 28]
+Iter 10: 
+Min Hitting Set: [0, 1, 9, 13, 17, 25, 29, 59, 60]
+Min Correction Subset: [21, 28]
+Iter 11: 
+Min Hitting Set: [0, 9, 13, 17, 25, 28, 29, 59, 60]
+Min Correction Subset: [1, 21]
+Iter 12: 
+Min Hitting Set: [0, 1, 9, 13, 17, 21, 25, 29, 59, 60]
+Min Correction Subset: [5, 28]
+Iter 13: 
+Min Hitting Set: [0, 1, 9, 13, 17, 25, 28, 29, 59, 60]
+Min Correction Subset: [5, 21]
+Iter 14: 
+Min Hitting Set: [0, 9, 13, 17, 21, 25, 28, 29, 59, 60]
+Min Correction Subset: [1, 37]
+Iter 15: 
+Min Hitting Set: [0, 1, 5, 9, 13, 17, 21, 25, 29, 59, 60]
+Min Correction Subset: [2, 28]
+Iter 16: 
+Min Hitting Set: [0, 1, 5, 9, 13, 17, 25, 28, 29, 59, 60]
+Min Correction Subset: [21, 57]
+Iter 17: 
+Min Hitting Set: [0, 1, 5, 9, 13, 17, 28, 29, 57, 59, 60]
+Min Correction Subset: [18, 25]
+Iter 18: 
+Min Hitting Set: [0, 1, 9, 13, 17, 21, 25, 28, 29, 59, 60]
+Min Correction Subset: [5, 41]
+Optimal IIS
+Instance: matching-32-100-570000
+----------------------------
+Query: 2
+Query element:75
+Query scope: 75
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1636.408
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 17; goods; {good:17}
+IIS Constraint: 21; goods; {good:21}
+IIS Constraint: 25; goods; {good:25}
+IIS Constraint: 28; goods; {good:28}
+IIS Constraint: 29; goods; {good:29}
+IIS Constraint: 59; query; {bid:75,query:2}
+IIS Constraint: 60; max; {f:93.92855000000002,objective:max}

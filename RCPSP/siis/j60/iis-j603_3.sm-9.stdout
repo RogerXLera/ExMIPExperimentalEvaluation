@@ -1,0 +1,63 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [212]
+Iter 2: 
+Min Hitting Set: [212]
+Min Correction Subset: [88]
+Iter 3: 
+Min Hitting Set: [88, 212]
+Min Correction Subset: [84]
+Iter 4: 
+Min Hitting Set: [84, 88, 212]
+Min Correction Subset: [109]
+Iter 5: 
+Min Hitting Set: [84, 88, 109, 212]
+Min Correction Subset: [135]
+Iter 6: 
+Min Hitting Set: [84, 88, 109, 135, 212]
+Min Correction Subset: [97]
+Iter 7: 
+Min Hitting Set: [84, 88, 97, 109, 135, 212]
+Min Correction Subset: [110]
+Iter 8: 
+Min Hitting Set: [84, 88, 97, 109, 110, 135, 212]
+Min Correction Subset: [1591]
+Iter 9: 
+Min Hitting Set: [84, 88, 97, 109, 110, 135, 212, 1591]
+Min Correction Subset: [54, 138]
+Iter 10: 
+Min Hitting Set: [54, 84, 88, 97, 109, 110, 135, 212, 1591]
+Min Correction Subset: [23, 85]
+Iter 11: 
+Min Hitting Set: [23, 54, 84, 88, 97, 109, 110, 135, 212, 1591]
+Min Correction Subset: [207, 208]
+Iter 12: 
+Min Hitting Set: [23, 54, 84, 88, 97, 109, 110, 135, 207, 212, 1591]
+Min Correction Subset: [18, 79]
+Iter 13: 
+Min Hitting Set: [18, 23, 54, 84, 88, 97, 109, 110, 135, 207, 212, 1591]
+Min Correction Subset: [208, 209, 210, 211]
+Optimal IIS
+IIS generation
+Instance: j603_3
+----------------------------
+Query: 9
+Query element:55,89
+Query element:55,88
+Query scope: 16052
+----------------------------
+IIS optimality: infeasible
+IIS solution time: 1576.450
+IIS Constraint: 18; completion; {activity:19}
+IIS Constraint: 23; completion; {activity:24}
+IIS Constraint: 54; completion; {activity:55}
+IIS Constraint: 84; precedence; {activity:23,predecessor:19}
+IIS Constraint: 88; precedence; {activity:27,predecessor:24}
+IIS Constraint: 97; precedence; {activity:34,predecessor:23}
+IIS Constraint: 109; precedence; {activity:43,predecessor:27}
+IIS Constraint: 110; precedence; {activity:43,predecessor:34}
+IIS Constraint: 135; precedence; {activity:55,predecessor:43}
+IIS Constraint: 208; renewable; {resource:1,t:53}
+IIS Constraint: 212; renewable; {resource:1,t:57}
+IIS Constraint: 1591; query; {activity:55,t:89,t_:88,query:9}

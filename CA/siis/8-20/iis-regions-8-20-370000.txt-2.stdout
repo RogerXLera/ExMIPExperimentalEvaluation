@@ -1,0 +1,61 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [19]
+Iter 2: 
+Min Hitting Set: [19]
+Min Correction Subset: [0, 2]
+Iter 3: 
+Min Hitting Set: [0, 19]
+Min Correction Subset: [7, 17]
+Iter 4: 
+Min Hitting Set: [0, 7, 19]
+Min Correction Subset: [5, 17]
+Iter 5: 
+Min Hitting Set: [0, 17, 19]
+Min Correction Subset: [1, 7]
+Iter 6: 
+Min Hitting Set: [0, 7, 17, 19]
+Min Correction Subset: [1, 2, 5]
+Iter 7: 
+Min Hitting Set: [2, 7, 17, 19]
+Min Correction Subset: [0, 1]
+Iter 8: 
+Min Hitting Set: [1, 2, 17, 19]
+Min Correction Subset: [5, 7]
+Iter 9: 
+Min Hitting Set: [0, 5, 7, 19]
+Min Correction Subset: [1, 17]
+Iter 10: 
+Min Hitting Set: [0, 5, 7, 17, 19]
+Min Correction Subset: [1, 2, 3, 18]
+Optimal IIS
+Instance: regions-8-20-370000
+----------------------------
+Query: 9
+Query element:6
+Query element:3
+Query scope: 0
+Query scope: 8
+Query scope: 9
+Query scope: 15
+Query scope: 16
+Query scope: 19
+Query scope: 20
+Query scope: 22
+Query scope: 2
+Query scope: 4
+Query scope: 11
+Query scope: 12
+Query scope: 14
+Query scope: 17
+Query scope: 18
+Query scope: 21
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 755.961
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 7; goods; {good:7}
+IIS Constraint: 17; query; {good:6,query:9}
+IIS Constraint: 19; max; {f:601.0717999999999,objective:max}

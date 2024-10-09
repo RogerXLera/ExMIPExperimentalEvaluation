@@ -1,0 +1,61 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [55]
+Iter 2: 
+Min Hitting Set: [55]
+Min Correction Subset: [725]
+Iter 3: 
+Min Hitting Set: [55, 725]
+Min Correction Subset: [75]
+Iter 4: 
+Min Hitting Set: [55, 75, 725]
+Min Correction Subset: [54, 726]
+Iter 5: 
+Min Hitting Set: [54, 55, 75, 725]
+Min Correction Subset: [23, 726]
+Iter 6: 
+Min Hitting Set: [55, 75, 725, 726]
+Min Correction Subset: [45, 54]
+Iter 7: 
+Min Hitting Set: [54, 55, 75, 725, 726]
+Min Correction Subset: [6, 37]
+Iter 8: 
+Min Hitting Set: [6, 54, 55, 75, 725, 726]
+Min Correction Subset: [9, 41]
+Iter 9: 
+Min Hitting Set: [6, 9, 54, 55, 75, 725, 726]
+Min Correction Subset: [23, 81]
+Iter 10: 
+Min Hitting Set: [6, 9, 23, 54, 55, 75, 725]
+Min Correction Subset: [425, 433, 434]
+Iter 11: 
+Min Hitting Set: [6, 9, 23, 54, 55, 75, 425, 725]
+Min Correction Subset: [44, 433, 434]
+Iter 12: 
+Min Hitting Set: [6, 9, 23, 54, 55, 75, 434, 725]
+Min Correction Subset: [425, 429, 430]
+Iter 13: 
+Min Hitting Set: [6, 9, 23, 54, 55, 75, 425, 433, 725]
+Min Correction Subset: [429, 430, 431]
+Optimal IIS
+IIS generation
+Instance: j3033_6
+----------------------------
+Query: 10
+Query element:20,41
+Query element:24,44
+Query scope: 2155
+Query scope: 2586
+----------------------------
+IIS optimality: infeasible
+IIS solution time: 6131.990
+IIS Constraint: 6; completion; {activity:7}
+IIS Constraint: 9; completion; {activity:10}
+IIS Constraint: 23; completion; {activity:24}
+IIS Constraint: 54; precedence; {activity:16,predecessor:7}
+IIS Constraint: 55; precedence; {activity:16,predecessor:10}
+IIS Constraint: 75; precedence; {activity:24,predecessor:16}
+IIS Constraint: 430; renewable; {resource:3,t:18}
+IIS Constraint: 434; renewable; {resource:3,t:22}
+IIS Constraint: 725; query; {activity:24,t:41,query:10}

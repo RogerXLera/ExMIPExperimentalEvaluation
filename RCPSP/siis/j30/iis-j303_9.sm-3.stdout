@@ -1,0 +1,92 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [65]
+Iter 2: 
+Min Hitting Set: [65]
+Min Correction Subset: [68]
+Iter 3: 
+Min Hitting Set: [65, 68]
+Min Correction Subset: [76]
+Iter 4: 
+Min Hitting Set: [65, 68, 76]
+Min Correction Subset: [79]
+Iter 5: 
+Min Hitting Set: [65, 68, 76, 79]
+Min Correction Subset: [61]
+Iter 6: 
+Min Hitting Set: [61, 65, 68, 76, 79]
+Min Correction Subset: [67]
+Iter 7: 
+Min Hitting Set: [61, 65, 67, 68, 76, 79]
+Min Correction Subset: [62]
+Iter 8: 
+Min Hitting Set: [61, 62, 65, 67, 68, 76, 79]
+Min Correction Subset: [108]
+Iter 9: 
+Min Hitting Set: [61, 62, 65, 67, 68, 76, 79, 108]
+Min Correction Subset: [712]
+Iter 10: 
+Min Hitting Set: [61, 62, 65, 67, 68, 76, 79, 108, 712]
+Min Correction Subset: [101]
+Iter 11: 
+Min Hitting Set: [61, 62, 65, 67, 68, 76, 79, 101, 108, 712]
+Min Correction Subset: [110]
+Iter 12: 
+Min Hitting Set: [61, 62, 65, 67, 68, 76, 79, 101, 108, 110, 712]
+Min Correction Subset: [31, 713]
+Iter 13: 
+Min Hitting Set: [31, 61, 62, 65, 67, 68, 76, 79, 101, 108, 110, 712]
+Min Correction Subset: [22, 56]
+Iter 14: 
+Min Hitting Set: [22, 31, 61, 62, 65, 67, 68, 76, 79, 101, 108, 110, 712]
+Min Correction Subset: [18, 50]
+Iter 15: 
+Min Hitting Set: [18, 22, 31, 61, 62, 65, 67, 68, 76, 79, 101, 108, 110, 712]
+Min Correction Subset: [20, 52]
+Iter 16: 
+Min Hitting Set: [18, 20, 22, 31, 61, 62, 65, 67, 68, 76, 79, 101, 108, 110, 712]
+Min Correction Subset: [64, 433]
+Iter 17: 
+Min Hitting Set: [18, 20, 22, 31, 61, 62, 64, 65, 67, 68, 76, 79, 101, 108, 110, 712]
+Min Correction Subset: [56, 100]
+Iter 18: 
+Min Hitting Set: [18, 20, 31, 56, 61, 62, 64, 65, 67, 68, 76, 79, 101, 108, 110, 712]
+Min Correction Subset: [17, 22, 49]
+Iter 19: 
+Min Hitting Set: [18, 20, 22, 31, 56, 61, 62, 64, 65, 67, 68, 76, 79, 101, 108, 110, 712]
+Min Correction Subset: [98, 99, 100]
+Iter 20: 
+Min Hitting Set: [18, 20, 22, 31, 61, 62, 64, 65, 67, 68, 76, 79, 100, 101, 108, 110, 712]
+Min Correction Subset: [56, 433]
+Optimal IIS
+IIS generation
+Instance: j303_9
+----------------------------
+Query: 3
+Query element:32,65
+Query scope: 3559
+Query scope: 3560
+Query scope: 3561
+Query scope: 3562
+Query scope: 3563
+----------------------------
+IIS optimality: infeasible
+IIS solution time: 6632.527
+IIS Constraint: 18; completion; {activity:19}
+IIS Constraint: 20; completion; {activity:21}
+IIS Constraint: 22; completion; {activity:23}
+IIS Constraint: 31; completion; {activity:32}
+IIS Constraint: 61; precedence; {activity:26,predecessor:21}
+IIS Constraint: 62; precedence; {activity:26,predecessor:23}
+IIS Constraint: 65; precedence; {activity:27,predecessor:19}
+IIS Constraint: 67; precedence; {activity:28,predecessor:26}
+IIS Constraint: 68; precedence; {activity:28,predecessor:27}
+IIS Constraint: 76; precedence; {activity:31,predecessor:28}
+IIS Constraint: 79; precedence; {activity:32,predecessor:31}
+IIS Constraint: 100; renewable; {resource:1,t:20}
+IIS Constraint: 101; renewable; {resource:1,t:21}
+IIS Constraint: 108; renewable; {resource:1,t:28}
+IIS Constraint: 110; renewable; {resource:1,t:30}
+IIS Constraint: 433; renewable; {resource:3,t:37}
+IIS Constraint: 712; query; {activity:32,t:65,query:3}

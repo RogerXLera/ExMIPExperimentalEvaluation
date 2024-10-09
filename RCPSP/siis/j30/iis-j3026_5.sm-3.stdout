@@ -1,0 +1,147 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [89]
+Iter 2: 
+Min Hitting Set: [89]
+Min Correction Subset: [87]
+Iter 3: 
+Min Hitting Set: [87, 89]
+Min Correction Subset: [70]
+Iter 4: 
+Min Hitting Set: [70, 87, 89]
+Min Correction Subset: [88]
+Iter 5: 
+Min Hitting Set: [70, 87, 88, 89]
+Min Correction Subset: [79]
+Iter 6: 
+Min Hitting Set: [70, 79, 87, 88, 89]
+Min Correction Subset: [59]
+Iter 7: 
+Min Hitting Set: [59, 70, 79, 87, 88, 89]
+Min Correction Subset: [86]
+Iter 8: 
+Min Hitting Set: [59, 70, 79, 86, 87, 88, 89]
+Min Correction Subset: [77]
+Iter 9: 
+Min Hitting Set: [59, 70, 77, 79, 86, 87, 88, 89]
+Min Correction Subset: [46]
+Iter 10: 
+Min Hitting Set: [46, 59, 70, 77, 79, 86, 87, 88, 89]
+Min Correction Subset: [51]
+Iter 11: 
+Min Hitting Set: [46, 51, 59, 70, 77, 79, 86, 87, 88, 89]
+Min Correction Subset: [66]
+Iter 12: 
+Min Hitting Set: [46, 51, 59, 66, 70, 77, 79, 86, 87, 88, 89]
+Min Correction Subset: [650]
+Iter 13: 
+Min Hitting Set: [46, 51, 59, 66, 70, 77, 79, 86, 87, 88, 89, 650]
+Min Correction Subset: [83]
+Iter 14: 
+Min Hitting Set: [46, 51, 59, 66, 70, 77, 79, 83, 86, 87, 88, 89, 650]
+Min Correction Subset: [630]
+Iter 15: 
+Min Hitting Set: [46, 51, 59, 66, 70, 77, 79, 83, 86, 87, 88, 89, 630, 650]
+Min Correction Subset: [329]
+Iter 16: 
+Min Hitting Set: [46, 51, 59, 66, 70, 77, 79, 83, 86, 87, 88, 89, 329, 630, 650]
+Min Correction Subset: [786]
+Iter 17: 
+Min Hitting Set: [46, 51, 59, 66, 70, 77, 79, 83, 86, 87, 88, 89, 329, 630, 650, 786]
+Min Correction Subset: [31, 787]
+Iter 18: 
+Min Hitting Set: [31, 46, 51, 59, 66, 70, 77, 79, 83, 86, 87, 88, 89, 329, 630, 650, 786]
+Min Correction Subset: [71, 81]
+Iter 19: 
+Min Hitting Set: [31, 46, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 329, 630, 650, 786]
+Min Correction Subset: [17, 50]
+Iter 20: 
+Min Hitting Set: [17, 31, 46, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 329, 630, 650, 786]
+Min Correction Subset: [3, 7]
+Iter 21: 
+Min Hitting Set: [3, 17, 31, 46, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 329, 630, 650, 786]
+Min Correction Subset: [7, 38]
+Iter 22: 
+Min Hitting Set: [7, 17, 31, 46, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 329, 630, 650, 786]
+Min Correction Subset: [8, 39]
+Iter 23: 
+Min Hitting Set: [7, 8, 17, 31, 46, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 329, 630, 650, 786]
+Min Correction Subset: [320, 653]
+Iter 24: 
+Min Hitting Set: [7, 8, 17, 31, 46, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 320, 329, 630, 650, 786]
+Min Correction Subset: [307, 653]
+Iter 25: 
+Min Hitting Set: [7, 8, 17, 31, 46, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 329, 630, 650, 653, 786]
+Min Correction Subset: [45, 57]
+Iter 26: 
+Min Hitting Set: [7, 8, 17, 31, 45, 46, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 329, 630, 650, 653, 786]
+Min Correction Subset: [320, 321]
+Iter 27: 
+Min Hitting Set: [7, 8, 17, 31, 45, 46, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 320, 329, 630, 650, 653, 786]
+Min Correction Subset: [43, 53, 55]
+Iter 28: 
+Min Hitting Set: [7, 8, 17, 31, 43, 45, 46, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 320, 329, 630, 650, 653, 786]
+Min Correction Subset: [12, 44, 628]
+Iter 29: 
+Min Hitting Set: [7, 8, 12, 17, 31, 43, 45, 46, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 320, 329, 630, 650, 653, 786]
+Min Correction Subset: [50, 57, 628]
+Iter 30: 
+Min Hitting Set: [7, 8, 31, 43, 45, 46, 50, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 320, 329, 628, 630, 650, 653, 786]
+Min Correction Subset: [12, 44, 57]
+Iter 31: 
+Min Hitting Set: [7, 8, 12, 31, 43, 46, 50, 51, 57, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 320, 329, 630, 650, 653, 786]
+Min Correction Subset: [45, 628]
+Iter 32: 
+Min Hitting Set: [7, 8, 12, 31, 43, 45, 46, 50, 51, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 320, 329, 630, 650, 653, 786]
+Min Correction Subset: [48, 53, 57, 68]
+Iter 33: 
+Min Hitting Set: [7, 8, 12, 31, 45, 46, 50, 51, 53, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 320, 329, 630, 650, 653, 786]
+Min Correction Subset: [11, 43, 628, 635]
+Iter 34: 
+Min Hitting Set: [7, 8, 31, 46, 50, 51, 53, 57, 59, 66, 70, 71, 77, 79, 83, 86, 87, 88, 89, 320, 329, 628, 630, 650, 653, 786]
+Min Correction Subset: [13, 17, 45]
+IIS generation
+Instance: j3026_5
+----------------------------
+Query: 3
+Query element:32,74
+Query scope: 3813
+Query scope: 3814
+Query scope: 3815
+Query scope: 3816
+Query scope: 3817
+Query scope: 3818
+Query scope: 3819
+Query scope: 3820
+Query scope: 3821
+Query scope: 3822
+----------------------------
+IIS optimality: infeasible
+IIS solution time: 36040.619
+IIS Constraint: 7; completion; {activity:8}
+IIS Constraint: 8; completion; {activity:9}
+IIS Constraint: 31; completion; {activity:32}
+IIS Constraint: 46; precedence; {activity:15,predecessor:9}
+IIS Constraint: 50; precedence; {activity:18,predecessor:14}
+IIS Constraint: 51; precedence; {activity:19,predecessor:15}
+IIS Constraint: 53; precedence; {activity:20,predecessor:8}
+IIS Constraint: 57; precedence; {activity:22,predecessor:12}
+IIS Constraint: 59; precedence; {activity:22,predecessor:19}
+IIS Constraint: 66; precedence; {activity:25,predecessor:18}
+IIS Constraint: 70; precedence; {activity:26,predecessor:20}
+IIS Constraint: 71; precedence; {activity:26,predecessor:22}
+IIS Constraint: 77; precedence; {activity:28,predecessor:26}
+IIS Constraint: 79; precedence; {activity:29,predecessor:26}
+IIS Constraint: 83; precedence; {activity:30,predecessor:25}
+IIS Constraint: 86; precedence; {activity:31,predecessor:28}
+IIS Constraint: 87; precedence; {activity:32,predecessor:29}
+IIS Constraint: 88; precedence; {activity:32,predecessor:30}
+IIS Constraint: 89; precedence; {activity:32,predecessor:31}
+IIS Constraint: 320; renewable; {resource:2,t:56}
+IIS Constraint: 329; renewable; {resource:2,t:65}
+IIS Constraint: 628; renewable; {resource:4,t:16}
+IIS Constraint: 630; renewable; {resource:4,t:18}
+IIS Constraint: 650; renewable; {resource:4,t:38}
+IIS Constraint: 653; renewable; {resource:4,t:41}
+IIS Constraint: 786; query; {activity:32,t:74,query:3}

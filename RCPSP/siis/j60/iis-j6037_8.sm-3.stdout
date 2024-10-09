@@ -1,0 +1,38 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [186]
+Iter 2: 
+Min Hitting Set: [186]
+Min Correction Subset: [1474]
+Iter 3: 
+Min Hitting Set: [186, 1474]
+Min Correction Subset: [191]
+IIS generation
+Instance: j6037_8
+----------------------------
+Query: 3
+Query element:37,64
+Query scope: 9377
+Query scope: 9378
+Query scope: 9379
+Query scope: 9380
+Query scope: 9381
+Query scope: 9382
+Query scope: 9383
+Query scope: 9384
+Query scope: 9385
+Query scope: 9386
+Query scope: 9387
+Query scope: 9388
+Query scope: 9389
+Query scope: 9390
+Query scope: 9391
+Query scope: 9392
+Query scope: 9393
+Query scope: 9394
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36002.363
+IIS Constraint: 186; precedence; {activity:60,predecessor:58}
+IIS Constraint: 1474; max; {f:93.00000000000001,objective:max}

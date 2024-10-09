@@ -1,0 +1,65 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [1536]
+Iter 2: 
+Min Hitting Set: [1536]
+Min Correction Subset: [1535]
+Iter 3: 
+Min Hitting Set: [1535, 1536]
+Min Correction Subset: [152, 154]
+Iter 4: 
+Min Hitting Set: [152, 1535, 1536]
+Min Correction Subset: [120, 151]
+Iter 5: 
+Min Hitting Set: [120, 152, 1535, 1536]
+Min Correction Subset: [145, 154]
+Iter 6: 
+Min Hitting Set: [120, 154, 1535, 1536]
+Min Correction Subset: [117, 151]
+Iter 7: 
+Min Hitting Set: [151, 154, 1535, 1536]
+Min Correction Subset: [117, 141, 142]
+Iter 8: 
+Min Hitting Set: [117, 120, 154, 1535, 1536]
+Min Correction Subset: [145, 150, 151]
+Iter 9: 
+Min Hitting Set: [117, 151, 154, 1535, 1536]
+Min Correction Subset: [120, 141, 142]
+Iter 10: 
+Min Hitting Set: [142, 151, 154, 1535, 1536]
+Min Correction Subset: [120, 135, 141]
+Iter 11: 
+Min Hitting Set: [141, 151, 154, 1535, 1536]
+Min Correction Subset: [120, 125, 142]
+Iter 12: 
+Min Hitting Set: [120, 141, 151, 154, 1535, 1536]
+Min Correction Subset: [117, 125, 142]
+Iter 13: 
+Min Hitting Set: [117, 120, 151, 154, 1535, 1536]
+Min Correction Subset: [125, 142, 150, 152]
+Iter 14: 
+Min Hitting Set: [117, 120, 145, 152, 1535, 1536]
+Min Correction Subset: [129, 154]
+Iter 15: 
+Min Hitting Set: [120, 142, 151, 154, 1535, 1536]
+Min Correction Subset: [117, 135, 141]
+Iter 16: 
+Min Hitting Set: [141, 142, 151, 154, 1535, 1536]
+Min Correction Subset: [117, 125, 135]
+Optimal IIS
+IIS generation
+Instance: j604_5
+----------------------------
+Query: 2
+Query element:44,139
+Query scope: 12667
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 397.599
+IIS Constraint: 135; precedence; {activity:55,predecessor:44}
+IIS Constraint: 142; precedence; {activity:58,predecessor:55}
+IIS Constraint: 151; precedence; {activity:61,predecessor:58}
+IIS Constraint: 154; precedence; {activity:62,predecessor:61}
+IIS Constraint: 1535; query; {activity:44,t:139,query:2}
+IIS Constraint: 1536; max; {f:75.0,objective:max}

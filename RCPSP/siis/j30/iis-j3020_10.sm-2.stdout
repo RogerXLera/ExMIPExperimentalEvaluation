@@ -1,0 +1,64 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [639]
+Iter 2: 
+Min Hitting Set: [639]
+Min Correction Subset: [638]
+Iter 3: 
+Min Hitting Set: [638, 639]
+Min Correction Subset: [87, 88, 89]
+Iter 4: 
+Min Hitting Set: [87, 638, 639]
+Min Correction Subset: [56, 83, 89]
+Iter 5: 
+Min Hitting Set: [89, 638, 639]
+Min Correction Subset: [56, 73, 83]
+Iter 6: 
+Min Hitting Set: [56, 89, 638, 639]
+Min Correction Subset: [86, 87, 88]
+Iter 7: 
+Min Hitting Set: [83, 88, 638, 639]
+Min Correction Subset: [56, 68, 89]
+Iter 8: 
+Min Hitting Set: [56, 87, 638, 639]
+Min Correction Subset: [79, 88, 89]
+Iter 9: 
+Min Hitting Set: [56, 88, 638, 639]
+Min Correction Subset: [82, 83, 87, 89]
+Iter 10: 
+Min Hitting Set: [56, 87, 88, 638, 639]
+Min Correction Subset: [79, 82, 83, 89]
+Iter 11: 
+Min Hitting Set: [56, 88, 89, 638, 639]
+Min Correction Subset: [82, 83, 86, 87]
+Iter 12: 
+Min Hitting Set: [56, 83, 88, 638, 639]
+Min Correction Subset: [65, 68, 79, 89]
+Iter 13: 
+Min Hitting Set: [83, 87, 89, 638, 639]
+Min Correction Subset: [79, 86, 88]
+Iter 14: 
+Min Hitting Set: [83, 88, 89, 638, 639]
+Min Correction Subset: [56, 68, 86]
+Iter 15: 
+Min Hitting Set: [83, 86, 89, 638, 639]
+Min Correction Subset: [56, 73, 88]
+Iter 16: 
+Min Hitting Set: [56, 86, 89, 638, 639]
+Min Correction Subset: [72, 73, 87, 88]
+Optimal IIS
+IIS generation
+Instance: j3020_10
+----------------------------
+Query: 2
+Query element:15,115
+Query scope: 1592
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 45.018
+IIS Constraint: 68; precedence; {activity:25,predecessor:15}
+IIS Constraint: 83; precedence; {activity:30,predecessor:25}
+IIS Constraint: 88; precedence; {activity:32,predecessor:30}
+IIS Constraint: 638; query; {activity:15,t:115,query:2}
+IIS Constraint: 639; max; {f:37.0,objective:max}

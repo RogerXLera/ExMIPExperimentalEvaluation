@@ -1,0 +1,68 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [113]
+Iter 2: 
+Min Hitting Set: [113]
+Min Correction Subset: [33]
+Iter 3: 
+Min Hitting Set: [33, 113]
+Min Correction Subset: [64]
+Iter 4: 
+Min Hitting Set: [33, 64, 113]
+Min Correction Subset: [37]
+Iter 5: 
+Min Hitting Set: [33, 37, 64, 113]
+Min Correction Subset: [13]
+Iter 6: 
+Min Hitting Set: [13, 33, 37, 64, 113]
+Min Correction Subset: [10]
+Iter 7: 
+Min Hitting Set: [10, 13, 33, 37, 64, 113]
+Min Correction Subset: [65]
+Iter 8: 
+Min Hitting Set: [10, 13, 33, 37, 64, 65, 113]
+Min Correction Subset: [12]
+Iter 9: 
+Min Hitting Set: [10, 12, 13, 33, 37, 64, 65, 113]
+Min Correction Subset: [70]
+Iter 10: 
+Min Hitting Set: [10, 12, 13, 33, 37, 64, 65, 70, 113]
+Min Correction Subset: [8]
+Iter 11: 
+Min Hitting Set: [8, 10, 12, 13, 33, 37, 64, 65, 70, 113]
+Min Correction Subset: [17]
+Iter 12: 
+Min Hitting Set: [8, 10, 12, 13, 17, 33, 37, 64, 65, 70, 113]
+Min Correction Subset: [50]
+Iter 13: 
+Min Hitting Set: [8, 10, 12, 13, 17, 33, 37, 50, 64, 65, 70, 113]
+Min Correction Subset: [14]
+Iter 14: 
+Min Hitting Set: [8, 10, 12, 13, 14, 17, 33, 37, 50, 64, 65, 70, 113]
+Min Correction Subset: [61]
+Iter 15: 
+Min Hitting Set: [8, 10, 12, 13, 14, 17, 33, 37, 50, 61, 64, 65, 70, 113]
+Min Correction Subset: [51]
+Instance: arbitrary-76-200-640000
+----------------------------
+Query: 1
+Query element:5
+Query scope: 5
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36015.014
+IIS Constraint: 8; goods; {good:8}
+IIS Constraint: 10; goods; {good:10}
+IIS Constraint: 12; goods; {good:12}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 14; goods; {good:14}
+IIS Constraint: 17; goods; {good:17}
+IIS Constraint: 33; goods; {good:33}
+IIS Constraint: 37; goods; {good:37}
+IIS Constraint: 50; goods; {good:50}
+IIS Constraint: 61; goods; {good:61}
+IIS Constraint: 64; goods; {good:64}
+IIS Constraint: 65; goods; {good:65}
+IIS Constraint: 70; goods; {good:70}
+IIS Constraint: 113; max; {f:3796.5240000000003,objective:max}

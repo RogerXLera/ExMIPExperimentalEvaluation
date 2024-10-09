@@ -1,0 +1,18 @@
+IIS generation
+Instance: matching-12-20-320000
+----------------------------
+Query: 10
+Query element:9
+Query element:7
+Query scope: 5
+Query scope: 14
+Query scope: 17
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 0.01013
+IIS Constraint: 2; goods; {good:2}
+IIS Constraint: 3; goods; {good:3}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 23; query; {goods:[9,7],query:10}
+IIS Constraint: 24; max; {f:23.22506,objective:max}

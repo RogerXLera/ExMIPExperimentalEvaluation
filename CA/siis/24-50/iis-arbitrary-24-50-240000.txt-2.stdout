@@ -1,0 +1,82 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [34]
+Iter 2: 
+Min Hitting Set: [34]
+Min Correction Subset: [33]
+Iter 3: 
+Min Hitting Set: [33, 34]
+Min Correction Subset: [0, 17]
+Iter 4: 
+Min Hitting Set: [0, 33, 34]
+Min Correction Subset: [3, 9]
+Iter 5: 
+Min Hitting Set: [0, 3, 33, 34]
+Min Correction Subset: [8, 9]
+Iter 6: 
+Min Hitting Set: [0, 9, 33, 34]
+Min Correction Subset: [2, 16]
+Iter 7: 
+Min Hitting Set: [0, 2, 9, 33, 34]
+Min Correction Subset: [17, 22]
+Iter 8: 
+Min Hitting Set: [2, 9, 17, 33, 34]
+Min Correction Subset: [0, 3]
+Iter 9: 
+Min Hitting Set: [0, 2, 9, 17, 33, 34]
+Min Correction Subset: [12, 18, 21]
+Iter 10: 
+Min Hitting Set: [0, 2, 9, 12, 17, 33, 34]
+Min Correction Subset: [19, 20, 21]
+Iter 11: 
+Min Hitting Set: [0, 2, 9, 17, 21, 33, 34]
+Min Correction Subset: [6, 11, 12]
+Iter 12: 
+Min Hitting Set: [0, 2, 9, 12, 17, 21, 33, 34]
+Min Correction Subset: [3, 22, 31]
+Iter 13: 
+Min Hitting Set: [2, 3, 9, 12, 17, 21, 33, 34]
+Min Correction Subset: [0, 10, 18]
+Iter 14: 
+Min Hitting Set: [0, 2, 9, 12, 21, 22, 33, 34]
+Min Correction Subset: [15, 17]
+Iter 15: 
+Min Hitting Set: [0, 2, 3, 9, 12, 17, 21, 33, 34]
+Min Correction Subset: [1, 8, 15, 18, 20, 23, 28, 31]
+Optimal IIS
+Instance: arbitrary-24-50-240000
+----------------------------
+Query: 10
+Query element:17
+Query element:16
+Query scope: 9
+Query scope: 10
+Query scope: 11
+Query scope: 12
+Query scope: 13
+Query scope: 14
+Query scope: 15
+Query scope: 18
+Query scope: 19
+Query scope: 30
+Query scope: 31
+Query scope: 35
+Query scope: 36
+Query scope: 37
+Query scope: 38
+Query scope: 39
+Query scope: 40
+Query scope: 47
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 2094.136
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 2; goods; {good:2}
+IIS Constraint: 3; goods; {good:3}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 12; goods; {good:12}
+IIS Constraint: 17; goods; {good:17}
+IIS Constraint: 20; goods; {good:20}
+IIS Constraint: 33; query; {goods:[17,16],query:10}
+IIS Constraint: 34; max; {f:1482.0442,objective:max}

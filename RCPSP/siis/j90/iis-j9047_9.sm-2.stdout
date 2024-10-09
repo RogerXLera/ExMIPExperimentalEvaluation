@@ -1,0 +1,80 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2143]
+Iter 2: 
+Min Hitting Set: [2143]
+Min Correction Subset: [2142]
+Iter 3: 
+Min Hitting Set: [2142, 2143]
+Min Correction Subset: [283, 284, 285]
+Iter 4: 
+Min Hitting Set: [283, 2142, 2143]
+Min Correction Subset: [221, 276, 279]
+Iter 5: 
+Min Hitting Set: [221, 283, 2142, 2143]
+Min Correction Subset: [275, 276, 284, 285]
+Iter 6: 
+Min Hitting Set: [276, 284, 2142, 2143]
+Min Correction Subset: [215, 221, 283]
+Iter 7: 
+Min Hitting Set: [276, 283, 2142, 2143]
+Min Correction Subset: [209, 215, 221]
+Iter 8: 
+Min Hitting Set: [221, 285, 2142, 2143]
+Min Correction Subset: [282, 283, 284]
+Iter 9: 
+Min Hitting Set: [221, 284, 2142, 2143]
+Min Correction Subset: [278, 279, 283, 285]
+Iter 10: 
+Min Hitting Set: [221, 283, 284, 2142, 2143]
+Min Correction Subset: [224, 245, 276, 279]
+Iter 11: 
+Min Hitting Set: [221, 276, 283, 2142, 2143]
+Min Correction Subset: [209, 215, 224, 245]
+Iter 12: 
+Min Hitting Set: [215, 276, 283, 2142, 2143]
+Min Correction Subset: [209, 221, 270, 284]
+Iter 13: 
+Min Hitting Set: [209, 276, 283, 2142, 2143]
+Min Correction Subset: [221, 269, 270, 279]
+Iter 14: 
+Min Hitting Set: [215, 279, 284, 2142, 2143]
+Min Correction Subset: [221, 250, 283]
+Iter 15: 
+Min Hitting Set: [221, 224, 284, 285, 2142, 2143]
+Min Correction Subset: [278, 279, 282, 283]
+Iter 16: 
+Min Hitting Set: [221, 224, 279, 284, 2142, 2143]
+Min Correction Subset: [250, 251, 278, 283, 285]
+Iter 17: 
+Min Hitting Set: [221, 224, 283, 285, 2142, 2143]
+Min Correction Subset: [266, 276, 282, 284]
+Iter 18: 
+Min Hitting Set: [209, 221, 276, 283, 2142, 2143]
+Min Correction Subset: [227, 266, 269, 270, 284]
+Iter 19: 
+Min Hitting Set: [209, 270, 276, 283, 2142, 2143]
+Min Correction Subset: [215, 221, 233, 262]
+Iter 20: 
+Min Hitting Set: [215, 270, 276, 283, 2142, 2143]
+Min Correction Subset: [209, 221, 263, 284]
+Iter 21: 
+Min Hitting Set: [215, 279, 283, 284, 2142, 2143]
+Min Correction Subset: [221, 250, 276]
+Optimal IIS
+IIS generation
+Instance: j9047_9
+----------------------------
+Query: 2
+Query element:65,250
+Query scope: 25312
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 3977.917
+IIS Constraint: 215; precedence; {activity:68,predecessor:65}
+IIS Constraint: 250; precedence; {activity:80,predecessor:68}
+IIS Constraint: 279; precedence; {activity:90,predecessor:80}
+IIS Constraint: 284; precedence; {activity:92,predecessor:90}
+IIS Constraint: 2142; query; {activity:65,t:250,query:2}
+IIS Constraint: 2143; max; {f:86.0,objective:max}

@@ -1,0 +1,83 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [1388]
+Iter 2: 
+Min Hitting Set: [1388]
+Min Correction Subset: [151]
+Iter 3: 
+Min Hitting Set: [151, 1388]
+Min Correction Subset: [154]
+Iter 4: 
+Min Hitting Set: [151, 154, 1388]
+Min Correction Subset: [148]
+Iter 5: 
+Min Hitting Set: [148, 151, 154, 1388]
+Min Correction Subset: [153]
+Iter 6: 
+Min Hitting Set: [148, 151, 153, 154, 1388]
+Min Correction Subset: [135]
+Iter 7: 
+Min Hitting Set: [135, 148, 151, 153, 154, 1388]
+Min Correction Subset: [143]
+Iter 8: 
+Min Hitting Set: [135, 143, 148, 151, 153, 154, 1388]
+Min Correction Subset: [1113]
+Iter 9: 
+Min Hitting Set: [135, 143, 148, 151, 153, 154, 1113, 1388]
+Min Correction Subset: [133]
+Iter 10: 
+Min Hitting Set: [133, 135, 143, 148, 151, 153, 154, 1113, 1388]
+Min Correction Subset: [1387]
+Iter 11: 
+Min Hitting Set: [133, 135, 143, 148, 151, 153, 154, 1113, 1387, 1388]
+Min Correction Subset: [1118, 1147]
+Iter 12: 
+Min Hitting Set: [133, 135, 143, 148, 151, 153, 154, 1113, 1118, 1387, 1388]
+Min Correction Subset: [1147, 1148]
+Iter 13: 
+Min Hitting Set: [133, 135, 143, 148, 151, 153, 154, 1113, 1147, 1387, 1388]
+Min Correction Subset: [52, 130]
+Iter 14: 
+Min Hitting Set: [52, 133, 135, 143, 148, 151, 153, 154, 1113, 1147, 1387, 1388]
+Min Correction Subset: [1117, 1118]
+Iter 15: 
+Min Hitting Set: [52, 133, 135, 143, 148, 151, 153, 154, 1113, 1118, 1147, 1387, 1388]
+Min Correction Subset: [55, 136, 137]
+Iter 16: 
+Min Hitting Set: [52, 55, 133, 135, 143, 148, 151, 153, 154, 1113, 1118, 1147, 1387, 1388]
+Min Correction Subset: [96, 1144, 1145]
+Iter 17: 
+Min Hitting Set: [52, 55, 96, 133, 135, 143, 148, 151, 153, 154, 1113, 1118, 1147, 1387, 1388]
+Min Correction Subset: [102, 1144, 1145]
+Optimal IIS
+IIS generation
+Instance: j601_5
+----------------------------
+Query: 6
+Query element:38,39
+Query element:23,37
+Query element:25,37
+Query element:26,37
+Query scope: 9517
+Query scope: 5640
+Query scope: 6157
+Query scope: 6414
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 5207.020
+IIS Constraint: 52; completion; {activity:53}
+IIS Constraint: 55; completion; {activity:56}
+IIS Constraint: 133; precedence; {activity:54,predecessor:53}
+IIS Constraint: 135; precedence; {activity:55,predecessor:54}
+IIS Constraint: 143; precedence; {activity:58,predecessor:55}
+IIS Constraint: 148; precedence; {activity:60,predecessor:56}
+IIS Constraint: 151; precedence; {activity:61,predecessor:58}
+IIS Constraint: 153; precedence; {activity:62,predecessor:60}
+IIS Constraint: 154; precedence; {activity:62,predecessor:61}
+IIS Constraint: 1113; renewable; {resource:4,t:34}
+IIS Constraint: 1118; renewable; {resource:4,t:39}
+IIS Constraint: 1145; renewable; {resource:4,t:66}
+IIS Constraint: 1147; renewable; {resource:4,t:68}
+IIS Constraint: 1387; query; {activities:[38,23,25,26],t:39,query:6}
+IIS Constraint: 1388; max; {f:73.0,objective:max}

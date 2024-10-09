@@ -1,0 +1,72 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [404]
+Iter 2: 
+Min Hitting Set: [404]
+Min Correction Subset: [406]
+Iter 3: 
+Min Hitting Set: [404, 406]
+Min Correction Subset: [405]
+Iter 4: 
+Min Hitting Set: [404, 405, 406]
+Min Correction Subset: [407]
+Iter 5: 
+Min Hitting Set: [404, 405, 406, 407]
+Min Correction Subset: [672]
+Iter 6: 
+Min Hitting Set: [404, 405, 406, 407, 672]
+Min Correction Subset: [69]
+Iter 7: 
+Min Hitting Set: [69, 404, 405, 406, 407, 672]
+Min Correction Subset: [78]
+Iter 8: 
+Min Hitting Set: [69, 78, 404, 405, 406, 407, 672]
+Min Correction Subset: [77, 673]
+Iter 9: 
+Min Hitting Set: [69, 77, 78, 404, 405, 406, 407, 672]
+Min Correction Subset: [66, 673]
+Iter 10: 
+Min Hitting Set: [69, 78, 404, 405, 406, 407, 672, 673]
+Min Correction Subset: [72, 77]
+Iter 11: 
+Min Hitting Set: [69, 77, 78, 404, 405, 406, 407, 672, 673]
+Min Correction Subset: [66, 72]
+Iter 12: 
+Min Hitting Set: [69, 72, 78, 404, 405, 406, 407, 672, 673]
+Min Correction Subset: [77, 93]
+Iter 13: 
+Min Hitting Set: [66, 69, 77, 78, 404, 405, 406, 407, 672]
+Min Correction Subset: [24, 673]
+Iter 14: 
+Min Hitting Set: [66, 69, 77, 78, 404, 405, 406, 407, 672, 673]
+Min Correction Subset: [17, 59, 60]
+Iter 15: 
+Min Hitting Set: [17, 66, 69, 77, 78, 404, 405, 406, 407, 672, 673]
+Min Correction Subset: [16, 56, 57, 58]
+Iter 16: 
+Min Hitting Set: [16, 17, 66, 69, 77, 78, 404, 405, 406, 407, 672, 673]
+Min Correction Subset: [24, 90, 98, 99]
+Optimal IIS
+IIS generation
+Instance: j3034_2
+----------------------------
+Query: 9
+Query element:25,34
+Query element:25,33
+Query scope: 2525
+----------------------------
+IIS optimality: infeasible
+IIS solution time: 2759.211
+IIS Constraint: 16; completion; {activity:17}
+IIS Constraint: 17; completion; {activity:18}
+IIS Constraint: 24; completion; {activity:25}
+IIS Constraint: 66; precedence; {activity:21,predecessor:17}
+IIS Constraint: 69; precedence; {activity:22,predecessor:18}
+IIS Constraint: 77; precedence; {activity:25,predecessor:21}
+IIS Constraint: 78; precedence; {activity:25,predecessor:22}
+IIS Constraint: 404; renewable; {resource:3,t:18}
+IIS Constraint: 405; renewable; {resource:3,t:19}
+IIS Constraint: 406; renewable; {resource:3,t:20}
+IIS Constraint: 407; renewable; {resource:3,t:21}
+IIS Constraint: 672; query; {activity:25,t:34,t_:33,query:9}

@@ -1,0 +1,44 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2311]
+Iter 2: 
+Min Hitting Set: [2311]
+Min Correction Subset: [257]
+Iter 3: 
+Min Hitting Set: [257, 2311]
+Min Correction Subset: [254]
+Iter 4: 
+Min Hitting Set: [254, 257, 2311]
+Min Correction Subset: [2310]
+Iter 5: 
+Min Hitting Set: [254, 257, 2310, 2311]
+Min Correction Subset: [237, 239]
+Iter 6: 
+Min Hitting Set: [237, 254, 257, 2310, 2311]
+Min Correction Subset: [220, 239]
+Iter 7: 
+Min Hitting Set: [239, 254, 257, 2310, 2311]
+Min Correction Subset: [236, 237]
+Iter 8: 
+Min Hitting Set: [237, 239, 254, 257, 2310, 2311]
+Min Correction Subset: [220, 236]
+Iter 9: 
+Min Hitting Set: [236, 239, 254, 257, 2310, 2311]
+Min Correction Subset: [230, 237]
+Optimal IIS
+IIS generation
+Instance: j9032_9
+----------------------------
+Query: 2
+Query element:57,374
+Query scope: 25304
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 731.818
+IIS Constraint: 220; precedence; {activity:80,predecessor:57}
+IIS Constraint: 237; precedence; {activity:86,predecessor:80}
+IIS Constraint: 254; precedence; {activity:91,predecessor:86}
+IIS Constraint: 257; precedence; {activity:92,predecessor:91}
+IIS Constraint: 2310; query; {activity:57,t:374,query:2}
+IIS Constraint: 2311; max; {f:95.0,objective:max}

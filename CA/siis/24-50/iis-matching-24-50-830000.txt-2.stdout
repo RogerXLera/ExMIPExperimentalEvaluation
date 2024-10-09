@@ -1,0 +1,92 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [38]
+Iter 2: 
+Min Hitting Set: [38]
+Min Correction Subset: [1, 25]
+Iter 3: 
+Min Hitting Set: [1, 38]
+Min Correction Subset: [5, 34]
+Iter 4: 
+Min Hitting Set: [1, 5, 38]
+Min Correction Subset: [36, 37]
+Iter 5: 
+Min Hitting Set: [1, 5, 36, 38]
+Min Correction Subset: [0, 17]
+Iter 6: 
+Min Hitting Set: [0, 1, 5, 36, 38]
+Min Correction Subset: [17, 34]
+Iter 7: 
+Min Hitting Set: [1, 17, 34, 36, 38]
+Min Correction Subset: [0, 5]
+Iter 8: 
+Min Hitting Set: [1, 5, 17, 36, 38]
+Min Correction Subset: [9, 34]
+Iter 9: 
+Min Hitting Set: [0, 1, 34, 36, 38]
+Min Correction Subset: [5, 15, 25]
+Iter 10: 
+Min Hitting Set: [0, 25, 34, 36, 38]
+Min Correction Subset: [1, 5]
+Iter 11: 
+Min Hitting Set: [0, 1, 5, 34, 36, 38]
+Min Correction Subset: [9, 15, 25]
+Iter 12: 
+Min Hitting Set: [1, 5, 9, 17, 36, 38]
+Min Correction Subset: [13, 34]
+Iter 13: 
+Min Hitting Set: [0, 1, 25, 34, 36, 38]
+Min Correction Subset: [5, 19, 26]
+Iter 14: 
+Min Hitting Set: [5, 17, 25, 34, 36, 38]
+Min Correction Subset: [0, 1]
+Iter 15: 
+Min Hitting Set: [0, 5, 25, 34, 36, 38]
+Min Correction Subset: [1, 37]
+Iter 16: 
+Min Hitting Set: [0, 5, 25, 34, 37, 38]
+Min Correction Subset: [1, 26]
+Iter 17: 
+Min Hitting Set: [0, 1, 5, 25, 34, 37, 38]
+Min Correction Subset: [13, 19, 26]
+Iter 18: 
+Min Hitting Set: [0, 5, 25, 26, 34, 37, 38]
+Min Correction Subset: [1, 28]
+Iter 19: 
+Min Hitting Set: [0, 1, 25, 26, 34, 37, 38]
+Min Correction Subset: [13, 19, 28]
+Iter 20: 
+Min Hitting Set: [0, 1, 19, 25, 34, 37, 38]
+Min Correction Subset: [5, 11, 26]
+Iter 21: 
+Min Hitting Set: [1, 5, 9, 13, 17, 37, 38]
+Min Correction Subset: [0, 24]
+Iter 22: 
+Min Hitting Set: [0, 5, 25, 26, 28, 34, 37, 38]
+Min Correction Subset: [1, 7]
+Iter 23: 
+Min Hitting Set: [0, 1, 5, 9, 13, 34, 37, 38]
+Min Correction Subset: [17, 24, 25, 36]
+Iter 24: 
+Min Hitting Set: [0, 1, 5, 9, 13, 17, 36, 38]
+Min Correction Subset: [25, 34, 37]
+Optimal IIS
+Instance: matching-24-50-830000
+----------------------------
+Query: 3
+Query element:2
+Query element:0
+Query scope: 2
+Query scope: 0
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1947.002
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 5; goods; {good:5}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 13; goods; {good:13}
+IIS Constraint: 17; goods; {good:17}
+IIS Constraint: 37; query; {bid:0,query:3}
+IIS Constraint: 38; max; {f:39.04071,objective:max}

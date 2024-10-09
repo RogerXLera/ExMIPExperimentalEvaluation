@@ -1,0 +1,72 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [35]
+Iter 2: 
+Min Hitting Set: [35]
+Min Correction Subset: [17]
+Iter 3: 
+Min Hitting Set: [17, 35]
+Min Correction Subset: [9]
+Iter 4: 
+Min Hitting Set: [9, 17, 35]
+Min Correction Subset: [0]
+Iter 5: 
+Min Hitting Set: [0, 9, 17, 35]
+Min Correction Subset: [34]
+Iter 6: 
+Min Hitting Set: [0, 9, 17, 34, 35]
+Min Correction Subset: [6, 23]
+Iter 7: 
+Min Hitting Set: [0, 6, 9, 17, 34, 35]
+Min Correction Subset: [1, 4, 23]
+Iter 8: 
+Min Hitting Set: [0, 9, 17, 23, 34, 35]
+Min Correction Subset: [6, 7, 26]
+Iter 9: 
+Min Hitting Set: [0, 6, 9, 17, 23, 34, 35]
+Min Correction Subset: [1, 18, 26]
+Iter 10: 
+Min Hitting Set: [0, 1, 6, 9, 17, 34, 35]
+Min Correction Subset: [4, 18, 26]
+Iter 11: 
+Min Hitting Set: [0, 9, 17, 23, 26, 34, 35]
+Min Correction Subset: [6, 8, 28]
+Iter 12: 
+Min Hitting Set: [0, 1, 4, 6, 9, 17, 34, 35]
+Min Correction Subset: [5, 18, 23, 26]
+Iter 13: 
+Min Hitting Set: [0, 1, 6, 9, 17, 26, 34, 35]
+Min Correction Subset: [4, 18, 28]
+Iter 14: 
+Min Hitting Set: [0, 6, 9, 17, 18, 23, 34, 35]
+Min Correction Subset: [1, 4, 24]
+Iter 15: 
+Min Hitting Set: [0, 4, 6, 9, 17, 18, 34, 35]
+Min Correction Subset: [1, 10, 24]
+Iter 16: 
+Min Hitting Set: [0, 1, 6, 9, 17, 18, 34, 35]
+Min Correction Subset: [4, 10, 23]
+Iter 17: 
+Min Hitting Set: [0, 1, 6, 9, 17, 18, 23, 34, 35]
+Min Correction Subset: [4, 7, 11, 26]
+Optimal IIS
+Instance: paths-20-50-900000
+----------------------------
+Query: 3
+Query element:4
+Query element:7
+Query scope: 4
+Query scope: 7
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 1778.733
+IIS Constraint: 0; goods; {good:0}
+IIS Constraint: 1; goods; {good:1}
+IIS Constraint: 9; goods; {good:9}
+IIS Constraint: 17; goods; {good:17}
+IIS Constraint: 23; goods; {good:23}
+IIS Constraint: 26; goods; {good:26}
+IIS Constraint: 28; goods; {good:28}
+IIS Constraint: 34; query; {bid:7,query:3}
+IIS Constraint: 35; max; {f:7.2461660000000006,objective:max}

@@ -1,0 +1,67 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2155]
+Iter 2: 
+Min Hitting Set: [2155]
+Min Correction Subset: [2154]
+Iter 3: 
+Min Hitting Set: [2154, 2155]
+Min Correction Subset: [283, 284, 285]
+Iter 4: 
+Min Hitting Set: [283, 2154, 2155]
+Min Correction Subset: [276, 279, 285]
+Iter 5: 
+Min Hitting Set: [285, 2154, 2155]
+Min Correction Subset: [279, 281, 283]
+Iter 6: 
+Min Hitting Set: [279, 283, 2154, 2155]
+Min Correction Subset: [276, 284, 285]
+Iter 7: 
+Min Hitting Set: [279, 285, 2154, 2155]
+Min Correction Subset: [252, 281, 283]
+Iter 8: 
+Min Hitting Set: [283, 285, 2154, 2155]
+Min Correction Subset: [276, 279, 281]
+Iter 9: 
+Min Hitting Set: [281, 285, 2154, 2155]
+Min Correction Subset: [213, 283, 284]
+Iter 10: 
+Min Hitting Set: [276, 283, 2154, 2155]
+Min Correction Subset: [271, 279, 285]
+Iter 11: 
+Min Hitting Set: [281, 284, 285, 2154, 2155]
+Min Correction Subset: [213, 279, 283]
+Iter 12: 
+Min Hitting Set: [281, 283, 285, 2154, 2155]
+Min Correction Subset: [213, 276, 284]
+Iter 13: 
+Min Hitting Set: [279, 283, 284, 2154, 2155]
+Min Correction Subset: [252, 276, 285]
+Iter 14: 
+Min Hitting Set: [252, 279, 284, 2154, 2155]
+Min Correction Subset: [247, 283, 285]
+Iter 15: 
+Min Hitting Set: [276, 279, 283, 2154, 2155]
+Min Correction Subset: [271, 284, 285]
+Iter 16: 
+Min Hitting Set: [276, 283, 285, 2154, 2155]
+Min Correction Subset: [271, 279, 281]
+Iter 17: 
+Min Hitting Set: [271, 276, 283, 2154, 2155]
+Min Correction Subset: [264, 284, 285]
+Optimal IIS
+IIS generation
+Instance: j9042_9
+----------------------------
+Query: 2
+Query element:63,200
+Query scope: 25310
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 16888.123
+IIS Constraint: 213; precedence; {activity:68,predecessor:63}
+IIS Constraint: 281; precedence; {activity:91,predecessor:68}
+IIS Constraint: 285; precedence; {activity:92,predecessor:91}
+IIS Constraint: 2154; query; {activity:63,t:200,query:2}
+IIS Constraint: 2155; max; {f:84.0,objective:max}

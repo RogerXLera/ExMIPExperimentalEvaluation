@@ -1,0 +1,65 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2974]
+Iter 2: 
+Min Hitting Set: [2974]
+Min Correction Subset: [2973]
+Iter 3: 
+Min Hitting Set: [2973, 2974]
+Min Correction Subset: [242]
+Iter 4: 
+Min Hitting Set: [242, 2973, 2974]
+Min Correction Subset: [302, 303]
+Iter 5: 
+Min Hitting Set: [242, 302, 2973, 2974]
+Min Correction Subset: [294, 303]
+Iter 6: 
+Min Hitting Set: [242, 303, 2973, 2974]
+Min Correction Subset: [296, 297, 302]
+Iter 7: 
+Min Hitting Set: [242, 294, 302, 2973, 2974]
+Min Correction Subset: [273, 303]
+Iter 8: 
+Min Hitting Set: [242, 302, 303, 2973, 2974]
+Min Correction Subset: [294, 296, 297]
+Iter 9: 
+Min Hitting Set: [242, 297, 303, 2973, 2974]
+Min Correction Subset: [283, 296, 302]
+Iter 10: 
+Min Hitting Set: [242, 296, 303, 2973, 2974]
+Min Correction Subset: [280, 297, 302]
+Iter 11: 
+Min Hitting Set: [242, 296, 297, 303, 2973, 2974]
+Min Correction Subset: [280, 283, 302]
+Iter 12: 
+Min Hitting Set: [242, 294, 302, 303, 2973, 2974]
+Min Correction Subset: [273, 296, 297]
+Iter 13: 
+Min Hitting Set: [242, 297, 302, 303, 2973, 2974]
+Min Correction Subset: [283, 294, 296]
+Iter 14: 
+Min Hitting Set: [242, 283, 297, 303, 2973, 2974]
+Min Correction Subset: [246, 296, 302]
+Iter 15: 
+Min Hitting Set: [242, 273, 294, 302, 2973, 2974]
+Min Correction Subset: [257, 303]
+Iter 16: 
+Min Hitting Set: [242, 296, 302, 303, 2973, 2974]
+Min Correction Subset: [280, 283, 294]
+Optimal IIS
+IIS generation
+Instance: j1201_7
+----------------------------
+Query: 2
+Query element:85,463
+Query scope: 50579
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 20215.234
+IIS Constraint: 242; precedence; {activity:98,predecessor:85}
+IIS Constraint: 280; precedence; {activity:114,predecessor:98}
+IIS Constraint: 296; precedence; {activity:120,predecessor:114}
+IIS Constraint: 303; precedence; {activity:122,predecessor:120}
+IIS Constraint: 2973; query; {activity:85,t:463,query:2}
+IIS Constraint: 2974; max; {f:120.0,objective:max}

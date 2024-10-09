@@ -1,0 +1,83 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [3096]
+Iter 2: 
+Min Hitting Set: [3096]
+Min Correction Subset: [3095]
+Iter 3: 
+Min Hitting Set: [3095, 3096]
+Min Correction Subset: [376, 378]
+Iter 4: 
+Min Hitting Set: [376, 3095, 3096]
+Min Correction Subset: [303, 368]
+Iter 5: 
+Min Hitting Set: [303, 376, 3095, 3096]
+Min Correction Subset: [368, 369, 378]
+Iter 6: 
+Min Hitting Set: [368, 378, 3095, 3096]
+Min Correction Subset: [303, 376]
+Iter 7: 
+Min Hitting Set: [368, 376, 3095, 3096]
+Min Correction Subset: [303, 359, 360]
+Iter 8: 
+Min Hitting Set: [303, 378, 3095, 3096]
+Min Correction Subset: [327, 374, 376]
+Iter 9: 
+Min Hitting Set: [303, 368, 376, 3095, 3096]
+Min Correction Subset: [359, 360, 369, 378]
+Iter 10: 
+Min Hitting Set: [359, 368, 376, 3095, 3096]
+Min Correction Subset: [281, 303, 360]
+Iter 11: 
+Min Hitting Set: [360, 368, 376, 3095, 3096]
+Min Correction Subset: [303, 336, 359]
+Iter 12: 
+Min Hitting Set: [303, 376, 378, 3095, 3096]
+Min Correction Subset: [327, 368, 374]
+Iter 13: 
+Min Hitting Set: [303, 327, 378, 3095, 3096]
+Min Correction Subset: [373, 374, 376]
+Iter 14: 
+Min Hitting Set: [303, 374, 378, 3095, 3096]
+Min Correction Subset: [327, 354, 376]
+Iter 15: 
+Min Hitting Set: [303, 374, 376, 378, 3095, 3096]
+Min Correction Subset: [327, 354, 368]
+Iter 16: 
+Min Hitting Set: [303, 359, 368, 376, 3095, 3096]
+Min Correction Subset: [281, 360, 369, 378]
+Iter 17: 
+Min Hitting Set: [303, 368, 376, 378, 3095, 3096]
+Min Correction Subset: [327, 359, 360, 374]
+Iter 18: 
+Min Hitting Set: [303, 360, 368, 376, 3095, 3096]
+Min Correction Subset: [336, 359, 369, 378]
+Iter 19: 
+Min Hitting Set: [303, 327, 374, 378, 3095, 3096]
+Min Correction Subset: [354, 373, 376]
+Iter 20: 
+Min Hitting Set: [303, 354, 374, 378, 3095, 3096]
+Min Correction Subset: [327, 351, 376]
+Iter 21: 
+Min Hitting Set: [359, 360, 368, 376, 3095, 3096]
+Min Correction Subset: [281, 303, 336]
+Iter 22: 
+Min Hitting Set: [303, 327, 376, 378, 3095, 3096]
+Min Correction Subset: [321, 368, 374]
+Optimal IIS
+IIS generation
+Instance: j12050_7
+----------------------------
+Query: 2
+Query element:87,633
+Query scope: 50581
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 5723.091
+IIS Constraint: 281; precedence; {activity:90,predecessor:87}
+IIS Constraint: 359; precedence; {activity:116,predecessor:90}
+IIS Constraint: 368; precedence; {activity:119,predecessor:116}
+IIS Constraint: 376; precedence; {activity:122,predecessor:119}
+IIS Constraint: 3095; query; {activity:87,t:633,query:2}
+IIS Constraint: 3096; max; {f:137.0,objective:max}

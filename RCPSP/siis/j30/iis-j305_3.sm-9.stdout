@@ -1,0 +1,106 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [79]
+Iter 2: 
+Min Hitting Set: [79]
+Min Correction Subset: [785]
+Iter 3: 
+Min Hitting Set: [79, 785]
+Min Correction Subset: [75]
+Iter 4: 
+Min Hitting Set: [75, 79, 785]
+Min Correction Subset: [76]
+Iter 5: 
+Min Hitting Set: [75, 76, 79, 785]
+Min Correction Subset: [62]
+Iter 6: 
+Min Hitting Set: [62, 75, 76, 79, 785]
+Min Correction Subset: [74]
+Iter 7: 
+Min Hitting Set: [62, 74, 75, 76, 79, 785]
+Min Correction Subset: [65]
+Iter 8: 
+Min Hitting Set: [62, 65, 74, 75, 76, 79, 785]
+Min Correction Subset: [54]
+Iter 9: 
+Min Hitting Set: [54, 62, 65, 74, 75, 76, 79, 785]
+Min Correction Subset: [53]
+Iter 10: 
+Min Hitting Set: [53, 54, 62, 65, 74, 75, 76, 79, 785]
+Min Correction Subset: [64]
+Iter 11: 
+Min Hitting Set: [53, 54, 62, 64, 65, 74, 75, 76, 79, 785]
+Min Correction Subset: [55]
+Iter 12: 
+Min Hitting Set: [53, 54, 55, 62, 64, 65, 74, 75, 76, 79, 785]
+Min Correction Subset: [60]
+Iter 13: 
+Min Hitting Set: [53, 54, 55, 60, 62, 64, 65, 74, 75, 76, 79, 785]
+Min Correction Subset: [1]
+Iter 14: 
+Min Hitting Set: [1, 53, 54, 55, 60, 62, 64, 65, 74, 75, 76, 79, 785]
+Min Correction Subset: [68]
+Iter 15: 
+Min Hitting Set: [1, 53, 54, 55, 60, 62, 64, 65, 68, 74, 75, 76, 79, 785]
+Min Correction Subset: [58]
+Iter 16: 
+Min Hitting Set: [1, 53, 54, 55, 58, 60, 62, 64, 65, 68, 74, 75, 76, 79, 785]
+Min Correction Subset: [122]
+Iter 17: 
+Min Hitting Set: [1, 53, 54, 55, 58, 60, 62, 64, 65, 68, 74, 75, 76, 79, 122, 785]
+Min Correction Subset: [45]
+Iter 18: 
+Min Hitting Set: [1, 45, 53, 54, 55, 58, 60, 62, 64, 65, 68, 74, 75, 76, 79, 122, 785]
+Min Correction Subset: [94]
+Iter 19: 
+Min Hitting Set: [1, 45, 53, 54, 55, 58, 60, 62, 64, 65, 68, 74, 75, 76, 79, 94, 122, 785]
+Min Correction Subset: [456]
+Iter 20: 
+Min Hitting Set: [1, 45, 53, 54, 55, 58, 60, 62, 64, 65, 68, 74, 75, 76, 79, 94, 122, 456, 785]
+Min Correction Subset: [3]
+Iter 21: 
+Min Hitting Set: [1, 3, 45, 53, 54, 55, 58, 60, 62, 64, 65, 68, 74, 75, 76, 79, 94, 122, 456, 785]
+Min Correction Subset: [119]
+Iter 22: 
+Min Hitting Set: [1, 3, 45, 53, 54, 55, 58, 60, 62, 64, 65, 68, 74, 75, 76, 79, 94, 119, 122, 456, 785]
+Min Correction Subset: [57]
+Iter 23: 
+Min Hitting Set: [1, 3, 45, 53, 54, 55, 57, 58, 60, 62, 64, 65, 68, 74, 75, 76, 79, 94, 119, 122, 456, 785]
+Min Correction Subset: [784]
+Iter 24: 
+Min Hitting Set: [1, 3, 45, 53, 54, 55, 57, 58, 60, 62, 64, 65, 68, 74, 75, 76, 79, 94, 119, 122, 456, 784, 785]
+Min Correction Subset: [14, 43, 46]
+IIS generation
+Instance: j305_3
+----------------------------
+Query: 9
+Query element:25,53
+Query element:25,52
+Query scope: 3245
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36002.484
+IIS Constraint: 1; completion; {activity:2}
+IIS Constraint: 3; completion; {activity:4}
+IIS Constraint: 45; precedence; {activity:14,predecessor:12}
+IIS Constraint: 53; precedence; {activity:21,predecessor:14}
+IIS Constraint: 54; precedence; {activity:21,predecessor:17}
+IIS Constraint: 55; precedence; {activity:22,predecessor:8}
+IIS Constraint: 57; precedence; {activity:23,predecessor:9}
+IIS Constraint: 58; precedence; {activity:23,predecessor:20}
+IIS Constraint: 60; precedence; {activity:24,predecessor:23}
+IIS Constraint: 62; precedence; {activity:25,predecessor:21}
+IIS Constraint: 64; precedence; {activity:27,predecessor:15}
+IIS Constraint: 65; precedence; {activity:27,predecessor:22}
+IIS Constraint: 68; precedence; {activity:28,predecessor:25}
+IIS Constraint: 74; precedence; {activity:31,predecessor:24}
+IIS Constraint: 75; precedence; {activity:31,predecessor:27}
+IIS Constraint: 76; precedence; {activity:31,predecessor:28}
+IIS Constraint: 79; precedence; {activity:32,predecessor:31}
+IIS Constraint: 94; renewable; {resource:1,t:14}
+IIS Constraint: 119; renewable; {resource:1,t:39}
+IIS Constraint: 122; renewable; {resource:1,t:42}
+IIS Constraint: 456; renewable; {resource:3,t:24}
+IIS Constraint: 784; query; {activity:25,t:53,t_:52,query:9}
+IIS Constraint: 785; max; {f:76.0,objective:max}

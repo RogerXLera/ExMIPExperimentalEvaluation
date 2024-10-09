@@ -1,0 +1,86 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [869]
+Iter 2: 
+Min Hitting Set: [869]
+Min Correction Subset: [1458]
+Iter 3: 
+Min Hitting Set: [869, 1458]
+Min Correction Subset: [191]
+Iter 4: 
+Min Hitting Set: [191, 869, 1458]
+Min Correction Subset: [1457]
+Iter 5: 
+Min Hitting Set: [191, 869, 1457, 1458]
+Min Correction Subset: [143, 177]
+Iter 6: 
+Min Hitting Set: [143, 191, 869, 1457, 1458]
+Min Correction Subset: [180, 185]
+Iter 7: 
+Min Hitting Set: [143, 180, 191, 869, 1457, 1458]
+Min Correction Subset: [32, 109]
+Iter 8: 
+Min Hitting Set: [32, 143, 180, 191, 869, 1457, 1458]
+Min Correction Subset: [136, 164]
+Iter 9: 
+Min Hitting Set: [32, 136, 143, 180, 191, 869, 1457, 1458]
+Min Correction Subset: [164, 170]
+Iter 10: 
+Min Hitting Set: [32, 143, 164, 180, 191, 869, 1457, 1458]
+Min Correction Subset: [154, 868]
+Iter 11: 
+Min Hitting Set: [32, 143, 154, 164, 180, 191, 869, 1457, 1458]
+Min Correction Subset: [136, 177]
+Iter 12: 
+Min Hitting Set: [32, 154, 164, 177, 180, 191, 869, 1457, 1458]
+Min Correction Subset: [136, 186]
+Iter 13: 
+Min Hitting Set: [32, 136, 154, 164, 177, 180, 191, 869, 1457, 1458]
+Min Correction Subset: [170, 186]
+Iter 14: 
+Min Hitting Set: [32, 136, 154, 170, 177, 180, 191, 869, 1457, 1458]
+Min Correction Subset: [131, 143]
+Iter 15: 
+Min Hitting Set: [32, 136, 143, 154, 170, 180, 191, 869, 1457, 1458]
+Min Correction Subset: [177, 185]
+Iter 16: 
+Min Hitting Set: [32, 136, 143, 154, 170, 185, 191, 869, 1457, 1458]
+Min Correction Subset: [862, 863, 864, 865, 866, 867, 868]
+Iter 17: 
+Min Hitting Set: [32, 136, 143, 170, 185, 191, 868, 869, 1457, 1458]
+Min Correction Subset: [154, 180]
+Iter 18: 
+Min Hitting Set: [32, 136, 143, 170, 177, 180, 191, 868, 869, 1457, 1458]
+Min Correction Subset: [154, 186]
+Iter 19: 
+Min Hitting Set: [32, 143, 164, 177, 180, 186, 191, 868, 869, 1457, 1458]
+Min Correction Subset: [131, 136]
+Optimal IIS
+IIS generation
+Instance: j6035_6
+----------------------------
+Query: 3
+Query element:51,51
+Query scope: 12515
+Query scope: 12516
+Query scope: 12517
+Query scope: 12518
+Query scope: 12519
+Query scope: 12520
+Query scope: 12521
+Query scope: 12522
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 2668.427
+IIS Constraint: 32; completion; {activity:33}
+IIS Constraint: 131; precedence; {activity:41,predecessor:33}
+IIS Constraint: 164; precedence; {activity:53,predecessor:41}
+IIS Constraint: 177; precedence; {activity:57,predecessor:53}
+IIS Constraint: 180; precedence; {activity:58,predecessor:57}
+IIS Constraint: 186; precedence; {activity:60,predecessor:58}
+IIS Constraint: 191; precedence; {activity:62,predecessor:60}
+IIS Constraint: 868; renewable; {resource:3,t:43}
+IIS Constraint: 869; renewable; {resource:3,t:44}
+IIS Constraint: 1457; query; {activity:51,t:51,query:3}
+IIS Constraint: 1458; max; {f:79.0,objective:max}

@@ -1,0 +1,709 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [52]
+Iter 2: 
+Min Hitting Set: [52]
+Min Correction Subset: [95]
+Iter 3: 
+Min Hitting Set: [52, 95]
+Min Correction Subset: [1004]
+Iter 4: 
+Min Hitting Set: [52, 95, 1004]
+Min Correction Subset: [99]
+Iter 5: 
+Min Hitting Set: [52, 95, 99, 1004]
+Min Correction Subset: [505]
+Iter 6: 
+Min Hitting Set: [52, 95, 99, 505, 1004]
+Min Correction Subset: [336]
+Iter 7: 
+Min Hitting Set: [52, 95, 99, 336, 505, 1004]
+Min Correction Subset: [94]
+Iter 8: 
+Min Hitting Set: [52, 94, 95, 99, 336, 505, 1004]
+Min Correction Subset: [64]
+Iter 9: 
+Min Hitting Set: [52, 64, 94, 95, 99, 336, 505, 1004]
+Min Correction Subset: [76]
+Iter 10: 
+Min Hitting Set: [52, 64, 76, 94, 95, 99, 336, 505, 1004]
+Min Correction Subset: [8, 40]
+Iter 11: 
+Min Hitting Set: [8, 52, 64, 76, 94, 95, 99, 336, 505, 1004]
+Min Correction Subset: [61, 78]
+Iter 12: 
+Min Hitting Set: [8, 52, 61, 64, 76, 94, 95, 99, 336, 505, 1004]
+Min Correction Subset: [9, 41]
+Iter 13: 
+Min Hitting Set: [8, 9, 52, 61, 64, 76, 94, 95, 99, 336, 505, 1004]
+Min Correction Subset: [342, 343]
+Iter 14: 
+Min Hitting Set: [8, 9, 52, 61, 64, 76, 94, 95, 99, 336, 342, 505, 1004]
+Min Correction Subset: [51, 54]
+Iter 15: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 76, 94, 95, 99, 336, 342, 505, 1004]
+Min Correction Subset: [42, 508]
+Iter 16: 
+Min Hitting Set: [8, 9, 42, 51, 52, 61, 64, 76, 94, 95, 99, 336, 342, 505, 1004]
+Min Correction Subset: [872, 874]
+Iter 17: 
+Min Hitting Set: [8, 9, 42, 51, 52, 61, 64, 76, 94, 95, 99, 336, 342, 505, 872, 1004]
+Min Correction Subset: [54, 508]
+Iter 18: 
+Min Hitting Set: [8, 9, 52, 54, 61, 64, 76, 94, 95, 99, 336, 342, 505, 508, 872, 1004]
+Min Correction Subset: [42, 51]
+Iter 19: 
+Min Hitting Set: [8, 9, 42, 52, 54, 61, 64, 76, 94, 95, 99, 336, 342, 505, 872, 1004]
+Min Correction Subset: [51, 58]
+Iter 20: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 76, 94, 95, 99, 336, 342, 505, 508, 872, 1004]
+Min Correction Subset: [78, 884]
+Iter 21: 
+Min Hitting Set: [8, 9, 51, 52, 64, 76, 78, 94, 95, 99, 336, 342, 505, 508, 872, 1004]
+Min Correction Subset: [47, 61]
+Iter 22: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 76, 78, 94, 95, 99, 336, 342, 505, 508, 872, 1004]
+Min Correction Subset: [54, 506, 507]
+Iter 23: 
+Min Hitting Set: [8, 9, 42, 51, 52, 54, 61, 64, 76, 78, 94, 95, 99, 336, 342, 505, 872, 1004]
+Min Correction Subset: [58, 508]
+Iter 24: 
+Min Hitting Set: [8, 9, 42, 52, 54, 58, 61, 64, 76, 78, 94, 95, 99, 336, 342, 505, 872, 1004]
+Min Correction Subset: [65, 873, 874]
+Iter 25: 
+Min Hitting Set: [8, 9, 42, 52, 54, 58, 61, 64, 76, 78, 94, 95, 99, 336, 342, 505, 874, 1004]
+Min Correction Subset: [81, 872, 875]
+Iter 26: 
+Min Hitting Set: [8, 9, 42, 52, 54, 58, 61, 64, 76, 78, 94, 95, 99, 336, 342, 505, 872, 874, 1004]
+Min Correction Subset: [508, 873, 883]
+Iter 27: 
+Min Hitting Set: [8, 9, 42, 52, 54, 58, 61, 64, 76, 78, 94, 95, 99, 336, 342, 505, 872, 873, 1004]
+Min Correction Subset: [65, 66, 67]
+Iter 28: 
+Min Hitting Set: [8, 9, 51, 52, 54, 61, 64, 65, 76, 78, 94, 95, 99, 336, 342, 505, 508, 872, 1004]
+Min Correction Subset: [42, 506, 507]
+Iter 29: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 94, 95, 99, 336, 342, 505, 506, 508, 872, 1004]
+Min Correction Subset: [510, 874, 884]
+Iter 30: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 94, 95, 99, 336, 342, 505, 506, 508, 872, 884, 1004]
+Min Correction Subset: [78, 883]
+Iter 31: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 94, 95, 99, 336, 342, 505, 506, 508, 872, 883, 884, 1004]
+Min Correction Subset: [78, 97, 885]
+Iter 32: 
+Min Hitting Set: [8, 9, 47, 51, 52, 64, 65, 76, 78, 94, 95, 99, 336, 342, 505, 506, 508, 872, 874, 1004]
+Min Correction Subset: [61, 63]
+Iter 33: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 94, 95, 99, 336, 342, 505, 506, 508, 872, 874, 1004]
+Min Correction Subset: [81, 87, 884]
+Iter 34: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 81, 94, 95, 99, 336, 342, 505, 506, 508, 874, 1004]
+Min Correction Subset: [96, 872, 875]
+Iter 35: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 94, 95, 99, 336, 342, 505, 507, 508, 872, 884, 1004]
+Min Correction Subset: [510, 874, 881]
+Iter 36: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 81, 94, 95, 99, 336, 342, 505, 506, 508, 872, 874, 1004]
+Min Correction Subset: [60, 96, 875, 887]
+Iter 37: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 81, 94, 95, 99, 336, 342, 505, 506, 508, 874, 875, 1004]
+Min Correction Subset: [84, 97, 98, 888]
+Iter 38: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 94, 95, 97, 99, 336, 342, 505, 507, 508, 874, 875, 883, 884, 1004]
+Min Correction Subset: [78, 510, 882]
+Iter 39: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 94, 95, 97, 99, 336, 342, 505, 507, 508, 874, 875, 884, 1004]
+Min Correction Subset: [81, 87, 883]
+Iter 40: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 81, 94, 95, 97, 99, 336, 342, 505, 507, 508, 874, 875, 1004]
+Min Correction Subset: [87, 96, 872, 876]
+Iter 41: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 81, 94, 95, 96, 97, 99, 336, 342, 505, 507, 508, 874, 1004]
+Min Correction Subset: [735, 872, 875]
+Iter 42: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 87, 94, 95, 97, 99, 336, 342, 505, 507, 508, 874, 875, 1004]
+Min Correction Subset: [81, 90, 98, 884]
+Iter 43: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 87, 94, 95, 98, 99, 336, 342, 505, 506, 508, 874, 875, 1004]
+Min Correction Subset: [81, 93, 97, 885]
+Iter 44: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 87, 94, 95, 97, 98, 99, 336, 342, 505, 507, 508, 874, 875, 1004]
+Min Correction Subset: [81, 90, 93, 883]
+Iter 45: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 94, 95, 97, 99, 336, 342, 505, 507, 508, 510, 872, 875, 883, 884, 1004]
+Min Correction Subset: [78, 96, 885]
+Iter 46: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 81, 94, 95, 98, 99, 336, 342, 505, 507, 508, 872, 874, 875, 1004]
+Min Correction Subset: [47, 87, 96, 879]
+Iter 47: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 81, 94, 95, 96, 97, 99, 336, 342, 505, 506, 508, 872, 874, 1004]
+Min Correction Subset: [60, 735, 875, 885]
+Iter 48: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 81, 87, 94, 95, 97, 99, 336, 342, 505, 506, 508, 874, 875, 1004]
+Min Correction Subset: [89, 90, 96, 98, 888]
+Iter 49: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 81, 87, 94, 95, 98, 99, 336, 342, 505, 506, 508, 874, 875, 1004]
+Min Correction Subset: [93, 97, 872, 876]
+Iter 50: 
+Min Hitting Set: [8, 9, 51, 52, 61, 64, 65, 76, 78, 81, 94, 95, 96, 97, 99, 336, 342, 505, 507, 508, 874, 875, 1004]
+Min Correction Subset: [84, 87, 89, 98, 887]
+Optimal IIS
+IIS generation
+Instance: j3033_1
+----------------------------
+Query: 8
+Query element:15,34
+Query element:16,32
+Query element:18,32
+Query scope: 1981
+Query scope: 2134
+Query scope: 2410
+Query scope: 4503
+Query scope: 1982
+Query scope: 2135
+Query scope: 2411
+Query scope: 4504
+Query scope: 1983
+Query scope: 2136
+Query scope: 2412
+Query scope: 4505
+Query scope: 1984
+Query scope: 2137
+Query scope: 2413
+Query scope: 4506
+Query scope: 1985
+Query scope: 2138
+Query scope: 2414
+Query scope: 4507
+Query scope: 1986
+Query scope: 2139
+Query scope: 2415
+Query scope: 4508
+Query scope: 1987
+Query scope: 2140
+Query scope: 2416
+Query scope: 4509
+Query scope: 1988
+Query scope: 2141
+Query scope: 2417
+Query scope: 4510
+Query scope: 1989
+Query scope: 2142
+Query scope: 2418
+Query scope: 4511
+Query scope: 1990
+Query scope: 2143
+Query scope: 2419
+Query scope: 4512
+Query scope: 1991
+Query scope: 2144
+Query scope: 2420
+Query scope: 4513
+Query scope: 1992
+Query scope: 2145
+Query scope: 2421
+Query scope: 4514
+Query scope: 1993
+Query scope: 2146
+Query scope: 2422
+Query scope: 4515
+Query scope: 1994
+Query scope: 2147
+Query scope: 2423
+Query scope: 4516
+Query scope: 1995
+Query scope: 2148
+Query scope: 2424
+Query scope: 4517
+Query scope: 1996
+Query scope: 2149
+Query scope: 2425
+Query scope: 4518
+Query scope: 1997
+Query scope: 2150
+Query scope: 2426
+Query scope: 4519
+Query scope: 1998
+Query scope: 2151
+Query scope: 2427
+Query scope: 4520
+Query scope: 1999
+Query scope: 2152
+Query scope: 2428
+Query scope: 4521
+Query scope: 2000
+Query scope: 2153
+Query scope: 2429
+Query scope: 4522
+Query scope: 2001
+Query scope: 2154
+Query scope: 2430
+Query scope: 4523
+Query scope: 2002
+Query scope: 2155
+Query scope: 2431
+Query scope: 4524
+Query scope: 2003
+Query scope: 2156
+Query scope: 2432
+Query scope: 4525
+Query scope: 2004
+Query scope: 2157
+Query scope: 2433
+Query scope: 4526
+Query scope: 2005
+Query scope: 2158
+Query scope: 2434
+Query scope: 4527
+Query scope: 2006
+Query scope: 2159
+Query scope: 2435
+Query scope: 4528
+Query scope: 2007
+Query scope: 2160
+Query scope: 2436
+Query scope: 4529
+Query scope: 2008
+Query scope: 2161
+Query scope: 2437
+Query scope: 4530
+Query scope: 2009
+Query scope: 2162
+Query scope: 2438
+Query scope: 4531
+Query scope: 2010
+Query scope: 2163
+Query scope: 2439
+Query scope: 4532
+Query scope: 2011
+Query scope: 2164
+Query scope: 2440
+Query scope: 4533
+Query scope: 2012
+Query scope: 2165
+Query scope: 2441
+Query scope: 4534
+Query scope: 2013
+Query scope: 2166
+Query scope: 2442
+Query scope: 4535
+Query scope: 2014
+Query scope: 2167
+Query scope: 2443
+Query scope: 4536
+Query scope: 2015
+Query scope: 2168
+Query scope: 2444
+Query scope: 4537
+Query scope: 2016
+Query scope: 2169
+Query scope: 2445
+Query scope: 4538
+Query scope: 2017
+Query scope: 2170
+Query scope: 2446
+Query scope: 4539
+Query scope: 2018
+Query scope: 2171
+Query scope: 2447
+Query scope: 4540
+Query scope: 2019
+Query scope: 2172
+Query scope: 2448
+Query scope: 4541
+Query scope: 2020
+Query scope: 2173
+Query scope: 2449
+Query scope: 4542
+Query scope: 2021
+Query scope: 2174
+Query scope: 2450
+Query scope: 4543
+Query scope: 2022
+Query scope: 2175
+Query scope: 2451
+Query scope: 4544
+Query scope: 2023
+Query scope: 2176
+Query scope: 2452
+Query scope: 4545
+Query scope: 2024
+Query scope: 2177
+Query scope: 2453
+Query scope: 4546
+Query scope: 2025
+Query scope: 2178
+Query scope: 2454
+Query scope: 4547
+Query scope: 2026
+Query scope: 2179
+Query scope: 2455
+Query scope: 4548
+Query scope: 2027
+Query scope: 2180
+Query scope: 2456
+Query scope: 4549
+Query scope: 2028
+Query scope: 2181
+Query scope: 2457
+Query scope: 4550
+Query scope: 2029
+Query scope: 2182
+Query scope: 2458
+Query scope: 4551
+Query scope: 2030
+Query scope: 2183
+Query scope: 2459
+Query scope: 4552
+Query scope: 2031
+Query scope: 2184
+Query scope: 2460
+Query scope: 4553
+Query scope: 2032
+Query scope: 2185
+Query scope: 2461
+Query scope: 4554
+Query scope: 2033
+Query scope: 2186
+Query scope: 2462
+Query scope: 4555
+Query scope: 2034
+Query scope: 2187
+Query scope: 2463
+Query scope: 4556
+Query scope: 2035
+Query scope: 2188
+Query scope: 2464
+Query scope: 4557
+Query scope: 2036
+Query scope: 2189
+Query scope: 2465
+Query scope: 4558
+Query scope: 2037
+Query scope: 2190
+Query scope: 2466
+Query scope: 4559
+Query scope: 2038
+Query scope: 2191
+Query scope: 2467
+Query scope: 4560
+Query scope: 2039
+Query scope: 2192
+Query scope: 2468
+Query scope: 4561
+Query scope: 2040
+Query scope: 2193
+Query scope: 2469
+Query scope: 4562
+Query scope: 2041
+Query scope: 2194
+Query scope: 2470
+Query scope: 4563
+Query scope: 2042
+Query scope: 2195
+Query scope: 2471
+Query scope: 4564
+Query scope: 2043
+Query scope: 2196
+Query scope: 2472
+Query scope: 4565
+Query scope: 2044
+Query scope: 2197
+Query scope: 2473
+Query scope: 4566
+Query scope: 2045
+Query scope: 2198
+Query scope: 2474
+Query scope: 4567
+Query scope: 2046
+Query scope: 2199
+Query scope: 2475
+Query scope: 4568
+Query scope: 2047
+Query scope: 2200
+Query scope: 2476
+Query scope: 4569
+Query scope: 2048
+Query scope: 2201
+Query scope: 2477
+Query scope: 4570
+Query scope: 2049
+Query scope: 2202
+Query scope: 2478
+Query scope: 4571
+Query scope: 2050
+Query scope: 2203
+Query scope: 2479
+Query scope: 4572
+Query scope: 2051
+Query scope: 2204
+Query scope: 2480
+Query scope: 4573
+Query scope: 2052
+Query scope: 2205
+Query scope: 2481
+Query scope: 4574
+Query scope: 2053
+Query scope: 2206
+Query scope: 2482
+Query scope: 4575
+Query scope: 2054
+Query scope: 2207
+Query scope: 2483
+Query scope: 4576
+Query scope: 2055
+Query scope: 2208
+Query scope: 2484
+Query scope: 4577
+Query scope: 2056
+Query scope: 2209
+Query scope: 2485
+Query scope: 4578
+Query scope: 2057
+Query scope: 2210
+Query scope: 2486
+Query scope: 4579
+Query scope: 2058
+Query scope: 2211
+Query scope: 2487
+Query scope: 4580
+Query scope: 2059
+Query scope: 2212
+Query scope: 2488
+Query scope: 4581
+Query scope: 2060
+Query scope: 2213
+Query scope: 2489
+Query scope: 4582
+Query scope: 2061
+Query scope: 2214
+Query scope: 2490
+Query scope: 4583
+Query scope: 2062
+Query scope: 2215
+Query scope: 2491
+Query scope: 4584
+Query scope: 2063
+Query scope: 2216
+Query scope: 2492
+Query scope: 4585
+Query scope: 2064
+Query scope: 2217
+Query scope: 2493
+Query scope: 4586
+Query scope: 2065
+Query scope: 2218
+Query scope: 2494
+Query scope: 4587
+Query scope: 2066
+Query scope: 2219
+Query scope: 2495
+Query scope: 4588
+Query scope: 2067
+Query scope: 2220
+Query scope: 2496
+Query scope: 4589
+Query scope: 2068
+Query scope: 2221
+Query scope: 2497
+Query scope: 4590
+Query scope: 2069
+Query scope: 2222
+Query scope: 2498
+Query scope: 4591
+Query scope: 2070
+Query scope: 2223
+Query scope: 2499
+Query scope: 4592
+Query scope: 2071
+Query scope: 2224
+Query scope: 2500
+Query scope: 4593
+Query scope: 2072
+Query scope: 2225
+Query scope: 2501
+Query scope: 4594
+Query scope: 2073
+Query scope: 2226
+Query scope: 2502
+Query scope: 4595
+Query scope: 2074
+Query scope: 2227
+Query scope: 2503
+Query scope: 4596
+Query scope: 2075
+Query scope: 2228
+Query scope: 2504
+Query scope: 4597
+Query scope: 2076
+Query scope: 2229
+Query scope: 2505
+Query scope: 4598
+Query scope: 2077
+Query scope: 2230
+Query scope: 2506
+Query scope: 4599
+Query scope: 2078
+Query scope: 2231
+Query scope: 2507
+Query scope: 4600
+Query scope: 2079
+Query scope: 2232
+Query scope: 2508
+Query scope: 4601
+Query scope: 2080
+Query scope: 2233
+Query scope: 2509
+Query scope: 4602
+Query scope: 2081
+Query scope: 2234
+Query scope: 2510
+Query scope: 4603
+Query scope: 2082
+Query scope: 2235
+Query scope: 2511
+Query scope: 4604
+Query scope: 2083
+Query scope: 2236
+Query scope: 2512
+Query scope: 4605
+Query scope: 2084
+Query scope: 2237
+Query scope: 2513
+Query scope: 4606
+Query scope: 2085
+Query scope: 2238
+Query scope: 2514
+Query scope: 4607
+Query scope: 2086
+Query scope: 2239
+Query scope: 2515
+Query scope: 4608
+Query scope: 2087
+Query scope: 2240
+Query scope: 2516
+Query scope: 4609
+Query scope: 2088
+Query scope: 2241
+Query scope: 2517
+Query scope: 4610
+Query scope: 2089
+Query scope: 2242
+Query scope: 2518
+Query scope: 4611
+Query scope: 2090
+Query scope: 2243
+Query scope: 2519
+Query scope: 4612
+Query scope: 2091
+Query scope: 2244
+Query scope: 2520
+Query scope: 4613
+Query scope: 2092
+Query scope: 2245
+Query scope: 2521
+Query scope: 4614
+Query scope: 2093
+Query scope: 2246
+Query scope: 2522
+Query scope: 4615
+Query scope: 2094
+Query scope: 2247
+Query scope: 2523
+Query scope: 4616
+Query scope: 2095
+Query scope: 2248
+Query scope: 2524
+Query scope: 4617
+Query scope: 2096
+Query scope: 2249
+Query scope: 2525
+Query scope: 4618
+Query scope: 2097
+Query scope: 2250
+Query scope: 2526
+Query scope: 4619
+Query scope: 2098
+Query scope: 2251
+Query scope: 2527
+Query scope: 4620
+Query scope: 2099
+Query scope: 2252
+Query scope: 2528
+Query scope: 4621
+Query scope: 2100
+Query scope: 2253
+Query scope: 2529
+Query scope: 4622
+Query scope: 2101
+Query scope: 2254
+Query scope: 2530
+Query scope: 4623
+Query scope: 2102
+Query scope: 2255
+Query scope: 2531
+Query scope: 4624
+Query scope: 2103
+Query scope: 2256
+Query scope: 2532
+Query scope: 4625
+Query scope: 2104
+Query scope: 2257
+Query scope: 2533
+Query scope: 4626
+Query scope: 2105
+Query scope: 2258
+Query scope: 2534
+Query scope: 4627
+Query scope: 2106
+Query scope: 2259
+Query scope: 2535
+Query scope: 4628
+Query scope: 2107
+Query scope: 2260
+Query scope: 2536
+Query scope: 4629
+Query scope: 2108
+Query scope: 2261
+Query scope: 2537
+Query scope: 4630
+Query scope: 2109
+Query scope: 2262
+Query scope: 2538
+Query scope: 4631
+Query scope: 2110
+Query scope: 2263
+Query scope: 2539
+Query scope: 4632
+Query scope: 2111
+Query scope: 2264
+Query scope: 2540
+Query scope: 4633
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 18308.109
+IIS Constraint: 8; completion; {activity:9}
+IIS Constraint: 9; completion; {activity:10}
+IIS Constraint: 51; precedence; {activity:15,predecessor:9}
+IIS Constraint: 52; precedence; {activity:15,predecessor:10}
+IIS Constraint: 61; precedence; {activity:19,predecessor:16}
+IIS Constraint: 64; precedence; {activity:20,predecessor:19}
+IIS Constraint: 65; precedence; {activity:21,predecessor:15}
+IIS Constraint: 76; precedence; {activity:24,predecessor:20}
+IIS Constraint: 78; precedence; {activity:25,predecessor:15}
+IIS Constraint: 87; precedence; {activity:28,predecessor:25}
+IIS Constraint: 93; precedence; {activity:30,predecessor:28}
+IIS Constraint: 94; precedence; {activity:31,predecessor:21}
+IIS Constraint: 95; precedence; {activity:31,predecessor:24}
+IIS Constraint: 98; precedence; {activity:32,predecessor:30}
+IIS Constraint: 99; precedence; {activity:32,predecessor:31}
+IIS Constraint: 336; renewable; {resource:2,t:43}
+IIS Constraint: 342; renewable; {resource:2,t:49}
+IIS Constraint: 505; renewable; {resource:3,t:19}
+IIS Constraint: 506; renewable; {resource:3,t:20}
+IIS Constraint: 508; renewable; {resource:3,t:22}
+IIS Constraint: 874; query; {activities:[15,16,18],t:34,query:8}
+IIS Constraint: 875; query; {activities:[15,16,18],t:35,query:8}
+IIS Constraint: 1004; max; {f:65.0,objective:max}

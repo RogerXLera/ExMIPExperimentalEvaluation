@@ -1,0 +1,88 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [71]
+Iter 2: 
+Min Hitting Set: [71]
+Min Correction Subset: [3]
+Iter 3: 
+Min Hitting Set: [3, 71]
+Min Correction Subset: [88]
+Iter 4: 
+Min Hitting Set: [3, 71, 88]
+Min Correction Subset: [83]
+Iter 5: 
+Min Hitting Set: [3, 71, 83, 88]
+Min Correction Subset: [716]
+Iter 6: 
+Min Hitting Set: [3, 71, 83, 88, 716]
+Min Correction Subset: [75]
+Iter 7: 
+Min Hitting Set: [3, 71, 75, 83, 88, 716]
+Min Correction Subset: [40]
+Iter 8: 
+Min Hitting Set: [3, 40, 71, 75, 83, 88, 716]
+Min Correction Subset: [58]
+Iter 9: 
+Min Hitting Set: [3, 40, 58, 71, 75, 83, 88, 716]
+Min Correction Subset: [61]
+Iter 10: 
+Min Hitting Set: [3, 40, 58, 61, 71, 75, 83, 88, 716]
+Min Correction Subset: [568]
+Iter 11: 
+Min Hitting Set: [3, 40, 58, 61, 71, 75, 83, 88, 568, 716]
+Min Correction Subset: [714]
+Iter 12: 
+Min Hitting Set: [3, 40, 58, 61, 71, 75, 83, 88, 568, 714, 716]
+Min Correction Subset: [8, 41]
+Iter 13: 
+Min Hitting Set: [3, 8, 40, 58, 61, 71, 75, 83, 88, 568, 714, 716]
+Min Correction Subset: [46, 64, 82]
+Iter 14: 
+Min Hitting Set: [3, 8, 40, 46, 58, 61, 71, 75, 83, 88, 568, 714, 716]
+Min Correction Subset: [51, 57, 62, 70]
+Iter 15: 
+Min Hitting Set: [3, 8, 40, 46, 51, 58, 61, 71, 75, 83, 88, 568, 714, 716]
+Min Correction Subset: [57, 62, 70, 82]
+Iter 16: 
+Min Hitting Set: [3, 8, 40, 57, 58, 61, 71, 75, 82, 83, 88, 568, 714, 716]
+Min Correction Subset: [46, 51, 64]
+Iter 17: 
+Min Hitting Set: [3, 8, 40, 57, 58, 61, 64, 71, 75, 83, 88, 568, 714, 716]
+Min Correction Subset: [72, 74, 82, 86, 715]
+Iter 18: 
+Min Hitting Set: [3, 8, 40, 51, 58, 61, 71, 75, 82, 83, 88, 568, 714, 716]
+Min Correction Subset: [46, 64, 72, 431, 432, 715]
+Iter 19: 
+Min Hitting Set: [3, 8, 40, 51, 58, 61, 71, 72, 75, 82, 83, 88, 568, 714, 716]
+Min Correction Subset: [46, 57, 427, 428, 431, 432]
+Iter 20: 
+Min Hitting Set: [3, 8, 40, 46, 57, 58, 61, 71, 75, 82, 83, 88, 568, 714, 716]
+Min Correction Subset: [51, 62, 64, 70]
+Optimal IIS
+IIS generation
+Instance: j3018_9
+----------------------------
+Query: 10
+Query element:20,26
+Query element:22,27
+Query scope: 2311
+Query scope: 2539
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 4419.004
+IIS Constraint: 3; completion; {activity:4}
+IIS Constraint: 8; completion; {activity:9}
+IIS Constraint: 40; precedence; {activity:8,predecessor:4}
+IIS Constraint: 46; precedence; {activity:12,predecessor:8}
+IIS Constraint: 58; precedence; {activity:20,predecessor:9}
+IIS Constraint: 61; precedence; {activity:21,predecessor:20}
+IIS Constraint: 62; precedence; {activity:22,predecessor:12}
+IIS Constraint: 71; precedence; {activity:26,predecessor:21}
+IIS Constraint: 72; precedence; {activity:26,predecessor:22}
+IIS Constraint: 75; precedence; {activity:27,predecessor:26}
+IIS Constraint: 83; precedence; {activity:30,predecessor:27}
+IIS Constraint: 88; precedence; {activity:32,predecessor:30}
+IIS Constraint: 568; renewable; {resource:4,t:10}
+IIS Constraint: 714; query; {activity:20,t:26,query:10}
+IIS Constraint: 716; max; {f:47.0,objective:max}

@@ -1,0 +1,74 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [785]
+Iter 2: 
+Min Hitting Set: [785]
+Min Correction Subset: [99]
+Iter 3: 
+Min Hitting Set: [99, 785]
+Min Correction Subset: [92]
+Iter 4: 
+Min Hitting Set: [92, 99, 785]
+Min Correction Subset: [95]
+Iter 5: 
+Min Hitting Set: [92, 95, 99, 785]
+Min Correction Subset: [78]
+Iter 6: 
+Min Hitting Set: [78, 92, 95, 99, 785]
+Min Correction Subset: [37]
+Iter 7: 
+Min Hitting Set: [37, 78, 92, 95, 99, 785]
+Min Correction Subset: [60]
+Iter 8: 
+Min Hitting Set: [37, 60, 78, 92, 95, 99, 785]
+Min Correction Subset: [1]
+Iter 9: 
+Min Hitting Set: [1, 37, 60, 78, 92, 95, 99, 785]
+Min Correction Subset: [3]
+Iter 10: 
+Min Hitting Set: [1, 3, 37, 60, 78, 92, 95, 99, 785]
+Min Correction Subset: [68]
+Iter 11: 
+Min Hitting Set: [1, 3, 37, 60, 68, 78, 92, 95, 99, 785]
+Min Correction Subset: [43]
+IIS generation
+Instance: j3037_6
+----------------------------
+Query: 3
+Query element:30,72
+Query scope: 3640
+Query scope: 3641
+Query scope: 3642
+Query scope: 3643
+Query scope: 3644
+Query scope: 3645
+Query scope: 3646
+Query scope: 3647
+Query scope: 3648
+Query scope: 3649
+Query scope: 3650
+Query scope: 3651
+Query scope: 3652
+Query scope: 3653
+Query scope: 3654
+Query scope: 3655
+Query scope: 3656
+Query scope: 3657
+Query scope: 3658
+Query scope: 3659
+Query scope: 3660
+Query scope: 3661
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36000.879
+IIS Constraint: 1; completion; {activity:2}
+IIS Constraint: 3; completion; {activity:4}
+IIS Constraint: 37; precedence; {activity:6,predecessor:4}
+IIS Constraint: 60; precedence; {activity:19,predecessor:16}
+IIS Constraint: 68; precedence; {activity:22,predecessor:19}
+IIS Constraint: 78; precedence; {activity:25,predecessor:22}
+IIS Constraint: 92; precedence; {activity:30,predecessor:24}
+IIS Constraint: 95; precedence; {activity:31,predecessor:25}
+IIS Constraint: 99; precedence; {activity:32,predecessor:31}
+IIS Constraint: 785; max; {f:73.0,objective:max}

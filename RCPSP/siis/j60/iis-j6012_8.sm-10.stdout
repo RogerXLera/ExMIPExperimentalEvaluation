@@ -1,0 +1,63 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [154]
+Iter 2: 
+Min Hitting Set: [154]
+Min Correction Subset: [150]
+Iter 3: 
+Min Hitting Set: [150, 154]
+Min Correction Subset: [1365]
+Iter 4: 
+Min Hitting Set: [150, 154, 1365]
+Min Correction Subset: [139]
+Iter 5: 
+Min Hitting Set: [139, 150, 154, 1365]
+Min Correction Subset: [1363, 1364]
+Iter 6: 
+Min Hitting Set: [139, 150, 154, 1363, 1365]
+Min Correction Subset: [111, 115]
+Iter 7: 
+Min Hitting Set: [111, 139, 150, 154, 1363, 1365]
+Min Correction Subset: [118, 125]
+Iter 8: 
+Min Hitting Set: [111, 118, 139, 150, 154, 1363, 1365]
+Min Correction Subset: [115, 1364]
+Iter 9: 
+Min Hitting Set: [115, 118, 139, 150, 154, 1364, 1365]
+Min Correction Subset: [128, 129]
+Iter 10: 
+Min Hitting Set: [115, 118, 128, 139, 150, 154, 1364, 1365]
+Min Correction Subset: [111, 129]
+Iter 11: 
+Min Hitting Set: [111, 118, 129, 139, 150, 154, 1364, 1365]
+Min Correction Subset: [125, 128]
+Iter 12: 
+Min Hitting Set: [111, 125, 129, 139, 150, 154, 1364, 1365]
+Min Correction Subset: [115, 128]
+Iter 13: 
+Min Hitting Set: [111, 125, 128, 139, 150, 154, 1364, 1365]
+Min Correction Subset: [115, 118]
+Iter 14: 
+Min Hitting Set: [115, 125, 129, 139, 150, 154, 1364, 1365]
+Min Correction Subset: [111, 1363]
+Optimal IIS
+IIS generation
+Instance: j6012_8
+----------------------------
+Query: 10
+Query element:45,33
+Query element:38,31
+Query scope: 11356
+Query scope: 9533
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 760.769
+IIS Constraint: 111; precedence; {activity:45,predecessor:38}
+IIS Constraint: 118; precedence; {activity:49,predecessor:45}
+IIS Constraint: 128; precedence; {activity:53,predecessor:49}
+IIS Constraint: 139; precedence; {activity:57,predecessor:53}
+IIS Constraint: 150; precedence; {activity:61,predecessor:57}
+IIS Constraint: 154; precedence; {activity:62,predecessor:61}
+IIS Constraint: 1364; query; {activity:38,t:33,query:10}
+IIS Constraint: 1365; max; {f:60.0,objective:max}

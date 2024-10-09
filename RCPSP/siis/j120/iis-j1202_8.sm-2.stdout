@@ -1,0 +1,65 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2762]
+Iter 2: 
+Min Hitting Set: [2762]
+Min Correction Subset: [302]
+Iter 3: 
+Min Hitting Set: [302, 2762]
+Min Correction Subset: [2761]
+Iter 4: 
+Min Hitting Set: [302, 2761, 2762]
+Min Correction Subset: [294, 295]
+Iter 5: 
+Min Hitting Set: [294, 302, 2761, 2762]
+Min Correction Subset: [289, 295]
+Iter 6: 
+Min Hitting Set: [295, 302, 2761, 2762]
+Min Correction Subset: [243, 292]
+Iter 7: 
+Min Hitting Set: [243, 295, 302, 2761, 2762]
+Min Correction Subset: [291, 292, 294]
+Iter 8: 
+Min Hitting Set: [292, 295, 302, 2761, 2762]
+Min Correction Subset: [243, 281]
+Iter 9: 
+Min Hitting Set: [243, 292, 295, 302, 2761, 2762]
+Min Correction Subset: [281, 291, 294]
+Iter 10: 
+Min Hitting Set: [281, 292, 295, 302, 2761, 2762]
+Min Correction Subset: [243, 278]
+Iter 11: 
+Min Hitting Set: [243, 294, 295, 302, 2761, 2762]
+Min Correction Subset: [289, 291, 292]
+Iter 12: 
+Min Hitting Set: [243, 291, 295, 302, 2761, 2762]
+Min Correction Subset: [268, 292, 294]
+Iter 13: 
+Min Hitting Set: [243, 289, 294, 302, 2761, 2762]
+Min Correction Subset: [250, 295]
+Iter 14: 
+Min Hitting Set: [243, 291, 292, 295, 302, 2761, 2762]
+Min Correction Subset: [268, 281, 294]
+Iter 15: 
+Min Hitting Set: [243, 281, 292, 295, 302, 2761, 2762]
+Min Correction Subset: [278, 291, 294]
+Iter 16: 
+Min Hitting Set: [278, 281, 292, 295, 302, 2761, 2762]
+Min Correction Subset: [272, 277, 291, 294]
+IIS generation
+Instance: j1202_8
+----------------------------
+Query: 2
+Query element:91,153
+Query scope: 50585
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 36052.860
+IIS Constraint: 278; precedence; {activity:113,predecessor:111}
+IIS Constraint: 281; precedence; {activity:114,predecessor:113}
+IIS Constraint: 292; precedence; {activity:118,predecessor:114}
+IIS Constraint: 295; precedence; {activity:119,predecessor:118}
+IIS Constraint: 302; precedence; {activity:122,predecessor:119}
+IIS Constraint: 2761; query; {activity:91,t:153,query:2}
+IIS Constraint: 2762; max; {f:83.0,objective:max}

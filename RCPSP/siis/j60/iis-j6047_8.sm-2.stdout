@@ -1,0 +1,27 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [1422]
+Iter 2: 
+Min Hitting Set: [1422]
+Min Correction Subset: [191]
+Iter 3: 
+Min Hitting Set: [191, 1422]
+Min Correction Subset: [185]
+Iter 4: 
+Min Hitting Set: [185, 191, 1422]
+Min Correction Subset: [1421]
+Optimal IIS
+IIS generation
+Instance: j6047_8
+----------------------------
+Query: 2
+Query element:57,205
+Query scope: 13892
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 201.491
+IIS Constraint: 185; precedence; {activity:60,predecessor:57}
+IIS Constraint: 191; precedence; {activity:62,predecessor:60}
+IIS Constraint: 1421; query; {activity:57,t:205,query:2}
+IIS Constraint: 1422; max; {f:71.0,objective:max}

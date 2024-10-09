@@ -1,0 +1,86 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [1, 60]
+Iter 2: 
+Min Hitting Set: [1]
+Min Correction Subset: [2, 79]
+Iter 3: 
+Min Hitting Set: [1, 2]
+Min Correction Subset: [673, 674]
+Iter 4: 
+Min Hitting Set: [1, 2, 673]
+Min Correction Subset: [36, 674]
+Iter 5: 
+Min Hitting Set: [1, 2, 674]
+Min Correction Subset: [36, 79]
+Iter 6: 
+Min Hitting Set: [1, 79, 674]
+Min Correction Subset: [2, 76]
+Iter 7: 
+Min Hitting Set: [1, 2, 36, 674]
+Min Correction Subset: [35, 79]
+Iter 8: 
+Min Hitting Set: [1, 2, 79, 674]
+Min Correction Subset: [76, 673]
+Iter 9: 
+Min Hitting Set: [1, 76, 79, 674]
+Min Correction Subset: [2, 69]
+Iter 10: 
+Min Hitting Set: [1, 2, 79, 673, 674]
+Min Correction Subset: [36, 76]
+Iter 11: 
+Min Hitting Set: [1, 2, 76, 79, 674]
+Min Correction Subset: [36, 69]
+Iter 12: 
+Min Hitting Set: [1, 69, 76, 79, 674]
+Min Correction Subset: [2, 672]
+Iter 13: 
+Min Hitting Set: [1, 2, 36, 79, 673]
+Min Correction Subset: [35, 674]
+Iter 14: 
+Min Hitting Set: [1, 2, 35, 36, 673]
+Min Correction Subset: [48, 674]
+Iter 15: 
+Min Hitting Set: [1, 2, 36, 76, 79, 674]
+Min Correction Subset: [69, 238]
+Iter 16: 
+Min Hitting Set: [1, 2, 69, 76, 79, 674]
+Min Correction Subset: [36, 672]
+Iter 17: 
+Min Hitting Set: [1, 69, 76, 79, 672, 674]
+Min Correction Subset: [60, 238]
+Iter 18: 
+Min Hitting Set: [60, 69, 76, 79, 672, 674]
+Min Correction Subset: [2, 15, 46]
+Iter 19: 
+Min Hitting Set: [2, 35, 36, 60, 69, 76, 674]
+Min Correction Subset: [1, 672]
+Iter 20: 
+Min Hitting Set: [1, 2, 36, 76, 79, 238, 674]
+Min Correction Subset: [48, 69]
+Iter 21: 
+Min Hitting Set: [2, 60, 69, 76, 79, 672, 674]
+Min Correction Subset: [1, 8, 15]
+Iter 22: 
+Min Hitting Set: [1, 2, 35, 36, 48, 238, 673]
+Min Correction Subset: [47, 674]
+Optimal IIS
+IIS generation
+Instance: j303_7
+----------------------------
+Query: 10
+Query element:16,24
+Query element:17,25
+Query scope: 1730
+Query scope: 1835
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 2591.676
+IIS Constraint: 15; completion; {activity:16}
+IIS Constraint: 60; precedence; {activity:24,predecessor:16}
+IIS Constraint: 69; precedence; {activity:28,predecessor:24}
+IIS Constraint: 76; precedence; {activity:31,predecessor:28}
+IIS Constraint: 79; precedence; {activity:32,predecessor:31}
+IIS Constraint: 672; query; {activity:16,t:24,query:10}
+IIS Constraint: 674; max; {f:48.0,objective:max}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/rlera/beegfs/SmallestIIS/CA/small_iis.py", line 178, in <module>
+    q.read(I,q_filename)
+  File "/mnt/beegfs/iiia/rlera/SmallestIIS/CA/definitions.py", line 282, in read
+    raise f"No query for this instance."
+TypeError: exceptions must derive from BaseException
+srun: error: c07: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=6472168.0

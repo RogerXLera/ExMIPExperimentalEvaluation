@@ -1,0 +1,71 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2151]
+Iter 2: 
+Min Hitting Set: [2151]
+Min Correction Subset: [2150]
+Iter 3: 
+Min Hitting Set: [2150, 2151]
+Min Correction Subset: [284, 285]
+Iter 4: 
+Min Hitting Set: [284, 2150, 2151]
+Min Correction Subset: [206, 255]
+Iter 5: 
+Min Hitting Set: [206, 284, 2150, 2151]
+Min Correction Subset: [277, 278, 279, 285]
+Iter 6: 
+Min Hitting Set: [206, 285, 2150, 2151]
+Min Correction Subset: [282, 284]
+Iter 7: 
+Min Hitting Set: [206, 282, 285, 2150, 2151]
+Min Correction Subset: [255, 271, 284]
+Iter 8: 
+Min Hitting Set: [255, 284, 285, 2150, 2151]
+Min Correction Subset: [206, 270, 282]
+Iter 9: 
+Min Hitting Set: [255, 282, 285, 2150, 2151]
+Min Correction Subset: [271, 273, 284]
+Iter 10: 
+Min Hitting Set: [206, 284, 285, 2150, 2151]
+Min Correction Subset: [277, 278, 279, 282]
+Iter 11: 
+Min Hitting Set: [206, 279, 284, 2150, 2151]
+Min Correction Subset: [270, 277, 278, 285]
+Iter 12: 
+Min Hitting Set: [206, 277, 284, 2150, 2151]
+Min Correction Subset: [210, 278, 279, 285]
+Iter 13: 
+Min Hitting Set: [206, 278, 284, 2150, 2151]
+Min Correction Subset: [266, 270, 277, 282]
+Iter 14: 
+Min Hitting Set: [206, 270, 278, 284, 2150, 2151]
+Min Correction Subset: [266, 277, 279, 285]
+Iter 15: 
+Min Hitting Set: [206, 277, 278, 284, 2150, 2151]
+Min Correction Subset: [210, 266, 279, 285]
+Iter 16: 
+Min Hitting Set: [206, 277, 284, 285, 2150, 2151]
+Min Correction Subset: [210, 278, 279, 282]
+Iter 17: 
+Min Hitting Set: [206, 282, 284, 285, 2150, 2151]
+Min Correction Subset: [255, 271, 277, 278]
+Iter 18: 
+Min Hitting Set: [255, 270, 279, 284, 2150, 2151]
+Min Correction Subset: [206, 261, 285]
+Optimal IIS
+IIS generation
+Instance: j9038_2
+----------------------------
+Query: 2
+Query element:64,69
+Query scope: 25311
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 8659.092
+IIS Constraint: 206; precedence; {activity:66,predecessor:64}
+IIS Constraint: 271; precedence; {activity:88,predecessor:66}
+IIS Constraint: 282; precedence; {activity:91,predecessor:88}
+IIS Constraint: 285; precedence; {activity:92,predecessor:91}
+IIS Constraint: 2150; query; {activity:64,t:69,query:2}
+IIS Constraint: 2151; max; {f:78.0,objective:max}

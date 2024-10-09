@@ -1,0 +1,63 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [2968]
+Iter 2: 
+Min Hitting Set: [2968]
+Min Correction Subset: [376]
+Iter 3: 
+Min Hitting Set: [376, 2968]
+Min Correction Subset: [2967]
+Iter 4: 
+Min Hitting Set: [376, 2967, 2968]
+Min Correction Subset: [368, 369]
+Iter 5: 
+Min Hitting Set: [368, 376, 2967, 2968]
+Min Correction Subset: [362, 369]
+Iter 6: 
+Min Hitting Set: [369, 376, 2967, 2968]
+Min Correction Subset: [339, 365]
+Iter 7: 
+Min Hitting Set: [339, 369, 376, 2967, 2968]
+Min Correction Subset: [336, 365]
+Iter 8: 
+Min Hitting Set: [365, 369, 376, 2967, 2968]
+Min Correction Subset: [336, 347]
+Iter 9: 
+Min Hitting Set: [336, 365, 369, 376, 2967, 2968]
+Min Correction Subset: [288, 339, 348]
+Iter 10: 
+Min Hitting Set: [336, 339, 369, 376, 2967, 2968]
+Min Correction Subset: [365, 366, 368]
+Iter 11: 
+Min Hitting Set: [336, 339, 365, 369, 376, 2967, 2968]
+Min Correction Subset: [347, 348, 366, 368]
+Iter 12: 
+Min Hitting Set: [336, 339, 368, 369, 376, 2967, 2968]
+Min Correction Subset: [362, 365, 366]
+Iter 13: 
+Min Hitting Set: [336, 339, 366, 369, 376, 2967, 2968]
+Min Correction Subset: [357, 365, 368]
+Iter 14: 
+Min Hitting Set: [336, 348, 365, 369, 376, 2967, 2968]
+Min Correction Subset: [339, 344, 347]
+Iter 15: 
+Min Hitting Set: [339, 347, 365, 369, 376, 2967, 2968]
+Min Correction Subset: [288, 336]
+Optimal IIS
+IIS generation
+Instance: j12050_6
+----------------------------
+Query: 2
+Query element:90,292
+Query scope: 50584
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 7178.437
+IIS Constraint: 288; precedence; {activity:92,predecessor:90}
+IIS Constraint: 347; precedence; {activity:112,predecessor:92}
+IIS Constraint: 365; precedence; {activity:118,predecessor:112}
+IIS Constraint: 369; precedence; {activity:119,predecessor:118}
+IIS Constraint: 376; precedence; {activity:122,predecessor:119}
+IIS Constraint: 2967; query; {activity:90,t:292,query:2}
+IIS Constraint: 2968; max; {f:102.0,objective:max}

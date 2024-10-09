@@ -1,0 +1,86 @@
+IIS generation
+Iter 1: 
+Min Hitting Set: []
+Min Correction Subset: [1622]
+Iter 2: 
+Min Hitting Set: [1622]
+Min Correction Subset: [1621]
+Iter 3: 
+Min Hitting Set: [1621, 1622]
+Min Correction Subset: [148, 192]
+Iter 4: 
+Min Hitting Set: [148, 1621, 1622]
+Min Correction Subset: [171, 190, 191]
+Iter 5: 
+Min Hitting Set: [148, 171, 1621, 1622]
+Min Correction Subset: [189, 190, 191]
+Iter 6: 
+Min Hitting Set: [148, 190, 1621, 1622]
+Min Correction Subset: [182, 189, 191]
+Iter 7: 
+Min Hitting Set: [148, 191, 1621, 1622]
+Min Correction Subset: [185, 186, 190, 192]
+Iter 8: 
+Min Hitting Set: [191, 192, 1621, 1622]
+Min Correction Subset: [148, 189]
+Iter 9: 
+Min Hitting Set: [148, 189, 190, 1621, 1622]
+Min Correction Subset: [182, 191, 192]
+Iter 10: 
+Min Hitting Set: [189, 191, 192, 1621, 1622]
+Min Correction Subset: [148, 171]
+Iter 11: 
+Min Hitting Set: [148, 191, 192, 1621, 1622]
+Min Correction Subset: [171, 185, 186, 190]
+Iter 12: 
+Min Hitting Set: [171, 189, 192, 1621, 1622]
+Min Correction Subset: [148, 168]
+Iter 13: 
+Min Hitting Set: [148, 190, 191, 1621, 1622]
+Min Correction Subset: [159, 182, 185, 192]
+Iter 14: 
+Min Hitting Set: [148, 185, 191, 1621, 1622]
+Min Correction Subset: [174, 186, 190, 192]
+Iter 15: 
+Min Hitting Set: [148, 182, 190, 1621, 1622]
+Min Correction Subset: [164, 191, 192]
+Iter 16: 
+Min Hitting Set: [148, 190, 191, 192, 1621, 1622]
+Min Correction Subset: [182, 185, 186, 189]
+Iter 17: 
+Min Hitting Set: [148, 185, 186, 191, 1621, 1622]
+Min Correction Subset: [174, 177, 190, 192]
+Iter 18: 
+Min Hitting Set: [148, 185, 191, 192, 1621, 1622]
+Min Correction Subset: [174, 186, 189, 190]
+Iter 19: 
+Min Hitting Set: [148, 186, 191, 192, 1621, 1622]
+Min Correction Subset: [177, 182, 185, 189]
+Iter 20: 
+Min Hitting Set: [148, 189, 190, 192, 1621, 1622]
+Min Correction Subset: [171, 182, 191]
+Iter 21: 
+Min Hitting Set: [148, 185, 190, 191, 1621, 1622]
+Min Correction Subset: [174, 182, 186, 192]
+Iter 22: 
+Min Hitting Set: [148, 182, 190, 191, 1621, 1622]
+Min Correction Subset: [164, 185, 186, 192]
+Iter 23: 
+Min Hitting Set: [148, 182, 190, 192, 1621, 1622]
+Min Correction Subset: [164, 189, 191]
+Optimal IIS
+IIS generation
+Instance: j6042_4
+----------------------------
+Query: 2
+Query element:46,150
+Query scope: 12669
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 3790.155
+IIS Constraint: 148; precedence; {activity:47,predecessor:46}
+IIS Constraint: 174; precedence; {activity:56,predecessor:47}
+IIS Constraint: 185; precedence; {activity:60,predecessor:56}
+IIS Constraint: 191; precedence; {activity:62,predecessor:60}
+IIS Constraint: 1621; query; {activity:46,t:150,query:2}
+IIS Constraint: 1622; max; {f:103.0,objective:max}

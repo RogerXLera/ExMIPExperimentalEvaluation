@@ -1,0 +1,23 @@
+IIS generation
+Instance: scheduling-16-20-200000
+----------------------------
+Query: 11
+Query element:4
+Query element:8
+Query scope: 0
+Query scope: 1
+Query scope: 2
+Query scope: 3
+Query scope: 4
+Query scope: 10
+Query scope: 11
+Query scope: 12
+Query scope: 20
+Query scope: 21
+----------------------------
+IIS optimality: suboptimal
+IIS solution time: 0.00717
+IIS Constraint: 4; goods; {good:4}
+IIS Constraint: 8; goods; {good:8}
+IIS Constraint: 19; query; {goods:[4,8],query:11}
+IIS Constraint: 20; max; {f:25.9403,objective:max}
