@@ -11,10 +11,12 @@ Dependencies
  - [Docplex](https://www.cvxpy.org/)
  - [CPLEX](https://www.ibm.com/es-es/products/ilog-cplex-optimization-studio)
 
+
 Dataset
 ----------
-    - RCPSP: The single-mode RCPSP instances used come from [PSPLIB](https://www.om-db.wi.tum.de/psplib/) library.
-    - WDP: The CA instances are generated using [CATS](https://github.com/kevinlb1/CATS) library.
+
+ - **RCPSP**: The single-mode RCPSP instances used come from [PSPLIB](https://www.om-db.wi.tum.de/psplib/) library.
+ - **WDP**: The CA instances are generated using [CATS](https://github.com/kevinlb1/CATS) library.
 
 Execution
 ----------
