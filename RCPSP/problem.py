@@ -1,7 +1,4 @@
-"""
-Author: Roger X. Lera Leri
-Date: 2024/01/17
-"""
+
 
 import cplex as cp
 import numpy as np

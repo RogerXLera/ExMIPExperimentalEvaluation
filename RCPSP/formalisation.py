@@ -1,7 +1,3 @@
-"""
-Roger X. Lera-Leri
-2024/01/16
-"""
 
 """
 In this script there are all the functions that will create the matrices and vectors

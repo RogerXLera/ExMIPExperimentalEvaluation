@@ -1,7 +1,4 @@
-"""
-Author: Roger X. Lera Leri
-Date: 2024/07/12
-"""
+
 import numpy as np
 
 

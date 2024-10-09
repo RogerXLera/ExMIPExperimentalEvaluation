@@ -1,7 +1,4 @@
-"""
-Roger X. Lera-Leri
-2024/01/15
-"""
+
 import numpy as np
 from docplex.mp.model import Model
 import cplex

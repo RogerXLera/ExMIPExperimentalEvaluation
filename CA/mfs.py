@@ -1,7 +1,4 @@
-"""
-Author: Roger X. Lera Leri
-Date: 2024/07/08
-"""
+
 from docplex.mp.model import Model
 import numpy as np
 

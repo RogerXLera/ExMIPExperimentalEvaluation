@@ -1,7 +1,4 @@
-"""
-Author: Roger X. Lera Leri
-Date: 2024/07/08
-"""
+
 from docplex.cp.model import CpoModel
 
 def cp_problem_old(I,constraint_keys,time_budget=60.0,n_threads=1):

@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Author: Roger X. Lera Leri
-Date: 30/09/2023
-"""
+
 
 import cplex as cp
 import numpy as np

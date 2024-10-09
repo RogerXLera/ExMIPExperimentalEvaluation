@@ -1,7 +1,4 @@
-"""
-Author: Roger X. Lera Leri
-Date: 2024/02/19
-"""
+
 
 
 def query_1(q,I):

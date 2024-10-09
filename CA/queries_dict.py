@@ -1,7 +1,4 @@
-"""
-Author: Roger X. Lera Leri
-Date: 2024/07/10
-"""
+
 import numpy as np
 
 def query_1(q,I):
