@@ -2,7 +2,7 @@ ExMIP: Experimental Evaluation
 ===================
 This repository contains the implementation of the algorithms and data of the experimental section of the paper
 "Exploiting Constraint Reasoning to Build Graphical Explanations for Mixed-Integer Programming" by Roger X. Lera-Leri, Filippo Bistaffa, Athina Georgara, and Juan A. Rodríguez-Aguilar
-in the 24th International Conference on Autonomous Agents and Multiagent Systems, Detroit, USA, May 19 – 23, 2025.
+in the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS), Detroit, Michigan, USA, May 19 – 23, 2025.
 
 Dependencies
 ----------
