@@ -157,8 +157,6 @@ if __name__ == '__main__':
     parser.add_argument('-q', type=int, default=1, help='q: Query type')
     parser.add_argument('-e', type=float, default=0.0, help='e: Optimality epsylon')
     parser.add_argument('-f', type=str, default = 'paths-12-20-10000.txt', help='filename of the instance')
-    parser.add_argument('--conflict', type=int, default=0, help='conflict: conflict algorithm')
-    parser.add_argument('--seed', type=int, default=0, help='seed')
     args = parser.parse_args()
     
     path = os.getcwd()
